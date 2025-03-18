@@ -1724,3 +1724,58 @@ d) |c|
 
 
 
+# 67. hodina
+
+## Převádění algebraického tvaru kompl. č. na goniometrický tvar
+
+$$
+Z=a+bi\newline
+Z=|Z|*(\cos{\phi}+i\sin{\phi})\newline
+|Z| = \sqrt{a^2+b^2}
+$$
+
+|                | I.   | II.  | III. | IV.  |
+| -------------- | ---- | ---- | ---- | ---- |
+| $$\sin{\phi}$$ | +    | +    | -    | -    |
+| $$\cos{\phi}$$ | +    | -    | -    | +    |
+
+Př. 1.
+
+Zapište v goniometrickém tvaru komplexní číslo
+
+a) $$Z=-1+i\sqrt3$$
+$$
+|Z|=\sqrt{(-1)^2+(\sqrt3)^2}=\sqrt{1+3}=\sqrt4=2
+$$
+
+$$
+\cos{\phi}=\frac{-1}{2}\newline\sin\phi=+\frac{\sqrt3}{2}->\text{II. kvadrant}->\phi=\pi-\frac{\pi}{3}=\frac{2\pi}{3}\newline Z=2*(\cos{\frac{2\pi}{3}}+i\sin{\frac{2\pi}{3}}\newline\sin\alpha=\frac{\sqrt3}{2}\newline\alpha=60˚\newline\alpha=\frac{\pi}{3}
+$$
+
+b) $$Z=3\sqrt2+i3\sqrt2$$
+$$
+|Z|=\sqrt{(3\sqrt2)^2+(3\sqrt{2})^2}=\sqrt{9*2+9*2}=\sqrt{36}=6\newline
+\cos\phi=\frac{3*\sqrt2}{6}=\frac{+\sqrt2}{2}\newline
+\sin\phi=\frac{3*\sqrt2}{6}=\frac{+\sqrt2}{2}\newline
+\phi=\text{I. kvadrant}=\frac{\pi}{4}\newline
+Z=6*(\cos\frac{\pi}{4}+i\sin\frac{\pi}{4})
+$$
+c) $$Z=-3-i\sqrt3$$
+$$
+|Z|=\sqrt{(-3)^2+(-3)^2}=\sqrt{9+3}=\sqrt{12}=2\sqrt3\newline
+\cos{\phi}=\frac{-3}{2\sqrt{3}}=\frac{-3}{2\sqrt3}*\frac{\sqrt3}{\sqrt3}=\frac{3\sqrt3}{6}=\frac{-\sqrt{3}}{2}\newline
+\text{xin smazal zbytek}
+$$
+
+$$
+Z=Z*(\cos\frac\pi4+i\sin\frac\pi40)\newline
+Z=2*(\frac{\sqrt{2}}2+i\frac{\sqrt2}2)\newline
+Z=\frac{2*\sqrt2}{2}+\frac{2*\sqrt2}{2}i\newline
+Z=\sqrt2+i\sqrt2
+$$
+
+
+
+
+
+
