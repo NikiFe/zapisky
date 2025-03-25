@@ -1776,6 +1776,169 @@ $$
 
 
 
+# 68. hodina
 
+Proveďte násobení a dělení komplexních čísel v goniometrickém tvaru:
 
+1) $$
+   z_1=2\sqrt{2}*(\cos\frac\pi4+i\sin\frac\pi4)\newline z_2=\sqrt2*(\cos\frac{7\pi}4+i\sin\frac{7\pi}4)\newline z_1*z_2=?\newline \frac{z_1}{z_2}=?\newline z_1*z_2=|z_1|*|z_2|(\cos(\phi_1+\phi_2)+i\sin(\phi_1+\phi_2))\newline \frac{z_1}{z_2}=\frac{|z_1|}{|z_2|}*[\cos(\phi_1-\phi_2)+i\sin(\phi_1-\phi_2)]\newline 
+   \text{1. Násobení } z_1 \cdot z_2: \newline
+   \text{Určíme moduly a argumenty:} \newline
+   z_1 = 2\sqrt{2} \left( \cos\frac{\pi}{4} + i \sin\frac{\pi}{4} \right) \newline
+   |z_1| = 2\sqrt{2}, \quad \phi_1 = \frac{\pi}{4} \newline
+   z_2 = \sqrt{2} \left( \cos\frac{7\pi}{4} + i \sin\frac{7\pi}{4} \right) \newline
+   |z_2| = \sqrt{2}, \quad \phi_2 = \frac{7\pi}{4} \newline
+   \text{a) Modul součinu:} \newline
+   |z_1| \cdot |z_2| = 2\sqrt{2} \cdot \sqrt{2} \newline
+   = 2 \cdot \sqrt{2} \cdot \sqrt{2} \newline
+   = 2 \cdot 2 \newline
+   = 4 \newline
+   [ \text{b) Argument součinu:} \newline
+   \phi_1 + \phi_2 = \frac{\pi}{4} + \frac{7\pi}{4} \newline
+   = \frac{1\pi}{4} + \frac{7\pi}{4} \newline
+   = \frac{8\pi}{4} \newline
+   = 2\pi \newline
+   \text{Protože } \cos(2\pi) = 1 \text{ a } \sin(2\pi) = 0, \text{ a argument uvádíme v intervalu } [0, 2\pi): \newline
+   2\pi \equiv 0 \newline
+   ]
+   [ \text{c) Výsledek:} \newline
+   z_1 \cdot z_2 = 4 \left( \cos(2\pi) + i \sin(2\pi) \right) \newline
+   = 4 \left( \cos 0 + i \sin 0 \right) \newline
+   = 4 (1 + i \cdot 0) \newline
+   = 4 \newline
+   \text{Tedy:} \newline
+   z_1 \cdot z_2 = 4 \left( \cos 0 + i \sin 0 \right) \newline
+   ]
+   [ \text{2. Dělení } \frac{z_1}{z_2}: \newline
+   \text{Použijeme stejné moduly a argumenty:} \newline
+   |z_1| = 2\sqrt{2}, \quad \phi_1 = \frac{\pi}{4} \newline
+   |z_2| = \sqrt{2}, \quad \phi_2 = \frac{7\pi}{4} \newline
+   ]
+   [ \text{a) Modul podílu:} \newline
+   \frac{|z_1|}{|z_2|} = \frac{2\sqrt{2}}{\sqrt{2}} \newline
+   = 2 \cdot \frac{\sqrt{2}}{\sqrt{2}} \newline
+   = 2 \cdot 1 \newline
+   = 2 \newline
+   ]
+   [ \text{b) Argument podílu:} \newline
+   \phi_1 - \phi_2 = \frac{\pi}{4} - \frac{7\pi}{4} \newline
+   = \frac{1\pi}{4} - \frac{7\pi}{4} \newline
+   = \frac{1 - 7}{4} \pi \newline
+   = -\frac{6\pi}{4} \newline
+   = -\frac{3\pi}{2} \newline
+   \text{Upravíme do intervalu } [0, 2\pi): \newline
+   -\frac{3\pi}{2} + 2\pi = -\frac{3\pi}{2} + \frac{4\pi}{2} \newline
+   = \frac{\pi}{2} \newline
+   \text{Ověříme:} \newline
+   \cos\left(-\frac{3\pi}{2}\right) = 0, \quad \sin\left(-\frac{3\pi}{2}\right) = 1 \newline
+   \cos\frac{\pi}{2} = 0, \quad \sin\frac{\pi}{2} = 1 \newline
+   ]
+   [ \text{c) Výsledek:} \newline
+   \frac{z_1}{z_2} = 2 \left[ \cos\left(-\frac{3\pi}{2}\right) + i \sin\left(-\frac{3\pi}{2}\right) \right] \newline
+   = 2 \left( \cos\frac{\pi}{2} + i \sin\frac{\pi}{2} \right) \newline
+   = 2 (0 + i \cdot 1) \newline
+   = 2i \newline
+   \text{Tedy:} \newline
+   \frac{z_1}{z_2} = 2 \left( \cos\frac{\pi}{2} + i \sin\frac{\pi}{2} \right) \newline
+   ]
+   [ \text{Konečná odpověď:} \newline
+   z_1 \cdot z_2 = 4 \left( \cos 0 + i \sin 0 \right) \newline
+   \frac{z_1}{z_2} = 2 \left( \cos\frac{\pi}{2} + i \sin\frac{\pi}{2} \right) \newline
+   ]
+   $$
 
+2) $$
+   [ \text{Zadání: Proveďte násobení a dělení komplexních čísel v goniometrickém tvaru:} \newline
+   \text{Dána čísla:} \newline
+   z_1 = \sqrt{2} \left( \cos\frac{5\pi}{6} + i \sin\frac{5\pi}{6} \right) \newline
+   z_2 = \sqrt{2} \left( \cos\frac{\pi}{6} + i \sin\frac{\pi}{6} \right) \newline
+   \text{Najděte:} \newline
+   z_1 \cdot z_2 \quad \text{a} \quad \frac{z_1}{z_2} \newline
+   \text{Použité vzorce:} \newline
+   z_1 \cdot z_2 = |z_1| \cdot |z_2| \left( \cos(\phi_1 + \phi_2) + i \sin(\phi_1 + \phi_2) \right) \newline
+   \frac{z_1}{z_2} = \frac{|z_1|}{|z_2|} \left[ \cos(\phi_1 - \phi_2) + i \sin(\phi_1 - \phi_2) \right] \newline
+   ][ \text{1. Násobení } z_1 \cdot z_2: \newline
+   \text{Určíme moduly a argumenty:} \newline
+   z_1 = \sqrt{2} \left( \cos\frac{5\pi}{6} + i \sin\frac{5\pi}{6} \right) \newline
+   |z_1| = \sqrt{2}, \quad \phi_1 = \frac{5\pi}{6} \newline
+   z_2 = \sqrt{2} \left( \cos\frac{\pi}{6} + i \sin\frac{\pi}{6} \right) \newline
+   |z_2| = \sqrt{2}, \quad \phi_2 = \frac{\pi}{6} \newline
+   ][ \text{a) Modul součinu:} \newline
+   |z_1| \cdot |z_2| = \sqrt{2} \cdot \sqrt{2} \newline
+   = 2 \newline
+   ][ \text{b) Argument součinu:} \newline
+   \phi_1 + \phi_2 = \frac{5\pi}{6} + \frac{\pi}{6} \newline
+   = \frac{5\pi}{6} + \frac{1\pi}{6} \newline
+   = \frac{6\pi}{6} \newline
+   = \pi \newline
+   \text{Protože } \cos(\pi) = -1 \text{ a } \sin(\pi) = 0, \text{ a argument je v intervalu } [0, 2\pi): \newline
+   \pi \newline
+   ][ \text{c) Výsledek:} \newline
+   z_1 \cdot z_2 = 2 \left( \cos(\pi) + i \sin(\pi) \right) \newline
+   = 2 (-1 + i \cdot 0) \newline
+   = -2 \newline
+   \text{Tedy:} \newline
+   z_1 \cdot z_2 = 2 \left( \cos\pi + i \sin\pi \right) \newline
+   ][ \text{2. Dělení } \frac{z_1}{z_2}: \newline
+   \text{Použijeme stejné moduly a argumenty:} \newline
+   |z_1| = \sqrt{2}, \quad \phi_1 = \frac{5\pi}{6} \newline
+   |z_2| = \sqrt{2}, \quad \phi_2 = \frac{\pi}{6} \newline
+   ][ \text{a) Modul podílu:} \newline
+   \frac{|z_1|}{|z_2|} = \frac{\sqrt{2}}{\sqrt{2}} \newline
+   = 1 \newline
+   ][ \text{b) Argument podílu:} \newline
+   \phi_1 - \phi_2 = \frac{5\pi}{6} - \frac{\pi}{6} \newline
+   = \frac{5\pi}{6} - \frac{1\pi}{6} \newline
+   = \frac{4\pi}{6} \newline
+   = \frac{2\pi}{3} \newline
+   \text{Protože } \cos\left(\frac{2\pi}{3}\right) = -\frac{1}{2}, \quad \sin\left(\frac{2\pi}{3}\right) = \frac{\sqrt{3}}{2}, \text{ a argument je v intervalu } [0, 2\pi): \newline
+   \frac{2\pi}{3} \newline
+   ][ \text{c) Výsledek:} \newline
+   \frac{z_1}{z_2} = 1 \left[ \cos\left(\frac{2\pi}{3}\right) + i \sin\left(\frac{2\pi}{3}\right) \right] \newline
+   = \cos\frac{2\pi}{3} + i \sin\frac{2\pi}{3} \newline
+   = -\frac{1}{2} + i \cdot \frac{\sqrt{3}}{2} \newline
+   \text{Tedy:} \newline
+   \frac{z_1}{z_2} = \cos\frac{2\pi}{3} + i \sin\frac{2\pi}{3} \newline
+   ][ \text{Konečná odpověď:} \newline
+   z_1 \cdot z_2 = 2 \left( \cos\pi + i \sin\pi \right) \newline
+   \frac{z_1}{z_2} = \cos\frac{2\pi}{3} + i \sin\frac{2\pi}{3} \newline
+   ]
+   $$
+
+# 69. hodina
+
+proveďte součin a podíl komplexních čísel
+
+1) $$
+   z_1 = 3*(\cos\frac{\pi}3+i\sin\frac\pi3)\newline
+   z_2 = 2*(\cos\frac\pi6+i\sin\frac\pi6)\newline
+   z_1*z_2=6[\cos(\frac\pi3+\frac\pi6)+i\sin()]
+   $$
+
+2) $$
+   z_1=\frac35*(\cos\frac{5\pi}6+i\sin\frac{5\pi}6)\newline
+   z_2=6*(\cos\frac\pi6+i \sin\frac\pi6)\newline
+   $$
+
+   -------
+
+$$
+z_1=3*(\cos(\frac{5\pi}4)+i \sin(\frac{5\pi}4))\newline
+z_2=\frac23*(\cos\frac\pi2+i\sin\frac\pi2)\newline
+z_1*z_2=2(\cos(\frac{5\pi}))
+$$
+
+## Mocnina komplexního čísla
+
+Pro umocnění komplexního čísla $$z^n;n\text{ náleží }N$$ platí věta:
+$$
+[|z|*(cos\phi+i\sin\phi)]^n=|z|^n*(\cos n\phi+i\sin n \phi)
+$$
+Speciálním příkladem této věty je Moivreova věta, která se týká umocnění komplexní jednotky <=> |z|()
+$$
+(\cos\phi+i\sin\phi)^n=\cos n \phi+i\sin n \phi
+$$
+a) 
+$$
+(\cos\frac\pi4+i\sin\frac\pi4)^4=\cos4*\frac\pi4+i\sin4*\frac\pi4=\cos\pi+i\sin\pi=-1+0=-1
+$$
