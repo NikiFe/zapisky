@@ -1934,7 +1934,7 @@ Pro umocnění komplexního čísla $$z^n;n\text{ náleží }N$$ platí věta:
 $$
 [|z|*(cos\phi+i\sin\phi)]^n=|z|^n*(\cos n\phi+i\sin n \phi)
 $$
-Speciálním příkladem této věty je Moivreova věta, která se týká umocnění komplexní jednotky <=> |z|()
+Speciálním příkladem této věty je **Moivreova věta**, která se týká umocnění komplexní jednotky <=> |z|()
 $$
 (\cos\phi+i\sin\phi)^n=\cos n \phi+i\sin n \phi
 $$
@@ -1942,3 +1942,66 @@ a)
 $$
 (\cos\frac\pi4+i\sin\frac\pi4)^4=\cos4*\frac\pi4+i\sin4*\frac\pi4=\cos\pi+i\sin\pi=-1+0=-1
 $$
+
+# 70. hodina
+
+Čtvrtletka témata (7. dubna):
+
+- sinova a cosinova věta
+- řešení obecného trojúhelníku - slovní úloha (např. silnice se kříží pod úhlem a vypočítat vzdálenost)
+- komplexní čísla, převod z algebraického do druhého a obráceně, násobení, dělení a umocňování komplex. čísel v goniometrickém i algebraickém tvaru
+- řešení kvadratické rovnice v oboru komplexních čísel
+- možná binomická rovnice
+
+------
+
+Pomocí Moivreovy věty umocněte komplexní číslo (2-2i)^50
+$$
+|z|=\sqrt{2^2+(-2)^2}\newline
+|z|=\sqrt8=2\sqrt2\newline
+\cos\phi=\frac2{2\sqrt2}=\frac1{\sqrt{2}}=\frac{\sqrt2}{2}\newline
+\sin\phi=\frac{-2}{2\sqrt2}=\frac{-1}{\sqrt2}=\frac{-\sqrt2}{2}\newline
+\text{IV kvadrant}\newline
+\phi=2\pi-\frac\pi4=\frac{7\pi}4\newline
+(2*\sqrt2)^{50}*(\cos\frac{7\pi}4+i\sin\frac{7\pi}4)^{50}=(2*\sqrt2)^{50}*(\cos50*\frac{7\pi}4+i\sin50*\frac{7\pi}4)=\newline
+=2^{75}*(\cos\frac{175\pi}2+i\sin\frac{175\pi}2)
+$$
+
+---
+
+$$
+[\frac{\sqrt2}2*(1-i)]=(\frac{\sqrt2}2-\frac{\sqrt2}2i)^{6}\newline
+|z|=\sqrt{(\frac{\sqrt2}2)^2+(\frac{\sqrt2}2)^2}=\sqrt{\frac12+\frac12}=1\newline
+\cos\phi=+\frac{7\pi}4\newline
+\sin\phi=-\frac{7\pi}4\newline
+(\cos\frac{7\pi}4+i\sin\frac{7\pi}4)^6=\cos\frac{21\pi}2+i\sin\frac{21\pi}2=\newline
+=\cos\frac\pi2+i\sin\frac\pi2
+$$
+
+## Řešení kvadratické rovnice v oboru komplexních číselax^2
+
+$$
+ax^2+bx+c=0;a,b,c\text{ náleží }\R
+$$
+
+Řešení:
+$$
+D=b^2-4ac\newline
+D>0 =>x_1,x_2;\space x_1\ne x_2\newline
+D=0 =>x_1,x_2;\space x_1=x_2\newline
+D<0 => \text{např.}\sqrt{-4}=\sqrt{4i^2}=2i\newline
+$$
+v C je řešení
+$$
+x_{1,2}=\frac{-b+-i\sqrt{|D|}}{2a}
+$$
+
+---
+
+$$
+3x^2-4x+2=0\newline
+a,b,c=3,-4,2\newline
+D=16-4*3*2=8\newline
+x_{1,2}=\frac{4+-i\sqrt8}{2*3}=\frac{4+-i2*\sqrt2}{6}=\frac{2(2+-i\sqrt2)}{6}=\frac{2+-i\sqrt2}{3}
+$$
+

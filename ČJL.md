@@ -2712,9 +2712,6 @@ Karel Havlíček Borovský byl vizionářem, jehož život a dílo zůstávají 
 
 ---
 
-## 6. Závěr
-Havlíček – génius slova a oběť ideálů. Odkaz žije i v 2025.
-
 ```mermaid
 graph TD
   A[1821: Narození] --> B[1838-1841: Seminář]
@@ -2938,3 +2935,172 @@ graph TD
 - Báseň vychází z keltské legendy o králi Midasovi, kterou Havlíček přepracoval do satirické podoby.
 - Za Havlíčkova života kolovala jen v rukopisech mezi jeho přáteli.
 - Dílo je dodnes populární pro svůj vtip a nadčasovou kritiku moci.
+
+**Název díla:** Balada romance
+ **Literární druh:** lyricko-epická poezie
+ **Literární žánr:** balada, romance
+ **Forma:** poezie, sbírka
+
+**Obsah:**
+ Sbírka „Balada romance“ obsahuje výběr balad a romancí od různých autorů, jak českých, tak zahraničních. Texty často čerpají z lidové slovesnosti, mýtů, historických událostí nebo tragických příběhů. Hlavními tématy jsou láska, smrt, vina a trest, tragický osud či touha po spravedlnosti. Romance bývají jemnější, často se šťastným nebo dojemným koncem, zatímco balady jsou temnější a osudovější.
+
+**Ukázkoví autoři a básně:**
+
+- Karel Jaromír Erben – *Svatební košile*
+- François Villon – *Balady a písně*
+- Jiří Wolker – *Romance o kráse*
+- František Hrubín – *Romance pro křídlovku*
+- Johann Wolfgang Goethe – *Erlkönig* (Král duchů)
+
+**Jazyk a styl:**
+ Jazyk je často archaičtější, básnický, bohatý na metafory, symboliku a rytmus. Používá se rým a pravidelný verš, ale u některých autorů se objevuje i volný verš. Styl je působivý, dramatický nebo lyrický – podle charakteru básně.
+
+## **Jan Neruda (1834–1891)**
+
+### **Život**
+
+- Narodil se 9. července 1834 v Praze na Malé Straně v chudé rodině (otec byl trafikant).
+- Vystudoval gymnázium, poté krátce studoval práva a filozofii.
+- Byl novinářem, publicistou, fejetonistou, básníkem a prozaikem.
+- Významná osobnost **generace májovců** – usilovali o uměleckou svobodu, aktuální témata, návaznost na evropské umění (zejména francouzské a německé).
+- Zemřel 22. srpna 1891 v Praze. Pohřben na Vyšehradě.
+
+------
+
+### **Tvorba**
+
+Nerudova tvorba je velmi široká – zahrnuje poezii, prózu i publicistiku. Měl silný smysl pro detail, kritické vidění společnosti a hluboký psychologický vhled.
+
+------
+
+## **POEZIE**
+
+### **Hřbitovní kvítí (1858)**
+
+- **Debutová sbírka**, ovlivněná pesimismem, skepsí a tématy smrti, zmaru a nepochopení.
+- V době vydání nepochopena, kritizována za beznaděj.
+- **Motivy:** samota, zklamání, smrt, neúspěšná láska.
+- Jazyk je hutný, symbolický, emocionálně silný.
+
+> *Příklad tématu:* básník jako vyděděnec, který nepatří do společnosti.
+
+------
+
+### **Knihy veršů (1867)**
+
+- Tři části:
+  - **Kniha veršů výpravných** – motivy historické, národní minulost.
+  - **Kniha veršů lyrických a smíšených** – osobní lyrika, melancholie.
+  - **Kniha veršů časových a příležitostných** – aktuální dění, společenská kritika.
+- Neruda zde hledá smysl lidské existence, klade si filozofické otázky.
+
+------
+
+### **Písně kosmické (1878)**
+
+- Vrchol jeho básnické tvorby, **optimističtější tón**.
+- Oslava **vědy, pokroku, lidstva**, vesmírná symbolika.
+- Básník vyjadřuje úctu k lidské snaze poznávat a tvořit.
+- Ironie i humor – člověk je malý, ale důležitý.
+
+> *Citát:* „Vzhůru již hlavu, národe můj – tvé pole planou jasem hvězd!“
+
+------
+
+### **Balady a romance (1883)**
+
+- Oživení folklorních a lidových motivů, **baladický tón**, spojení tragiky a všednosti.
+- Lidské osudy, viníci i nevinní, často s nečekanou pointou.
+- Silné **sociální cítění**.
+
+------
+
+### **Prosté motivy (1883)**
+
+- Intimní lyrika, všední okamžiky života, **motiv domova, stáří, klidu, přírody**.
+- Filosofická hloubka, smíření se životem, hledání krásy v obyčejnosti.
+- Básně cyklické – navazují na roční období.
+
+------
+
+## **PRÓZA**
+
+### **Arabesky (1864)**
+
+- Sbírka povídek s pestrými lidskými osudy.
+- Zachycuje **pražské typy a charaktery**, psychologická kresba postav.
+- Experimentální styl – arabeska = ornamentální kresba, což odpovídá fragmentární stavbě povídek.
+
+------
+
+### **Povídky malostranské (1877)**
+
+- **Nejznámější próza**, vrchol české povídkové literatury 19. století.
+- 13 povídek ze života Malé Strany – Nerudovo rodné prostředí.
+- **Ironický a satirický pohled** na maloměšťáky, pokrytectví, lidské slabosti.
+- Neruda je **empatický i kritický**, jeho postavy jsou živé a autentické.
+
+**Příklady povídek:**
+
+- **Doktor Kazisvět** – ironický pohled na měšťanské pomluvy, předsudky.
+- **Hastrman** – tragikomický příběh muže, kterého společnost odstrčí.
+- **Přivedla žebráka na mizinu** – groteskní kritika byrokracie.
+- **Jak si pan Vorel nakouřil pěnovku** – příběh o osamělosti a předsudcích.
+
+------
+
+## **PUBLICISTIKA**
+
+- Psal mnoho **fejetonů** (žánr mezi publicistikou a literaturou), např. do **Národních listů**.
+- Sbírky: **Obrazy z ciziny**, **Studie krátké a kratší**, **Menší cesty**, **Žerty a ernsty**.
+- Cestoval po Evropě (Itálie, Francie, Německo), jeho postřehy jsou přesné, vtipné, osobní.
+
+------
+
+## **Jazyk a styl**
+
+- **Realistický popis**, silný smysl pro detail.
+- Často používá **ironie, sarkasmus**, ale i **empatii**.
+- Výborný **vypravěč a pozorovatel**, který dokáže v několika větách vystihnout charakter.
+- Hojně pracuje s **kontrastem**, např. mezi vnějším klidem a vnitřním dramatem.
+
+------
+
+## **Význam a odkaz**
+
+- Zakladatel **moderní české prózy a žurnalistiky**.
+- Jeden z největších českých realistů.
+- Ovlivnil další autory: **Sv. Čech, J. Arbes, K. V. Rais**.
+- Jeho dílo je **nadčasové**, stále čtené a ceněné.
+- Po něm si zvolil pseudonym např. **Pablo Neruda** – chilský básník.
+
+# Vítězslav Hálek (1835-74)
+
+- spíš pozitivní
+
+## Večerní písně (1859)
+
+- sbírka básní které odráží co zrovna prožíval
+- šťastná láska
+- harmonie
+- vše skvělý výborný nádherný
+- myšlenka o všemocnosti lásky - problémy neexistují
+- harmonizace všeho
+- velké množství básní zhudebněno
+- prakticky písňové texty
+
+## V přírodě (1872)
+
+- soustředěno na přírodní lyriku
+- vše dokonalé
+- uspořádané
+- všem je skvěle alles gutte
+
+## Muzikantská Liduška (1861)
+
+- próza
+- povídka
+- dívka se zamiluje do chudého hudebního
+- rodiče donutí ke sňatku z rozumu 
+- ona z toho zešílí
+- vesničtí usmrkaní fakani po ní pořvávají muzikantská liduška
