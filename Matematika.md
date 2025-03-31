@@ -2005,3 +2005,41 @@ D=16-4*3*2=8\newline
 x_{1,2}=\frac{4+-i\sqrt8}{2*3}=\frac{4+-i2*\sqrt2}{6}=\frac{2(2+-i\sqrt2)}{6}=\frac{2+-i\sqrt2}{3}
 $$
 
+# 71. hodina
+
+Podle Moiverovy věty odvoďte vzorec pro:
+$$
+\cos{2\alpha};sin{2\alpha};\newline
+(cos{\alpha}+i\sin\alpha)^2=\cos{2\alpha}+i\sin{2\alpha}\newline
+(A+B)^2=A^2+2AB+B^2\newline
+\cos^2{\alpha}+2*\cos\alpha*\sin\alpha i+\sin^2\alpha i^2=\cos2\alpha+i\sin2\alpha\newline
+\cos^2\alpha+i2*\cos\alpha*\sin\alpha-\sin^2\alpha=\cos2\alpha+i\sin2\alpha\newline
+\cos^2\alpha-\sin^2\alpha=\cos2\alpha\newline
+2*\cos\alpha*\sin\alpha=\sin2\alpha
+$$
+
+## Rovnost komplexních čísel
+
+$$
+z_1=a_1+b_1i\newline
+z_2=a_2+b_2i\newline
+z_1=z_1 <=> a_1=a_2\and b_1=b_2
+$$
+
+a)
+$$
+7x^2+5=0\newline
+a,b,c=7,0,5\newline
+D=b^2-4ac\newline
+x_{1,2}=\frac{-b+-\sqrt{D}}{2a}\newline
+D=-4*7*5=-140\newline
+x_{1,2}=\frac{+-i\sqrt{140}}{14}
+$$
+DÚ: b)
+$$
+4x^2-12x+25=0\newline
+$$
+c)
+$$
+x^2-3x+3=0
+$$
