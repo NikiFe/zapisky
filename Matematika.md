@@ -2043,3 +2043,77 @@ c)
 $$
 x^2-3x+3=0
 $$
+
+# 72. hodina
+
+Vypočtěte
+$$
+z^6, \text{ je-li } z=1-i\newline
+|z|=\sqrt{(1)^2(-1)^2}=\sqrt2\newline
+\cos\phi=\frac{1}{\sqrt2}*\frac{\sqrt2}{\sqrt2}=\frac{\sqrt2}2\newline
+\sin\phi=\frac{-1}{\sqrt2}*\frac{\sqrt2}{\sqrt2}=\frac{-\sqrt2}{2}\newline
+\text{IV. kvadrant, jelikož cos +, sin -}\newline
+\phi'=\frac\pi4\newline
+2\pi-\frac\pi4=\frac{8\pi-\pi}{4}=\frac{7\pi}4\newline
+(1-i)^6=[\sqrt2(\cos{\frac{7\pi}{4}+i\sin\frac{7\pi}{4}})]^6=\newline
+=(\sqrt2)^6(\cos6*\frac{7\pi}4+i\sin6\frac{\pi}{4})=2^3(\cos\frac{21\pi}{2}+i\sin\frac{21\pi}{2})=\newline
+=8(\cos\frac{\pi}{2}+i\sin\frac{\pi}{2})=8(0+1i)=8i
+$$
+Vypočítejte 2)
+$$
+|2x-4y+ū| \text{ je-li: } x,y,u=3+i;-2+3i;-5+i\newline
+|2(3+i)|-4(-2+3i)-5-i|=|6+2i+8-12i-5-i|=\newline
+=|9-11i|=\sqrt{(9)^2+(11)^2}=\sqrt{81+121}=\sqrt{202}
+$$
+
+---
+
+$$
+ax^2+bx+c=a*(x-x_1)(x-x_2)\newline
+ax^2+bx+c=0\newline
+D=b^2-4ac\newline
+x_{1,2}=\frac{-b+-i\sqrt{|D|}}{2a}
+$$
+
+
+
+Rozložte v množině komplex. čísel C na součin kořenových činitelů trojčlen:
+
+a)
+$$
+x^2-x+1\newline
+a,b,c=1;-1;1\newline
+D=-3\newline
+x_{1,2}=\frac{1+-i\sqrt{3}}{2}\newline
+x_1=\frac{1+i\sqrt{3}}{2}\newline
+x_2=\frac{1-i\sqrt{3}}{2}\newline
+x^2-x+1=(x-\frac{1+i\sqrt{3}}{2})(x-\frac{1-i\sqrt{3}}{2})
+$$
+b) DÚ
+$$
+3x^2+2x+2
+$$
+
+
+
+
+---
+
+$$
+(1-i)x+(1+i)y=1+2i\newline
+x-xi+y+yi=1+2i\newline
+x+y=1\newline
+-x+y=2\newline
+2y=3\newline
+y=\frac{3}{2}\newline
+x+\frac{3}{2}=1\newline
+x=1-\frac{3}{2}\newline
+x=-\frac{1}{2}
+$$
+
+Vypočítejte:
+$$
+\frac{2i-1}{3+i}-(2+5i)=\newline
+=\frac{2i-1}{3+i}*\frac{3-i}{3-i}-(2+5i)=\newline
+=\frac{(2i-1)(3-1)}{(3+i)(3-i)}-(2+5i)=\frac{6i-2i-3+1}{9+1}
+$$
