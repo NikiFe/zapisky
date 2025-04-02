@@ -2139,6 +2139,6 @@ $$
 Vyjádřete v algebraickém tvaru kompl. číslo:
 $$
 x=\frac{7-3i}{3-7i}-\frac{7-3i}{3+7i}=\newline
-\frac{(7-3i)(3+7i)-(7-3i)(3-7i)}{(3-7i)(3+7i)}=\frac{(21+49i-9i-21i^2)-(21-49i-9i-21i^2)}{9+21i-21i-49i^2}=\newline
+\frac{(7-3i)(3+7i)-(7-3i)(3-7i)}{(3-7i)(3+7i)}=\frac{(21+49i-9i-21i^2)-(21-49i-9i+21i^2)}{9+21i-21i-49i^2}=\newline
 =\frac{(42+40i)-(42-58i)}{58}=\frac{98i}{58}=\frac{49i}{24}
 $$
