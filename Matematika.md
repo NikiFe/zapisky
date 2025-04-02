@@ -2091,7 +2091,15 @@ x^2-x+1=(x-\frac{1+i\sqrt{3}}{2})(x-\frac{1-i\sqrt{3}}{2})
 $$
 b) DÚ
 $$
-3x^2+2x+2
+3x^2+2x+2\newline
+D=b^2-4ac\newline
+D=4-4*3*2\newline
+D=-20\newline
+x_{1,2}=\frac{-b+-i\sqrt{D}}{2a}=\newline
+=\frac{-2+-i\sqrt{20}}{6}=\frac{-2+-i\sqrt{4*6}}{6}=\frac{-2+-2i\sqrt{5}}{6}\newline
+x_1=\frac{-1}{3}+\frac{i\sqrt{5}}{3}\newline
+x_2=\frac{-2-2i\sqrt{5}}{6}=\frac{-1}{3}-\frac{i\sqrt{5}}{3}\newline
+3x^2+2x+2=(x-(\frac{-1}{3}+\frac{i\sqrt{5}}{3}))(x-(\frac{-1}{3}-\frac{i\sqrt{5}}{3}))
 $$
 
 
@@ -2116,4 +2124,21 @@ $$
 \frac{2i-1}{3+i}-(2+5i)=\newline
 =\frac{2i-1}{3+i}*\frac{3-i}{3-i}-(2+5i)=\newline
 =\frac{(2i-1)(3-1)}{(3+i)(3-i)}-(2+5i)=\frac{6i-2i-3+1}{9+1}
+$$
+
+# 73. hodina
+
+$$
+\frac{2i-1}{3+i}-(2+5i)=\frac{2i-1}{3+i}*\frac{3-i}{3-i}-(2+5i)=\newline
+=\frac{(2i-1)*(3-i)}{(3+i)*(3-i)}-(2+5i)=\frac{6i-2i^2-3+i}{9-3i+3i-i^2}-(2+5i)=\newline
+=\frac{-1+7i}{10}-(2+5i)=\frac{-1+7i-20-50i}{10}=\frac{-21-63i}{10}=\frac{-21}{10}-\frac{63i}{10}
+$$
+
+---
+
+Vyjádřete v algebraickém tvaru kompl. číslo:
+$$
+x=\frac{7-3i}{3-7i}-\frac{7-3i}{3+7i}=\newline
+\frac{(7-3i)(3+7i)-(7-3i)(3-7i)}{(3-7i)(3+7i)}=\frac{(21+49i-9i-21i^2)-(21-49i-9i-21i^2)}{9+21i-21i-49i^2}=\newline
+=\frac{(42+40i)-(42-58i)}{58}=\frac{98i}{58}=\frac{49i}{24}
 $$
