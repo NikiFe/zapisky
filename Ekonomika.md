@@ -166,3 +166,77 @@ boha krista co bylo tohle za prezentaci
 
 - vychází z fáze rozdělování, kdy každý z účastníků výroby získává svůj podíl na vyrobených statcích a službách jako odměnu za vynaložení svých výrobních faktorů
 
+# Měna - FS
+
+# Inflace - Vojta Trávníček
+
+- zdražování
+- peníze ztrácí hodnotu
+- měří se buďto dle CPI nebo PPI
+- příčiny inflací:
+  - demand-pull: poptávka převyšuje nabídku
+  - cost-push: růst výrobních nákladů
+  - built-in: cyklus, vyšší mzdy, zdražení
+  - core: měří inflace bez potravin a energií, ukazuje dlouhodobé trendy
+  - creeping: mírný růst cen do 3% ročně, považováno za zdravou inflaci
+- typy inflací:
+  - mírná
+  - pádivá
+  - hyperinflace
+- důsledky inflace:
+  - snížení kupní síly
+  - nejistota v ekonomice
+  - vliv na úspory - z hodnotných úspor jen papírky
+  - přerozdělení bohatství
+  - zvýšení nákladů na financování
+  - sociální napětí
+- inflace v minulosti:
+  - inflace v německu 1923
+  - ropná kriza 70. léta
+  - pandemie 2020
+- jak se chránit?
+  - investovat
+  - spořit
+
+# Dluhopisy - Marek Tomášek
+
+- chatgpt, to nešlo stihnout přepsat ;-;
+
+# HDP - pokračování
+
+## Problémy s výpočtem HDP
+
+- vliv inflace - velmi záleží na cenách, ve kterých výdaje za vyrobené statky počítáme - můžeme zvolit
+- **běžné ceny** (ceny aktuálního roku), pak ale díky inflačnímu znehodnocení peněz nemůžeme výsledky srovnávat s jinými lety
+- **stálé ceny** (používáme pro víceletá srovnání) - zde si zvolíme některý rok jako výchozí a všechny ceny ostatní roky musíme cenově přepočítat podle cen roku vybraného
+
+### PREZENTACE PŮJDE NA TEAMSY!!! :3
+
+- nominální HDP - při výpočtech s běžnými cenami
+- reálné HDP - při přepočítání na stálé ceny zvoleného roku
+
+$$
+\text{HDP} = C+I+G+X
+$$
+
+pro 
+
+C = výdaje domácností na spotřebu
+
+I = soukromé hrubé domácí investice
+
+G = výdaje státu (na nákup výrobků a služeb)
+
+X = čistý export, respektive rozdíl exportu a importu
+
+
+
+### Sčítají se výdaje na:
+
+**Spotřebu domácností**: potraviny, obuv, předměty dlouhodobé spotřeby, atd.
+
+**Soukromé hrubé domácí investice**: zjednodušeně řečeno nákupy prováděné firmami
+
+**Spotřeba vlády a neziskových organizací**: spotřeba ve školství, zdravotnictví, státních úřadech, obraně, ochraně životního prostředí, apod. Nezapočítávají se transferové platby, ze které stát neobdrží od příjemce výrobek nebo službu (starobní důchody, nemocenské dávky, podpora v nezaměstnanosti, ...)
+
+**Čistý vývoz**: může být kladný nebo záporný. Zjišťujeme, zda se v ukazateli objevila jen produkce vytvořená na našem území
