@@ -3104,3 +3104,129 @@ Nerudova tvorba je velmi široká – zahrnuje poezii, prózu i publicistiku. M�
 - rodiče donutí ke sňatku z rozumu 
 - ona z toho zešílí
 - vesničtí usmrkaní fakani po ní pořvávají muzikantská liduška
+
+# Adolf Heyduk (1835-1923)
+
+- dožil se největší věku ze všech májovců
+- hodně se inspiroval lidovou slovesností
+- cestoval po celé monarchii -> byl i na slovensku
+
+## Cimbál a husle (1876)
+
+- motivy útlaku slováků
+- inspirace ze slovenska
+- hudební motivy
+
+## Kniha Vzpomínky literární (1911)
+
+- vzpomínky na celou druhou polovinu 19. stol.
+
+# Rudolf Mayer (1837-65)
+
+## V poledne (1862)
+
+- první sociální balada
+- hlavní hrdina mladý topič
+- v poledne se opře o lopatu a přemýšlí nad svou prací a napadne ho že tu nespravdlnost by mohl vyřešit radikálním činem
+- pak si říká že to je způsob chování lůzy a že by stejnak odstranil jen jednoho tyrana, takže by jeho gesto nemělo smysl
+
+# Karolina Světlá (1830-99)
+
+- není její jméno, vlastním jménem Johanna Rottová - velmi bohatá pražská rodina
+- doma se u nich mluvilo německy
+- byla velice vzdělaná, uměla vše, dáma z vyšší společnosti
+- v mládí se zamilovala do učitele hudby, toho si vzala (Petr Mužák)
+- po nějaké době se zjistilo že manželství nebylo dobrým nápadem
+- narodila se jim dcera, která zemřela po narození
+- vydala se na zotavení do Světlé v Podještědí
+- potkala tam holčičku jménem Karolina
+- manželství se nepovedlo už zachránit, seznámila se s Janem Nerudou
+- posílali si milostné dopisy
+- Mužák upozorněn, s holí vyšel za Nerudou a vysvětlil si to s ním
+- Světlá mu nabídla rozvod, on odmítl
+- všechny knihy rozhodnutí pro hlavní hrdinku zda jít za svým srdcem či osobním štěstím nebo pro to co je "morálně správně", nakonec obětuje své osobní štěstí
+- !MESIANISMUS
+- píše ze dvou prostředí, Ještědské prózy a Pražské prózy
+- je tam zjednodušená psychologie - každá postava jednu vlastnost/typický rys
+- prvky romantismu, hlavní hrdina výjimka, dramatické osudy, osudové náhody
+- popis vztahu lidí mezi společenskými vrstvami
+
+## Ještědské prózy
+
+- patří sem 5 románů
+
+### Kříž u potoka (1868)
+
+- román, hlavní hrdinka Eva je sirotek
+- dostane se jí velikéoh štěstí, že se jí ujmou na vesnici tamní mlynáři
+- vychovají ji a až vyspěje tak si řekne že když byla tak dobře vychována a co pro ni udělali ti mlynáři, tak si řekne že udělá také nějaké dobro
+- rodina Potocká, žádné manželství není šťastné, skončí vždy strašnou katastrofou
+- říká se že pouze čistá láska zlomí tu kletbu, jsou tam dva synové, Ambrož a Štěpán
+- zamiluje se do Štěpána
+- po nějaké době se spolu ožení a seznamuje se s Ambrožem, snaží se s ním spřátelit
+- komplikace když se jim narodí dcera, Štěpán závidí té dceři a začne ji bít, pít
+- Eva se začne sbližovat s Ambrožem, má dvě možnosti, buďto jít dle svého plánu že zbaví rodinu Potockých kletby, nebo uteče s Ambrožem spolu s dcerou někam pryč
+- Ambrož nabídne Evě útěk, ona odmítne
+- nakonec divná scénka, kde Eva zajde do domu kde je manžel s jeho přítelkyní, začne prosit na kolenou ať ho pustí zpět za rodinou, nakonec se Štěpán uvědomí, opraví se, vše začne být v pořádku, přestane pít a začne být důležitým členem společnosti
+- poté jakmile má šanci se stát starostou tak někteří obyvatelé nesouhlasí, přichází Ambrož aby to zachránil a umírá při bitce
+
+### Frantina (1870)
+
+- vážená ve vesnici, možnost se stát starostkou
+- povede se jí to
+- první věc kterou má rozhodnout, je že má potrestat muže kterého miluje, jelikož se zjistí že je loupežník
+- nakonec volí možnost že ho sama zabije
+
+## Pražské prózy
+
+### Černý petříček (1871)
+
+- něco jako Romeo a Julie
+- technicky vzato naprosto stejný příběh, až na to že v Praze
+
+### povídka Hubička
+
+- dvojice mladých Lukáš a Vendulka
+- Lukáš donucen si vzít jinou
+- zakrátko jeho manželka umírá, v tu dobu již dostatečně svobodný aby si vybral dle sebe
+- vybírá si Vendulku a ona přijímá, ale ona mu chce dát hubičku až po svatbě
+- jemu se to nelíbí, tak se jde poradit do hospody
+- v hospodě sežene dav lidí s muzikou
+- dojde k domu kde se před ním začne se všemi líbat aby ukázal jak na hubičce nezáleží
+- ona se urazí a uteče, on ji doběhne, smíří se a vše se zlepší a je poté výborné
+- zhudebnil Bedřich Smetana
+
+# Jakub Arbes (1840-1914)
+
+- májovec
+- zakladatel žánru romaneto
+  - krátký žánry něco jako novela, kratší než román, název vymyslel Jan Neruda
+  - prozaický příběh kde na začátku je zdánlivá záhada, něco co vypadá často nadpřirozeně, fantastický prvek
+  - v průběhu děje se to racionálně vysvětlí, dle např. checmických důkazů atd.
+  - blízko literárnímu hororu
+  - blízko gotickému románu
+  - blízko dílum která psal Poe
+  - záminkou na vědecké důkazy
+  - často si to vymýšlí, míchají skutečnost s blbostí
+
+## Svatý Xaverius
+
+- hlavní hrdina mladík Xaverius
+- všimne si že někde v práglu obraz svatého Xaveria
+- začne ho to zajímat že je to stejné jméno
+- namaloval to autor stejného jména
+- pak někde zjistí že v tom je nějaká šifra a jde tam zjistit kde je v praze nějaký poklad
+- poté záblesk světla, zjeví se svatý xaverius
+- zděsí se a uteče i z prahy
+- po několika letech ho potkává autor ve vězení, protože byl obviněn z nějakých krádeží v kostele 
+- jakmile se rozhodne svědčit, jelikož autor ví že to nemohl udělat, jelikož kopal ten poklad, tak je již pozdě a již je popraven
+
+## Newtonův mozek
+
+- cirkusovvý umělec, ukazuje stroj, chce ukázat že zvládne jít proti proudu času
+- autor se rozhodne cestovat, jak cestuje proudem času, tak zjišťuje že historie jsou jen války a konflikt
+
+## Zázračná madona
+
+- hlavní hrdinka Ismena, miluje mladíka
+- oba jsou velmi chudí a mladík je velmi zb
