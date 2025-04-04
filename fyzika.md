@@ -612,3 +612,5 @@ $$
 **Co jsou to čípky?**
 
 - Fotoreceptorická buňka v oční sítnici, která umožňuje barevné vidění.
+
+![image-20250404132701885](/home/niki/.config/Typora/typora-user-images/image-20250404132701885.png)
