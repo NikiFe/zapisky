@@ -3229,4 +3229,86 @@ Nerudova tvorba je velmi široká – zahrnuje poezii, prózu i publicistiku. M�
 ## Zázračná madona
 
 - hlavní hrdinka Ismena, miluje mladíka
-- oba jsou velmi chudí a mladík je velmi zb
+- oba jsou velmi chudí a mladík je velmi věřící
+- dívka hodlá udělat cokoliv pro jeho lásku, nakonec obětuje svůj život a on pochopí jak moc o něj stála
+
+# Ruchovci a lumírovci
+
+1868 - položení základního kamene Nár. divadla
+
+- vyšel almanach Ruch
+
+## ruchovci
+
+- národní křídlo
+- vrací se k národním tradicím, české minulosti
+- navazují na lidovou slovesnost
+- často píší o českém asi baseballe
+- patří sem Sv. Čech, El. Krásnohorská
+
+## lumírovci
+
+- kosmopolitní křídlo
+- inspirují se hodně v zahraničí uměleckými směry tam
+- hodně překládali
+- snažili se povzednout českou literaturu na světovou úroveň
+- patří se J. V. Sládek, Jar. Vrchlický, J. Zeyer
+
+## společné znaky
+
+- patetický styl
+- mnohomluvnost
+- rétoričnost
+- emotivnost
+- zájem o historii
+- velké zaměření na poezii
+
+1881 - ND -> 1883
+
+- vzniká celá řada nakladatelství
+  - nejznámější nakladatelství jana oty
+- hodně všelijakých spolků
+- organizace táborů lidu - setkání pod širým nebem
+
+1890 - akademie věd
+
+# Lumírovci
+
+## Josef Václav Sládek (1845-1912)
+
+- básník a překladatel
+- zakladatel poezie pro děti
+- naplňoval program ruchovců, ale silně říkal že je lumírovec
+- narodil se u Zbiroh u Brna
+- odjel na 4 roky do USA
+  - původně aby se tam stal učitelem
+  - vystřídal spoustu zaměstnání
+  - poznal americkou společnost ve všech žebříčcích
+  - viděl ten hnus tam:
+    - útlak černochů
+    - indiánů
+    - připomínalo útlak čechů
+  - téma které bude zpracovávat
+- po návratu jako překladatel z angličtiny, učitel angličtiny a spisovatel
+- v mladém věku mu zemřela manželka i s dítětem
+  - velká osobní krize -> sbírky deprese
+- poté co se znovu oženil a měl novou dceru -> myšlenka poezie pro děti
+- básně často založené na hříčkách
+- nejznámější asi Lesní studánka
+
+### sbírka Jiskry na moři (1880)
+
+- často píše o motivech které nabral na cestě do USA
+- jedna báseň:
+
+#### Na hrobech indiánských
+
+### sbírky Zlatý máj (1887) a Skřivánčí písně (1888)
+
+## Jaroslav Vrchlický (1853-19?2)
+
+- noc na karlštejně
+- napsal mnoho sbírek
+- překladatel
+- trpěl nadprodukcí
+- 
