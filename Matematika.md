@@ -2142,3 +2142,45 @@ x=\frac{7-3i}{3-7i}-\frac{7-3i}{3+7i}=\newline
 \frac{(7-3i)(3+7i)-(7-3i)(3-7i)}{(3-7i)(3+7i)}=\frac{(21+49i-9i-21i^2)-(21-49i-9i+21i^2)}{9+21i-21i-49i^2}=\newline
 =\frac{(42+40i)-(42-58i)}{58}=\frac{98i}{58}=\frac{49i}{24}
 $$
+
+# 74. hodina
+
+## Binomická rovnice
+
+Binomická rovnice je rovnice tvaru $$x^n-a=0$$ kde a je komplexní číslo (přičemž $$a\ne0$$, x je neznámá a n je >1 (př. číslo), počet kořenů je dle n, pro $$x^3$$ budou tři kořeny
+
+úkolem je určit všechno komplexní čísla, která této rovnici vyhovují
+
+Nechť je tedy:
+$$
+x^n=a\newline
+a=|a|*(\cos\alpha+i\sin\alpha)\newline
+\text{Předpokládejme že }x=|x|*(cos\phi+i\sin\phi) \text{ je řešením dané binomické rovnice}
+$$
+to znamená že pro ně platí 
+$$
+[|x|*(\cos\phi+i\sin\phi)]^n = |x|^n*(\cos n\phi+i\sin n\phi)=|a|*(\cos\alpha+i\sin\alpha)
+$$
+Po úpravě:
+$$
+x=\root{n}\of{|a|}*(\cos\frac{\alpha+2k\pi}{n}+i\sin\frac{\alpha+2k\pi}{n});k=0,1,2,(n-1)
+$$
+
+---
+
+V množině kompl. čísel řešte rovnici $$x^4+2-2i=0$$:
+$$
+x^n-a=0\newline
+x^4-(2-2i)=0\newline
+x^4-2+2i=0\newline
+a=-2+2i\newline
+|a|=2*\sqrt2\newline
+\cos\alpha=\frac{-2}{2\sqrt2}=\frac{1}{\sqrt2}=\frac{\sqrt2}{2}\text{ IV. kvadrant} \newline
+\sin\alpha=\frac{-2}{2\sqrt2}=\frac{-1}{\sqrt2}=\frac{\sqrt2}{2}\newline
+\alpha=\pi-\frac{\pi}{4}=\frac{3\pi}{4}\newline
+a=2*\sqrt2(\cos\frac{3\pi}{4}+i\sin\frac{3\pi}{4})\newline
+x_k=\root{n}\of{|a|}*(\cos\frac{\alpha+2k\pi}{n}+i\sin\frac{\alpha+2k\pi}{n})\newline
+x_k=\root{4}\of{2\sqrt2}*(\cos\frac{\frac{3}{4}\pi+2k\pi}{4}+i\sin\frac{\frac{3}{4}\pi+2k\pi}{4})\newline
+x_0=\root{4}\of{2\sqrt2}(\cos\frac{\frac{3}{4}\pi}{4}+i\sin\frac{\frac{3}{4}\pi}{4})\newline
+$$
+ne jako zapisovatel prostě ne, seru na tohle, prostě kurva už ne, tohle nejde, nestíhám nedávám, chvátám chvátám nevím ani jak
