@@ -3380,3 +3380,9 @@ Nerudova tvorba je velmi široká – zahrnuje poezii, prózu i publicistiku. M�
 - libreto - podklad pro operu
 - díla Čertova stěna, Hubička, Tajemství
 - všechna tato díla zhudebnil Smetana
+
+# Rukopisné boje
+
+- nejvíc v době Ruchovců a Lumírovců
+- nejvíc do toho vryli TGM, Antonín Vašek (otec Petra Bezruče), Jan Gebauer, Jaroslav Goll
+- časopis Atheneum
