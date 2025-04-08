@@ -3310,5 +3310,73 @@ Nerudova tvorba je velmi široká – zahrnuje poezii, prózu i publicistiku. M�
 - noc na karlštejně
 - napsal mnoho sbírek
 - překladatel
-- trpěl nadprodukcí
-- 
+- trpěl nadprodukcí 
+
+### sbírka Poutí k Eldorádu (1882)
+
+- město, které má být celé ze zlata
+
+### sbírka Okna v bouři (1884)
+
+
+
+- psal i dramata
+
+### Noc na Karlštejně (1884)
+
+## Julius Zeyer (1841-1901)
+
+- exotický pták české poezie
+- NOVOROMANTISMUS
+- měl velkou fantazii v dílech
+- dílo: Román o věrném přátelství Amise a Amila (1877) - ve středověké francii
+
+- dílo: Radúz a Mahulena (1898) - drama
+
+# Ruchovci
+
+## Svatopluk Čech (1846-1908)
+
+- typický spisovatel
+- usedlý pán který píše nezábavné knihy
+- jeho otec byl hospodářský správce
+- v mládí s tatínkem pocestoval hodně český venkov → tolik o tom psal
+- jeho velké téma je **husitství**
+- v lyrice psal vlasteneckou lyriku - jedna z nejvíc citovaných básní "Dosti nás"
+
+### Pravý výlet pana Broučka do Měsíce (1888)
+
+- tento člověk nechce problémy
+- pronajímá byty a odpočívá
+- nějak omylem se dostane na měsíc 
+- měsíčňané jsou umělci moc
+
+### Nový epochální výlet pana Broučka, tentokráte do XV. stol.
+
+- zavítal do hospody
+- posilněn pivy byl jako poslední z hospody vypuděn pryč
+- chodbou upadne, dlouho padá padá dokud nedopadne do temné místnost, kde najde zlatý poklad
+- vyjde z místnosti ven a ocitne se v temné ulici
+- bloudí a poté co se ho ujme někdo, tak zjistí že je v roce 1420 v Praze
+- obléhání prahy
+- snaží se z toho vyvléknout
+- mnohokrát se dostane do prekérních situací, ze kterých se vylže
+- opakovaně mu hrozí smrt
+- nakonec se dostane k žižkovi → ten ho nechá zavřít do sudu na to aby byl zabit
+- v sudu se probudí a zjistí že to celé byl sen
+- próza, román/povídka
+- střídavě 19. stol. a 1420 v husitské praze
+- vtipná jsou nedorozumění, Brouček mluví češtinou, lid tam staročeštinou
+- historismy, archaická čeština
+- oceňované jako lehká a rozberná kritika dnešních čechů → opuštěné ideály
+- k maturitě? pokud baví historie (znáte rozdíl mezi pražanem a Pražanem), tak asi ano, pokud nebaví tak bude v pohodě když to přežijeme bez tohoto díla
+
+## Eliška Krásnohorská (1847-1926)
+
+- celý život vážně nemocná - protože se neoženila
+- založila první dívčí gymnázium
+- spisovatelka
+- nejvíc živá jsou její libreta
+- libreto - podklad pro operu
+- díla Čertova stěna, Hubička, Tajemství
+- všechna tato díla zhudebnil Smetana
