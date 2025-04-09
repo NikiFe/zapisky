@@ -2184,3 +2184,48 @@ x_k=\root{4}\of{2\sqrt2}*(\cos\frac{\frac{3}{4}\pi+2k\pi}{4}+i\sin\frac{\frac{3}
 x_0=\root{4}\of{2\sqrt2}(\cos\frac{\frac{3}{4}\pi}{4}+i\sin\frac{\frac{3}{4}\pi}{4})\newline
 $$
 ne jako zapisovatel prostě ne, seru na tohle, prostě kurva už ne, tohle nejde, nestíhám nedávám, chvátám chvátám nevím ani jak
+
+# 75. hodina - Čtvrtletka
+
+# 76. hodina
+
+
+$$
+x^n -a=0;a\ne0;n\in\N;n>1\newline
+a=|a|*(\cos\alpha+i\sin\alpha)\newline
+x=|x|*(\cos\phi+i\sin\phi)\newline
+[|x|*(cos\phi+i\sin\phi)]^n=|a|*(cos\alpha+i\sin\alpha)\newline
+|x|^n*(\cos n\phi+i\sin n\phi)=|a|*(\cos\alpha+i\sin\alpha)\newline
+$$
+Dvě čísla v goniometrickém tvaru se sobě rovnají, jestliže se sobě rovnají absolutní hodnoty a argumenty se liší o celistvý násobek 2$$\pi$$
+$$
+|x|^n=|a| \and n\phi=\alpha+2k\pi\newline
+|x|=\root{n}\of{|a|}\and\phi=\frac{\alpha+2k\pi}{n}\newline
+k=0,1,2,\text{ až }(n-1)\newline
+x_k=\root{n}\of{|a|}*(\cos\frac{\alpha+2k\pi}{2}+i\sin\frac{\alpha+2k\pi}{n})
+$$
+Kořeny binomické rovnice ($$x^n-a=0$$) leží pro n>2 v gausově rovině ve vrcholech pravidelného n-úhelníku vepsaného do kružnice se středem v počátku a s poloměrem r=$$\root{n}\of{|a|}$$
+
+př. n=3 => kořeny x_0, x_1, x_2 jsou vrcholy rovnostranného trojúhelníku 
+
+
+
+V oboru komplexních čísel řešte rovnici $$x^4+2-2i=0$$
+$$
+x^4=-2+2i\newline
+a=-2+2i\newline
+|a|=\sqrt{(-2)^2+2^2}=\sqrt{8}=2\sqrt2\newline
+\cos\alpha=\frac{-2}{2\sqrt{2}}=-\frac{1}{\sqrt{2}}*\frac{\sqrt2}{\sqrt2}=-\frac{\sqrt2}{2}\newline
+\sin\alpha=\frac{2}{2\sqrt2}=\frac{1}{\sqrt2}=\frac{\sqrt2}{2}\newline
+\alpha^*=\frac{\pi}{4}\newline
+\alpha=\pi-\frac{\pi}{4}=\frac{3\pi}{4}\newline
+x_k=\root{4}\of{2\sqrt2}*(\cos\frac{\frac{3\pi}{4}+2k\pi}{4}+i\sin\frac{\frac{3\pi}{4}+2k\pi}{4})\newline
+k=0,1,2,3\newline
+x_0=\root{4}\of{2\sqrt2}*(\cos\frac{\frac{3\pi}{4}}{4}+i\sin\frac{\frac{3\pi}{4}}{4})\newline
+x_0=\root{4}\of{2\sqrt2}*(\cos\frac{3\pi}{16}+i\sin\frac{3\pi}{16})\newline
+x_1=\root{4}\of{2\sqrt2}*(\cos\frac{\frac{3\pi}{4}+2\pi}{4}+i\sin\frac{\frac{3\pi}{4}+2\pi}{4})\newline
+x_1=\root{4}\of{2\sqrt2}*(\cos\frac{11\pi}{16}+i\sin\frac{11\pi}{16})\newline
+x_2=\root{4}\of{2\sqrt2}*(\cos\frac{19\pi}{16}+i\sin\frac{19\pi}{16})\newline
+x_3=\root{4}\of{2\sqrt2}*(\cos\frac{27\pi}{16}+i\sin\frac{27\pi}{16})\newline
+$$
+Za DÚ vytvořit jednotkovou kružnici
