@@ -3386,3 +3386,35 @@ Nerudova tvorba je velmi široká – zahrnuje poezii, prózu i publicistiku. M�
 - nejvíc v době Ruchovců a Lumírovců
 - nejvíc do toho vryli TGM, Antonín Vašek (otec Petra Bezruče), Jan Gebauer, Jaroslav Goll
 - časopis Atheneum
+
+# Charakteristika - Povahopis
+
+- zachycuje vlastnosti osoby výčtem jejich morálních vlastností (povahových), mentálních schopností, temperamentu, vztahu k sobě i okolí, pomocí typického jednání a gest
+
+## Druhy:
+
+a) přímá
+
+- říká přímo tu vlastnost ("usměvavý, lakomý, přemýšlivý")
+
+b) nepřímá
+
+- používá činy člověka popisem chová k vyjádření vlastnosti ("když petr našel peněženku, odevzdal ji hned na policii" → obětavý, čestný,...)
+
+c) vnější
+
+- to co je z venku vidět
+- vzhled, způsob oblékání
+
+d) vnitřní
+
+- vlastnosti
+
+## Jazykové prostředky
+
+- přídavná jména (přívlastek)
+- **vyhnout se být a mít**, nahradit dynamickým slovesem
+- používat synonyma, nespokojit se s jedným významem (je čestný a spravedlivý)
+- používat přirovnání
+- ti kteří jsou zdatnější tak i metafora, rčení a podobně
+- 
