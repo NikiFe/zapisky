@@ -3417,4 +3417,29 @@ d) vnitřní
 - používat synonyma, nespokojit se s jedným významem (je čestný a spravedlivý)
 - používat přirovnání
 - ti kteří jsou zdatnější tak i metafora, rčení a podobně
-- 
+
+## Charakteristika - Pracovní list: láska přes internet
+
+### Jana Kolarova
+
+- introvert - do společnosti moc nechodí
+- má ráda zvířata
+- chytrá - studuje druhým rokem na ekonomické škole v **Praze**
+- vybíravá - má přesně dáno jaký typ kluků chce
+- osamocená - "kdo mě osvobodí"
+- atletická - chodí často sportovat, s kamarádkami, apod.
+- blondýna
+- naivní - okamžitě uvěří že dostane fotku za svou fotku
+- zranitelná - po opuštění, i přes to, že si spolu psali pouze po 46 zpráv, tak je již zainvestovaná mentálně do druhého a okamžitě vydává více osobních informací
+
+### Anderka
+
+- lhář - vše vypadá jako lež, jen pro zneužití Jany
+- manipulativní - donucuje Janu aby se angažovalo v konverzaci pro více informací, které vydává ve stylu, jak kdyby za to měla Jana platit
+- pedofil - po zjištění že je jí 16 tak ihned připouští "něco víc", snaží se získat fotku a dostat se k ní fyzicky
+
+#### v případě že vše co řekl není lež:
+
+- chytrý - studuje právo
+- sportovec - hraje mnoho sportů
+- pracovitý - pracuje do noci
