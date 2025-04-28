@@ -3443,3 +3443,63 @@ d) vnitřní
 - chytrý - studuje právo
 - sportovec - hraje mnoho sportů
 - pracovitý - pracuje do noci
+
+# 28. 4. suplování Skopalíková
+
+## Charakterizujte literární postavy:
+
+### pan Brouček
+
+**Dílo:** *Výlety pana Broučka* (Svatopluk Čech)
+
+**Století:** Žije v 19. století (současnost autora, druhá polovina 19. století).
+
+**Prostředí:** Praha, měšťanská společnost.
+
+**Povolání:** Měšťan – pravděpodobně nájemce nebo majitel domu v Praze, živí se pronajímáním bytů.
+
+**Společenská vrstva:** Střední měšťanstvo (nižší vyšší vrstva společnosti, bez šlechty a bohatých průmyslníků).
+
+**Vzhled:** Obyčejný, silnější muž středního věku, dobře živený, nenápadný.
+
+**Povaha:** Pohodlný, sebestředný, zbabělý, malomyslný, konzervativní, nevzdělaný, domýšlivý.
+
+**Chování:** Vyhýbá se odpovědnosti, nechce se obětovat, zajímá se pouze o jídlo, pití a vlastní pohodlí. Na cestách do minulosti i budoucnosti se chová zbaběle a sobecky.
+
+**Vývoj:** Během děje se nevyvíjí, zůstává stále stejný.
+
+**Význam:** Brouček je karikaturou maloměšťáka – zosobňuje nedostatek ideálů, malost a pohodlnost tehdejší společnosti.
+
+**Důležité poznámky:** Ve *Výletu do XV. století* se ocitá v husitské Praze (1420), kde se ukáže jeho zbabělost a neochota bojovat za vyšší hodnoty.
+
+### Jan Domšík
+
+**Dílo:** *Výlet pana Broučka do XV. století* (část *Výletů pana Broučka*)
+
+**Století:** Žije v 15. století (husitská doba, konkrétně kolem roku 1420).
+
+**Prostředí:** Praha v době husitských válek.
+
+**Povolání:** Měšťan – vážený pražský občan, pravděpodobně řemeslník nebo obchodník, zároveň významný člen městské rady a obránce města.
+
+**Společenská vrstva:** Bohaté a vážené měšťanstvo (vyšší střední třída ve středověké společnosti).
+
+**Vzhled:** Vážný, rozhodný muž, působící důstojně a pevným dojmem.
+
+**Povaha:** Statečný, zásadový, vlastenecký, obětavý, hluboce věřící, odhodlaný bránit pravdu i za cenu života.
+
+**Chování:** Aktivně organizuje obranu Prahy, povzbuzuje ostatní k boji, jedná čestně a odhodlaně.
+
+**Vývoj:** Jeho charakter zůstává pevný až do smrti, kterou potvrzuje své ideály.
+
+**Význam:** Jan Domšík je vzorem ideálního vlastence a obránce víry, představuje mravní sílu husitské doby.
+
+**Důležité poznámky:** V příběhu padne v boji, čímž se stává symbolem odvahy a věrnosti vyšším ideálům.
+
+
+
+## Charakteristika záporné literární/filmové postavy
+
+**Amon Göth**
+
+Sadistický, krutý, bezcitný, fanatický, arogantní, násilnický, nemilosrdný, nadřazený, surový.
