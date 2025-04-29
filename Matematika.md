@@ -2229,3 +2229,33 @@ x_2=\root{4}\of{2\sqrt2}*(\cos\frac{19\pi}{16}+i\sin\frac{19\pi}{16})\newline
 x_3=\root{4}\of{2\sqrt2}*(\cos\frac{27\pi}{16}+i\sin\frac{27\pi}{16})\newline
 $$
 Za DÚ vytvořit jednotkovou kružnici
+
+# 82. hodina
+
+V posl. $$(a_n)_{n=1}^\infin$$ je dáno $$a_{20}=-8;d=\frac{3}{8};n=10$$ určete: $$a_1,a_{10},S_{10}$$
+$$
+a_{20}=a_1+(20-1)d\newline
+-8=a_1+19*\frac{3}{8}\newline
+-8-\frac{57}{8}=a_1\newline
+\frac{-121}{8}=a_1\newline
+a_n=a_1+(n-1)d\newline
+a_{10}=a_1+ad\newline
+a_{10}=\frac{-121}{8}+9*\frac{3}{8}\newline
+a_{10}=\frac{-94}{8}\newline
+S_n=\frac n 2 (a_1+a_n)\newline
+S_{10}=\frac{10}{2} (\frac{-121}{8}-\frac{94}{8})\newline
+S_{10}=5*(-\frac{215}{8})\newline
+S_{10}=-\frac{1075}{8}
+$$
+$$a_1=450;d=-24;a_n=210;n=?;S_n=?$$
+$$
+a_n=a_1+(n-1)d\newline
+210=450+(n-1)*(-24)\newline
+210=450-24n+24\newline
+24n=450+24-210\newline
+24n=264\newline
+n=11\newline
+S_{11}=\frac{11}{2}(450+210)\newline
+S{11}=5.5(660)\newline
+S_{11}=3630
+$$
