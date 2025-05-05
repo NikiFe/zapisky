@@ -2278,3 +2278,36 @@ $$
 a_3 + a_5 = 8;\space a_3^2-a_5^2=32
 $$
 
+DÚ:
+$$
+a_2 + a_6 = 32\newline
+a_4 + a_3 = 36\newline
+S_6 = ?\newline
+a_{10} = ?\newline
+2a_1+6d=32\newline
+2a_{1}+7d=36\newline
+d=4\newline
+2a_1=8\newline
+a_1=4\newline
+a_{10}=4+9*4\newline
+a_{10}=40\newline
+S_6=3(4+24)\newline
+S_6=84
+$$
+
+$$
+a_5-a_3=10\newline
+a_6-2a_1=36\newline
+a_{16}=?\newline
+S_{12}=?\newline
+(a_1+4d)-(a_1+2d)=10\newline
+(a_1+5d)-2a_1=36\newline
+2d=10\newline
+d=5\newline
+a_{12}=-11+11*5\newline
+a_{12}=44\newline
+a_1=-11\newline
+S_{12}=\frac{12}{2}(-11+44)\newline
+S_{12}=198
+$$
+
