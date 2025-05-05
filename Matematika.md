@@ -2259,3 +2259,22 @@ S_{11}=\frac{11}{2}(450+210)\newline
 S{11}=5.5(660)\newline
 S_{11}=3630
 $$
+
+# 83. hodina
+
+Posloupnost je dána $$S_n = 2750;a_1=4.9;d=9.8;n=?$$
+$$
+S_n = \frac n 2 (a_1 + a_n)\newline
+a_n = a_1 + (n-1)d \newline
+2750=\frac n 2 (4.9 + 4.9 + (n-1)*9.8)\newline
+2750=\frac n 2 (9.8+9.8n-9.8)\newline
+2750=\frac n 2 *9.8n\newline
+6500=19.6n^2\newline
+n^2=561.2\newline
+n=23.69017707
+$$
+Určete první člen a diferenci aritmetické posloupnosti o níž platí:
+$$
+a_3 + a_5 = 8;\space a_3^2-a_5^2=32
+$$
+
