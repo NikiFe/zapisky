@@ -2357,5 +2357,100 @@ a1+9=10~~~~/-1\newline
 \underline{a_1=1}
 $$
 
+# 85. hodina
+
+1) sb. úloh 128/5.44 (136/5.37)
+
+$$
+\text{Označme si délky stran pravoúhlého trojúhelníku jako: } a, b, c \text{ (kde } c \text{ je přepona).} \newline
+\text{Strany tvoří aritmetickou posloupnost: } a < b < c \text{ a } b = a + d, \quad c = a + 2d \newline
+\text{Podle Pythagorovy věty: } a^2 + b^2 = c^2 \newline
+\text{Po dosazení: } a^2 + (a + d)^2 = (a + 2d)^2 \newline
+a^2 + a^2 + 2ad + d^2 = a^2 + 4ad + 4d^2 \newline
+2a^2 + 2ad + d^2 = a^2 + 4ad + 4d^2 \newline
+2a^2 + 2ad + d^2 - a^2 - 4ad - 4d^2 = 0 \newline
+a^2 - 2ad - 3d^2 = 0 \newline
+\text{Dále víme, že delší odvěsna } b = a + d = 12 \text{ cm} \newline
+\Rightarrow a = 12 - d \newline
+\text{Dosadíme do rovnice:} \newline
+(12 - d)^2 - 2(12 - d)d - 3d^2 = 0 \newline
+144 - 24d + d^2 - 24d + 2d^2 - 3d^2 = 0 \newline
+144 - 48d + 0 = 0 \Rightarrow d = 3 \newline
+\text{Z toho: } a = 12 - 3 = 9, \quad b = 12, \quad c = a + 2d = 9 + 6 = 15 \newline
+\text{Obvod: } O = a + b + c = 9 + 12 + 15 = 36 \text{ cm} \newline
+\text{Obsah: } S = \frac{1}{2}ab = \frac{1}{2} \cdot 9 \cdot 12 = 54 \text{ cm}^2 \newline
+\boxed{a = 9\ \text{cm},\quad b = 12\ \text{cm},\quad c = 15\ \text{cm},\quad O = 36\ \text{cm},\quad S = 54\ \text{cm}^2} \newline
+$$
 
 
+
+# 86. hodina
+
+$$
+S_n=2750\newline
+a_1=4.904\newline
+d=9.808\newline
+n=?\newline
+S_n=\frac{n}{2}(a_1+a_n)\newline
+a_n=a_1+(n-1)*d\newline
+2750=\frac{n}{2}(4.904+(4.904+(n-1)*9.808))\newline
+2750=n(4.904+4.904n-4.904)\newline
+2750=4.904n^2\newline
+560.766=n^2\newline
+\boxed{n=23.7}
+$$
+
+Sb. 137/5.41 (129/5.48)
+$$
+d=\frac{1}{33}\newline
+a_{25}=9\newline
+n=1256\newline
+a_{1256}=?\newline
+a_s=a_n+(s-n)*d\newline
+a_{1256}=9+(1256-25)\frac{1}{33}\newline
+\boxed{a_{1256}=46.\overline{30}\degree C}
+$$
+
+## Geometrická posloupnost
+
+Definice:
+
+Posloupnost $$an$$ se nazývá geometrická právě když existuje takové reálné číslo $$q$$, že pro všechna přirozená čísla $$n$$ platí $$a_{n+1}=a_n*q$$ 
+
+Číslo q se nazývá kvocient geometrické posloupnosti
+
+Rychlým zápisem:
+$$
+(a_n)_{n=1}^\infty ;\; \exists q\in \R ;\; \forall n\in\N;\;a_{n+1}=a_n*q
+$$
+Př.
+$$
+(a_n)_{n=1}^\infty =3,6,12,24,48,...\newline
+6/3=2\newline
+12/6=2\newline
+24/12=2\newline
+6=3*2\newline
+12=6*2\newline
+24=12*2\newline
+q=2
+$$
+s prvním členem a_1 platí pro všechna n z množiny přirozených čísel:
+$$
+a_n=a_1*q\newline
+a_s=a_r*q^{s-r}\newline
+\text{Pro }q=1\text{ platí }\boxed{S_n=n*a_1}\newline
+\text{Pro }q\ne 1 \text{ platí }\boxed{S_n=a_1*\frac{q^n-1}{q-1}}
+$$
+Př.
+
+V geometrické posloupnosti je
+$$
+a_1=1;q=3;n=10\newline
+a_{10},S_{10}=?\newline
+a_{10}=a_1*q^9\newline
+a_{10}=1*3^9\newline
+a_{10}=19683\newline
+S_{10}=a_1*\frac{q^{10}-1}{q-1}\newline
+S_{10}=1*\frac{3^{10}-1}{3-1}\newline
+\boxed{S_{10}=29524}
+$$
