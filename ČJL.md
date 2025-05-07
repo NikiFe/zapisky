@@ -3503,3 +3503,55 @@ d) vnitřní
 **Amon Göth**
 
 Sadistický, krutý, bezcitný, fanatický, arogantní, násilnický, nemilosrdný, nadřazený, surový.
+
+# Kritický realismus v č. lit.
+
+2 proudy
+
+- vesnická próza
+- historická próza
+
+Obecně - zaměření na detail (kraj, spol. vrstva, generace...)
+
+## I. VENKOVSKÁ PRÓZA
+
+Nový pohled na venkov
+
+## Karel Václav Rais (1839-1926)
+
+- prozaik
+- zaměřen na východní Čechy → to je jeho kraj
+
+### Výminkáři (1891)
+
+- hlavní motiv sobeckost mladé generace
+
+### Kalibův zločin (1895)
+
+- detektivka, ale všechno víme
+- napínavé dílo
+- hlavní hrdina Vojta Kaliba
+  - divný tím že se ještě neoženil a je mu už přes 30
+- podvod se ženou, nakecá mu že je otec, nebyl, přijde na to, zneužit, nakonec omylem zabije ženu místo vojáka
+
+### Západ (1896)
+
+- hlavní hrdina venkovský farář lidumil
+- dožil se hrozně vysokého věku, všichni ve vesnici ho mají rádi, ale on je nešťastný - je hodně hodně starý, všichni jeho vrstevníci zemřeli a je nejstarší ze všech
+- i přes pokus o pomoc všech z vesnice, tak se cítí osamocen
+- každý den jen nenarušená rutina, k ničemu nespěje, žije v církevním koloběhu
+
+### Pantáta Bezoušek (1897)
+
+- krátká próza z vesnického a městského prostředí
+- má syna který vystudoval práva a udělal v praze velkou kariéru
+- pantáta vesnický sbalil věci a jede do prahy za synem
+- nehodí se do prostředí, všechny na ulici zdraví
+- dcera právníka si najdi nápadníka, ten není zrovna movitý, takže právník s tím nesouhlasí, odmítá ten vztah, pantáta zakročí a přemluví ho aby je nechal, jelikož taky vzešel z chudé rodiny
+
+### Zapadlí vlastenci (1894)
+
+- pojednává o šíření národních myšlenek na venkov
+- hlavní hrdina národní buditel Čermák
+- šíří vlastenecké ideály na venkově
+
