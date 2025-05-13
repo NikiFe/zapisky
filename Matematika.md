@@ -2454,3 +2454,66 @@ S_{10}=a_1*\frac{q^{10}-1}{q-1}\newline
 S_{10}=1*\frac{3^{10}-1}{3-1}\newline
 \boxed{S_{10}=29524}
 $$
+
+
+--------------------
+
+# 88. hodina
+
+1. $$(a_n)^\infin_{n=1}$$ -> v posloupnosti doplňte následující tabulku zbývajícími prvky této geometrické posloupnosti
+
+| $$a_1$$ | $$q$$           | $$n$$ | $$a_n$$          | $$S_N$$ |
+| ------- | --------------- | ----- | ---------------- | ------- |
+| 90      | $$\frac{1}{3}$$ | 5     | $$\frac{10}{9}$$ | $90$    |
+| 2       |                 | 7     | $1458$           | $2186$  |
+
+
+
+---------------
+
+# 89. hodina
+
+## Užití geometrické posloupnosti
+
+- výpočet pravidelného přírůstku nebo poklesu určité hodnoty
+
+$a_n=a_0*r^n$
+	$r=1+\frac{p}{100}$
+	$r=1-\frac{p}{100}$
+		$a_0$ -> počáteční hodnota
+		$a_n$ -> hodnota po $n$ (letech, měsícech, dnech)
+		$n$ -> doba (roky, měsíce, ...)
+		$p$ -> počet procent
+
+  
+
+1. Ve městě dnes žije 95400 obyvatel. Kolik lidí bude ve městě žít za 6 let, jestliže každoroční přírůstek obyvatelstva lze odhadnout na 1.8%?
+
+$$
+a_0 = 95400\newline
+P=1.8\per \newline
+n=6\newline
+-------\newline
+$$
+
+2. Počet obyvatel města vzrostl po deseti letech z 25000 na 33600. Jaký byl roční přírůstek v procentech, roste-li počet obyvatel rovnoměrně?
+
+$$
+a_0=25000\newline
+a_n=33600\newline
+n=10\newline
+r=1+\frac{p}{100}\newline
+-------\newline
+33600=25000*r^{10}\newline
+r^{10}=\frac{33600}{25000}=1,344\newline
+r=1.334^{\frac{1}{10}}\newline
+-------\newline
+r=r=1.334^{\frac{1}{10}}\approx1,030\newline
+-------\newline
+r=1+\frac{p}{100}\newline
+1,030=1+\frac{p}{100}\newline
+\frac{p}{100}=0,030\newline
+\boxed{p=3,0}
+
+$$
+
