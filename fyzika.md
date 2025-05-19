@@ -202,7 +202,7 @@ Kde:
 3. **Rezonance:** Používá se u hudebních nástrojů k zesílení zvuku, ale může způsobit destrukci, pokud není kontrolována (např. mosty, letadla).
 
 
- 
+
 
 ### **Akustika**
 
@@ -330,7 +330,7 @@ s=2004m
  Blesk uhodil s=2004m daleko, tedy přibližně **2,0 km**.
 
 
- 
+
 
 **Elektromagnetické spektrum**
 
@@ -400,7 +400,7 @@ Elektromagnetické spektrum je rozsáhlá škála záření, které se liší d�
 Tento přehled poskytuje základní rámec pro pochopení, jak elektromagnetické záření funguje a jaké má praktické aplikace. Pokud byste měli zájem o hlubší studium jednotlivých částí spektra, doporučuji se zaměřit na konkrétní témata jako spektroskopii, optiku nebo radiotechniku.
 
 
- 
+
 
 **Elektromagnetické vlnění**
 
@@ -411,7 +411,7 @@ Tento přehled poskytuje základní rámec pro pochopení, jak elektromagnetick�
 **elektromagnetické vlnění se odráží, láme a skládá,** **do prostoru se šíří prostřednictvím antény, tam může fungovat nejen jako přijímač ale téže jako vysílač**
 
 
- 
+
 
 **OPTIKA**
 
@@ -428,7 +428,7 @@ Tento přehled poskytuje základní rámec pro pochopení, jak elektromagnetick�
 **C) Neprůhledné – zrcadlo či zeď**
 
 
- 
+
 
 **Světlo je část elektromagnetického vlnění, buďto biologicky (při dopadu na oko vidíme světlo), či technicky vlnění délky 400-760nm**
 
@@ -449,7 +449,7 @@ Tento přehled poskytuje základní rámec pro pochopení, jak elektromagnetick�
 **2) Lom světla**
 
 ![img](file:///tmp/lu76251p2xy.tmp/lu76251p2yv_tmp_ba5a3464.png) 
- 
+
 
 **index lomu = c/v**
 
@@ -458,7 +458,7 @@ Tento přehled poskytuje základní rámec pro pochopení, jak elektromagnetick�
 **Snellův zákon lomu n_1\*sin(alfa)=n_2\*sin(beta)**
 
 ![img](file:///tmp/lu76251p2xy.tmp/lu76251p2yv_tmp_dd65912d.png) 
- 
+
 
 
  
@@ -492,14 +492,14 @@ Tento přehled poskytuje základní rámec pro pochopení, jak elektromagnetick�
 **Z = y’/y**
 
 ![img](file:///tmp/lu76251p2xy.tmp/lu76251p2yv_tmp_3acd61d8.png) 
- 
+
 
 **b) vypuklé z.**
 
 **obraz je vždy zdánlivý, přímý, zmenšený**
 
 
- 
+
 
 **užití zrcdel:**
 
@@ -614,3 +614,48 @@ $$
 - Fotoreceptorická buňka v oční sítnici, která umožňuje barevné vidění.
 
 ![image-20250404132701885](/home/niki/.config/Typora/typora-user-images/image-20250404132701885.png)
+
+# Kvantová fyzika
+
+Existuje jev - fotoelektrický, který nelze vysvětlit na základě teorie, že světlo je část elektromagnetického vlnění
+
+Fotoefekt - zkráceně fotoelektrický jev (Fyzika007 - fyzika mikrosvěta)
+
+Vysvětlení: Zdroje záření nevyzačují energii do prostoru spojitě, nýbrž nespojitě po částech, tzv. kvantech (vše Fyzika007)
+$$
+E=h*f\newline
+f=\frac{c}{\lambda}\newline
+E=h*\frac{c}{\lambda}\newline
+h...\text{Plackova konstanta}\newline
+h=6.625*10^{-34}J*s\newline
+c...\text{rychlost světla}\newline
+\lambda...\text{vlnová délka dopadajícího záření}\newline
+$$
+Einsteinova rovnice:
+$$
+E=hf=hf_0+\boxed{\frac{1}{2}m_e v^2}\text{ což je }E_K\text{ elektronu}
+$$
+Závěr:
+
+Je-li frekvence $$f$$ dopadajícího záření menší než mezní frekvence $$f_0$$ elektron se neuvolní a fotoefekt nenastává
+
+Užití:
+
+Fotorezistor, fotodioda - solární kalkulačka, solární panely, všechno co má přívlastek solární
+
+Debroliho vztah:
+$$
+\lambda=\frac{h}{mv}
+$$
+Př.:
+
+233/61a
+
+Určete energii fotonu
+$$
+E=?\newline
+\lambda=100m\newline
+E=hf=h\frac{c}{\lambda}=\frac{6.626*10^{-34}*3*10^8}{100}\newline
+E\approx 1.987*10^{-27}\newline
+E\approx 1.2*10^{-8}eV
+$$
