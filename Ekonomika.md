@@ -240,3 +240,93 @@ X = čistý export, respektive rozdíl exportu a importu
 **Spotřeba vlády a neziskových organizací**: spotřeba ve školství, zdravotnictví, státních úřadech, obraně, ochraně životního prostředí, apod. Nezapočítávají se transferové platby, ze které stát neobdrží od příjemce výrobek nebo službu (starobní důchody, nemocenské dávky, podpora v nezaměstnanosti, ...)
 
 **Čistý vývoz**: může být kladný nebo záporný. Zjišťujeme, zda se v ukazateli objevila jen produkce vytvořená na našem území
+
+# Velkoobchod a maloobchod - Lukáš Filip
+
+- velkoobchod: prodej produktů ve velkém množství dalším firmám
+- maloobchod: po kusech koncovým zákazníkům
+
+## Velkoobchod
+
+- většinou sklad
+- nakupující zboží přímo od dodavatele (nejčastěji)
+- typicky MAKRO
+
+## Maloobchod
+
+- jakýkoliv běžný obchod
+- zaměřuje se na koncové zákazníky
+- většinou výšší ceny
+- např. Alza, Lidl, Tesco
+
+## Rozdíly mezi velkoobchodem a maloobchodem
+
+| Kritérium | Velko   | Malo               |
+| --------- | ------- | ------------------ |
+| Zákazník  | Firmy   | Jedinci            |
+| Ceny      | Nižší   | Vyšší              |
+| Objem     | Palety  | Jednotlivé položky |
+| Marketing | Omezený | Klíčová role       |
+
+## Rating: 9/10
+
+# Postup při vyřizování úvěru - Samuel Dostál
+
+## Co musíme splňovat?
+
+1. oficiální příjem, který banka může ověřit
+2. Banka kontroluje výši příjmů a výdajů, podle zákona je potřeba, aby žadatel měl dostatečné prostředky pro splácení
+3. ... moc rychle
+
+## Postup
+
+1. Vyplníme žádost
+2. Banka zkontroluje vše
+   (dnes využita AI)
+3. Dodáme podklady
+4. Banka úvěr schválí nebo zamítne
+5. Podepíšeme smlouvu o úvěru
+6. Banka přepošle peníze
+
+## Splácení úvěru
+
+- klient splácí úvěr většinou ze svého účtu
+- na úvěrové smlouvě musí být uvedeno RPSN
+- klienti mohou splatit úvěr dle zákona kdykoliv a maximální sankce může být ve výši jednoho procenta
+- pokud nesplácí úvěr je úroková sazba za nesplacené splátky o hodně vyšší, např. i o desítky procent
+- pokud má klient více než 3 opožděné splátky může banka úvěr zneplatnit a vyšší úrok neplatí jen z opožděných splátek, ale z celého zůstatku
+
+## Rating: 2/10
+
+# Nepřímé daně - Vilém Kolář
+
+- daně které jsou započítány přímo v ceně zboží nebo služby
+- daň platí spotřebitel, odvádí ji prodejce
+
+| Přímé daně           | Nepřímé daně    |
+| -------------------- | --------------- |
+| Platí se přímo státu | Zahrnuty v ceně |
+
+## Typy nepřímých daní:
+
+- DPH
+- Spotřební daň
+- Ekologické daně
+- Clo
+
+## Výhody a nevýhody nepřímých daní
+
+Výhody:
+
+- rychlý výběěr daní
+- motivace ke zdraví
+
+Nevýhody:
+
+- zatěžuje nízkopříjmové skupiny
+
+## Shrnutí
+
+- tvoří významnou část příjmů státního rozpočtu
+- každý platí aniž by to třeba i věděl
+
