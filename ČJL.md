@@ -3555,3 +3555,149 @@ Nový pohled na venkov
 - hlavní hrdina národní buditel Čermák
 - šíří vlastenecké ideály na venkově
 
+# Alois Jirásek - staré pověsti české
+
+- soubor pověstí
+- 1894
+- Kompozice:
+  - 3 části: nejstarší doby, doba křesťanská, proroctví
+- chronologicky řazené příběhy
+- epika, próza
+- erforma
+- určeno mládeži
+- Jazyk a styl:
+  - Archaismy: pravil, anžto, jest,...
+  - Historismy: panoš, vladyka
+  - Archaický slovosled
+  - Dlouhá souvětí
+  - Děj přerušován poměrně obsáhlými popisy a úvahami; minimum dialogu
+- Pověst:
+  - epický útvar lidové slovesnosti
+  - "tváří se" jako záznam o reálné události; mísí fakta a fikci; má mravoučný charakter
+  - používá symboly
+  - rozdíl pohádky x pověst:
+    - pověst mívá pravdivý prvek, nemusí mít šťastný konec, činí si nárok na věrohodnost, na konci často zazní ponaučení
+  - Dělí se na druhy:
+    - Místní - o Macoše; Historické - o Přemyslovi; O lidech; Démonické; O vzniku
+- Jiráskovy zdroje:
+  - Kronika česká Kosmas
+  - Dalimilova kronika
+  - Kronika česká Václava Hájka z Libočan
+- první staré pověsti české:
+  - O Čechovi
+  - O Krokovi a jeho dcerách
+  - O Bivoji
+  - O Libuši
+  - O Přemyslovi
+  - Libušina proroctví
+  - Dívčí válka
+  - O Křesomyslu a Horymírovi
+  - Lucká válka
+  - Durynk a Neklan
+- Pověsti doby křesťanské:
+  - **O staré Praze**
+  - **Ze židovského města**
+  - **O Bruncvíkovi**
+  - **Staroměstský orloj**
+  - O králi Svatoplukovi
+  - O králi Ječmínkovi
+  - Praporec svatého Václava
+  - Opatovický poklad
+  - Žito kouzelník
+  - O králi Václavovi IV.
+  - O Daliborovi
+  - O Žižkovi
+  - Kutnohorští havíři
+  - Bílá paní
+  - Růžový palouček
+  - Boží soud
+  - O Janošíkovi
+  - Smutná místa
+  - O Golemovi
+  - Faustův dům
+- Ze starobylých proroctví:
+  - Blaničtí rytíři
+  - Sibylina proroctví
+  - Proroctví slepého mládence
+  - Proroctví Havlasa Pavlaty
+  - Různá proroctví
+- Další zpracování:
+  - Animovaný film Jiřího Trnky
+  - Dívčí válka - parodická hra Františka Ringo Čecha
+  - České nebe - Jára Cimrman
+
+## Husitská doba
+
+3 trilogie:
+
+- Mezi proudy - začátek
+- Proti všem - vrcholící
+- Bratrstvo - závěr
+
+Další díla:
+
+- román Husitský král
+- Z Čech až na konec světa
+
+## Doba barokní
+
+- román Temno (1913)
+  - Antonín Konyáš
+  - 1729 - sv. Jan Nepomucký
+  - líčí to útlak české kultury
+    - mrzačena kvůli náboženství
+- Psohlavci (1884)
+  - Jan Sladký zv. Kozina (kozinova věta)
+  - z Chodska
+  - na panství Lomikar
+  - pán nechce uznávat stará nepsaná práva
+  - Lomikare Lomikare do roka a do dne zvu tě na Boží súd
+  - do roka a do dne zemře
+
+## Doba N.O.
+
+- F.L. Věk (1888-1906)
+  - pentalogie - 5 dílná románová sága
+  - František Ladislav Věk
+  - vystupuje v divadle Bouda
+  - setká se s Mozartem
+  - atd. atd. atd.
+  - vystupují historické postavy
+  - Josef II., Wolfgang Amadeus Mozart, Josef Dobrovský, Václav Tám
+  - řeší se tam puristé
+- Filosofská historie (1877)
+  - kratičká knížečka o studentech 1848
+  - všichni za to zaplatí
+- drama Lucerna (1905)
+  - dramatická báchorka (pohádka)
+    - divadelní hra která se odehrává v současnosti, ale má pohádkové prvky
+    - nadpřirozené jevy a prvky, kterým se nikdo nediví
+  - Odehrává se na vesnici 
+  - hrdina mlynář
+  - jediná povinnost, když panstvo přijede na panství a ten mlynář musí vzít lucernu a posvítit jim na cestu k zámečku a zpátky
+  - panští úředníci chtějí pokácet sváteční lípu
+  - kněžna rozhodne že ne 
+  - vlastenecké prvky - lípa
+  - sociální prvek - chudí bohatí
+  - šťastný konec
+  - dvojice vodníků
+  - bylo zfilmováno
+
+# Zikmund Winter (1846-1912)
+
+- spisovatel historické prózy
+- zabýval se historickými detaily
+- vždy si vybere jednu konkrétní osobu nebo městečko, malé téma
+- známá díla:
+  - Rozina sebranec (1905)
+    - nalezenec
+    - nalezené dítě bez rodičů
+    - protlouká se životem
+  - **Mistr Campanus** (1907)
+    - Jan Campanus Vodňanský
+    - vedl univerzitu při stavovském povstání
+    - jako nekatolík se poddal katolictví s nadějí že v univerzitě dá možnost být v bezpečí pro nekatolíky
+    - reálná osobnost historie
+    - skončí zlomený osudem 
+    - jednotlivec nic nezmůže
+
