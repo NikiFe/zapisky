@@ -2454,3 +2454,50 @@ S_{10}=a_1*\frac{q^{10}-1}{q-1}\newline
 S_{10}=1*\frac{3^{10}-1}{3-1}\newline
 \boxed{S_{10}=29524}
 $$
+
+$$
+P=10\newline
+n=5\newline
+a_5=?\newline
+\underline{a_0=100}\newline
+a_5=100*(1+\frac{10}{100})^5\newline
+a_5=161.1-100\newline
+\boxed{a_5=61.1}
+$$
+
+# 90. hodina
+
+## Př. 1
+
+Cena nového zařízení je 86 400,- Kč.
+Opotřebováním se ročně znehodnotí o 20%
+Jaká bude hodnota zařízení po patnácti letech
+$$
+86400 - a_0	\newline
+20\%/\text{rok}-P\newline
+a_{15}=?\newline
+a_{15}=86400(1-\frac{20}{100})^{25}\newline
+\boxed{a_{15}\approx 3039.9}
+$$
+
+## Př. 2
+
+Mikropočítač ztrácí fyzickým opotřebením každý rok P% ze své ceny, za jakou dobu klesne jeho hodnota na polovinu původní ceny? (Uvažujte P=12.5%)
+$$
+a_0=1\newline
+\log(0.875^n)=\log(\frac{1}{2})\newline
+n*\log(0.875)=\log(0.5)\newline
+n=\frac{\log(0.5)}{\log(0.875)}\approx\frac{-0.30103}{-0.05799}\approx5.19
+$$
+
+## Př. 3
+
+Počet obyvatel města vzrostl za 10 let z 56 000 na 72 800.
+Jaký byl roční přírůstek obyvatel v %
+$$
+n=10\newline
+a_0=56000\newline
+a_10=72800\newline
+p=?\%\newline
+p=2.68\%
+$$
