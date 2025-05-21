@@ -2206,7 +2206,7 @@ x_k=\root{n}\of{|a|}*(\cos\frac{\alpha+2k\pi}{2}+i\sin\frac{\alpha+2k\pi}{n})
 $$
 Kořeny binomické rovnice ($$x^n-a=0$$) leží pro n>2 v gausově rovině ve vrcholech pravidelného n-úhelníku vepsaného do kružnice se středem v počátku a s poloměrem r=$$\root{n}\of{|a|}$$
 
-př. n=3 => kořeny x_0, x_1, x_2 jsou vrcholy rovnostranného trojúhelníku 
+př. n=3 => kořeny $x_0, x_1, x_2$ jsou vrcholy rovnostranného trojúhelníku 
 
 
 
@@ -2491,7 +2491,7 @@ $a_n=a_0*r^n$
 
 $$
 a_0 = 95400\newline
-P=1.8\per \newline
+P=1.8\ \newline
 n=6\newline
 -------\newline
 $$
@@ -2514,6 +2514,100 @@ r=1+\frac{p}{100}\newline
 1,030=1+\frac{p}{100}\newline
 \frac{p}{100}=0,030\newline
 \boxed{p=3,0}
+$$
+
+-----------------
+
+# 90. hodina
+
+1. Cena nového zařízení je 86400 Kč. Spotřebováním se znehodnotí o 20%. Jaká bude hodnota zařízení po 15 letech.
+   $$
+   a_0 = 86400\newline
+   p = 20\newline
+   n = 15\newline
+   r = 1 - \frac{p}{100} = 1 - \frac{20}{100} = 1 - 0.2 = 0.8\newline
+   a_n = a_0 \cdot r^n\newline
+   a_{15} = 86400 \cdot 0.8^{15}\newline
+   a_{15} = 86400 \cdot 0.03518437208883196\newline
+   a_{15} = 3039.959776668996\newline
+   \underline{\underline{3040.00 Kč}}
+   $$
+
+2. Mikropočítač ztrácí každý rok fyzickým opotřebením $p$ procent ze své ceny. Za jakou dobu klesne jeho hodnota na polovinu původní ceny? Pozn.: Uvažujte $p=12,5\%$
+   $$
+   a_n = a_0 * (1 - \frac{p}{100})^n\newline
+   \frac{1}{2} a_0 = a_0 * (1 - \frac{12,5}{100})^n\newline
+   \frac{1}{2} = (1 - 0,125)^n\newline
+   \frac{1}{2} = (0,875)^n\newline
+   \log(\frac{1}{2}) = \log(0,875^n)\newline
+   \log(0,5) = n \cdot \log(0,875)\newline
+   n = \frac{\log(0,5)}{\log(0,875)}\newline
+   n \approx \frac{-0,3010}{-0,0580}\newline
+   n \approx \underline{5,19}
+   $$
+   
+3. Počet obyvatel města vzrostl za 10 let z 56000 na 72800. Jaký byl roční přírůstek obyvatel v procentech?
+   $$
+   a_n = a_0 \cdot (1 + \frac{p}{100})^n \\
+   72800 = 56000 \cdot (1 + \frac{p}{100})^{10} \\
+   \frac{72800}{56000} = (1 + \frac{p}{100})^{10} \\
+   1.3 = (1 + \frac{p}{100})^{10} \\
+   \sqrt[10]{1.3} = 1 + \frac{p}{100} \\
+   1.02656 \doteq 1 + \frac{p}{100} \\
+   0.02656 = \frac{p}{100} \\
+   p = 0.02656 \cdot 100 \\
+   p \doteq \underline{\underline{2.66 \%}}
+   $$
+
+# 91. hodina
+
+- psal jsem test, nepsal jsem zápis
+
+  [MA 20_5.pdf](https://spssol-my.sharepoint.com/:b:/g/personal/simackova_alena_spssol_cz/EQ2VXI7vRXlNozXmyqa4Sn8B9OjbBT7pypKkklWnzrwFvA?e=yHeqE9) (Šimi zápis)
+
+
+
+# 92. hodina
+
+- Při složeném úrokováním se mění velikost jistiny ($j$). U vkladu se k jistině připočítává připsaný úrok
+- U půjček se jistina snižuje o splacenou částku (nebo částku splacenou)
+
+
+
+1. Pan Bureš si uložil ve spořitelně na spořící účet 60 000 Kč. Účet je úročen 0,65% p.a. Kolik korun bude mít na účtu za 4 roky? Kolik korun činí úrok?
+
+$$
+P=60~000\newline
+r=0,65\% \Rightarrow0,0065 \newline
+t=4\newline
+-------\newline
+A=P*(1+r)^t\newline
+A=60000*(1+0.0065*4)\newline
+$$
+
+- tyto úlohy počítáme podle vzorce $J_n=J_0*(1+\frac{p}{100}^n)$
+  - $p$ - úroková míra
+  - $n$ - počet úrokovacích období
+  - 
+
+
+
+2. Pan Musílek si uložil na terminovaný vklad u banky na 2 roky částku 150 000 Kč. Úroková míra je 0,8% p.a. ..banka připisuje úroky <u>jednou za čtvrt roku</u>. Kolik korun si vyzvedne po dvou letech?
+
+​		Úlohu počítáme podle vzorce $J_n=J_0*[(1+\frac{p}{100})*(1-\frac{d}{100})]^n$
+$$
+J_0=150~000\newline
+p=0,8\%~p.a. \Rightarrow \frac{0,8}{4}=0,2~p.q.\newline
+d=15\%\newline
+n=2*4\newline
+-------\newline
+J_n=150000*[1+\frac{0,2}{100}*(1-\frac{15}{100})]^8
+$$
+
+3. Pan Spořivý na terminovaný vklad s roční úrokovou mírou 2% p.a. částku 400 000 Kč na 5 let. Úroky se připisují na konci každého roku snižené o 15% daň z úroku. Jakou částku si vybere za 5 let?
 
 $$
 
+$$
+
+- číslo $a$ je limitou posloupnosti $(a_n)^\infin_{n=1}$ právě, když platí: ke každému reánému číslo $\epsilon>0$ existuje takové přirozené čislo $n_0$, že pro všechna přirozená čísla $n >=0$ je $|a_n-a|>\epsilon$ 
