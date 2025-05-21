@@ -2501,3 +2501,57 @@ a_10=72800\newline
 p=?\%\newline
 p=2.68\%
 $$
+
+# 92. hodina
+
+## Složené úrokování
+
+Při složeném úrokování se mění velikosti jistiny (j) 
+
+u vkladu se jistině připočítává připsaný úrok 
+
+u půjček se jistina snižuje o splacenou částku (nebo splacené částky)
+
+př. pan Bureš si uložil ve spořitelně na spořící účet 60 000 Kč, účet je úročen 0.65% PA, kolik korun bude mít na účtu za 4 roky a kolik korun činí úrok
+$$
+j_0 = 60000;p=0.65\%\newline
+\text{částka po prvním roce = }60000+60000*0.0065=60000(1+0.0065)\newline
+\text{částka po druhém roce = }60000*(1.0065)^2\newline
+\text{částka po čtvrtém roce = }60000*1.0065^4 = 61575\text{ Kč}\newline
+\text{Úrok tedy činí }1575 \text{ Kč}
+$$
+Vzorec:
+$$
+j_n=j_0*(1+\frac{p}{100})^n
+$$
+p...úroková míra
+
+$$j_n$$...konečná částka
+
+n...počet úrokovacích období
+
+$$j_0$$...počáteční částka
+
+V případě, že banka strhává daň z úroku:
+
+pan Musílek uložil na terminovaný vklad u banky na dva roky částku 150 000 Kč, úroková míra je 0.8% PA, daň z úroku je 15%, banka připisuje úroky jednou za čtvrt roku, kolik korun si vyzvedne po dvou letech
+$$
+j_n=j_0*[(1+\frac{p}{100})*(1-\frac{d}{100})]^n\newline
+j_0=150000\newline
+p=0.8\%\newline
+d=15\%\newline
+n=2*4=8\newline
+j_n=150000*[(1+\frac{0.2}{100})*(1-\frac{0.15}{100})]^8\newline
+j_n=148300.62
+$$
+př. pan Spořivý si uložil na terminovaný vklad s roční úrokovou mírou 2% PA částku 400 000 Kč na 5 let, úroky se připisují na konci každého roku snížené o 15% daň z úroku, jakou částku si vybere za 5 let
+$$
+j_5=j_0*(1+0.85*\frac{p}{100})^n\newline
+j_5=435439\text{ Kč}
+$$
+
+## Limita posloupnosti
+
+Číslo a je limitou posloupnosti $$(a_n)_{n=1}^\inf$$ právě když platí ke každému reálnému číslu epsylon > 0 existuje takové kladné číslo n_0 že pro všechna přirozená čísla n >=n_0 je absolutní hodnota |a_n-a|<epsylon 
+
+^ nejspíš všechno špatně
