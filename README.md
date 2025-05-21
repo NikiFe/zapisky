@@ -1,6 +1,6 @@
-# Zápisy Niki
+# Zápisy Niki a Krychty
 
-Tyto zápisy jsou psáno s láskou od studentky 2.E (a co ja😔)
+Tyto zápisy jsou psány s láskou od studentky a studenta 2.E
 
 <details>
     <summary>realita</summary>
