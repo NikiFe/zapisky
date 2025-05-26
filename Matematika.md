@@ -2611,3 +2611,101 @@ $$
 $$
 
 - číslo $a$ je limitou posloupnosti $(a_n)^\infin_{n=1}$ právě, když platí: ke každému reánému číslo $\epsilon>0$ existuje takové přirozené čislo $n_0$, že pro všechna přirozená čísla $n >=0$ je $|a_n-a|>\epsilon$ 
+
+
+
+# 93. hodina
+
+## Opakování na písemku
+
+1. $a_3=8;~a_6=16;~geom. posloupnost$ Určete $a_1=?,~q=?,S_6=?$
+   $$
+   a_3 = 8 \\
+   a_6 = 16 \\
+   a_1 = ? \\
+   q = ? \\
+   S_6 = ? \\
+   \\
+   a_n = a_k \cdot q^{n-k} \\
+   a_6 = a_3 \cdot q^{6-3} \\
+   16 = 8 \cdot q^3 \\
+   q^3 = \frac{16}{8} \\
+   q^3 = 2 \\
+   q = \sqrt[3]{2} \\
+   q \approx 1.26 \\
+   \\
+   a_n = a_1 \cdot q^{n-1} \\
+   a_3 = a_1 \cdot q^{3-1} \\
+   8 = a_1 \cdot (1.26)^2 \\
+   8 = a_1 \cdot 1.5876 \\
+   a_1 = \frac{8}{1.5876} \\
+   a_1 \approx 5.04 \\
+   \\
+   S_n = a_1 \cdot \frac{q^n - 1}{q - 1} \\
+   S_6 = 5.04 \cdot \frac{(1.26)^6 - 1}{1.26 - 1} \\
+   S_6 = 5.04 \cdot \frac{4.00 - 1}{0.26} \\
+   S_6 = 5.04 \cdot \frac{3.00}{0.26} \\
+   S_6 = 5.04 \cdot 11.54 \\
+   S_6 \approx 58.10 \\
+   \\
+   \underline{a_1 \approx 5.04} \\
+   \underline{q \approx 1.26} \\
+   \underline{S_6 \approx 58.10}
+   $$
+   
+
+   
+
+## Limita posloupnosti
+
+1. Vypište prvních 6 členů posloupnosti $(a_n)^\infin_{n=1}$ kde $a_n=(-1)^n*\frac{1}{5n}+2$ a zobrazte jejich hodnoty v soustavě souřadnic.
+
+$$
+$$a_n = (-1)^n \cdot \frac{1}{5n} + 2
+
+$$n=1: a_1 = (-1)^1 \cdot \frac{1}{5 \cdot 1} + 2 = -1 \cdot \frac{1}{5} + 2 = -0.2 + 2 = 1.80
+
+$$n=2: a_2 = (-1)^2 \cdot \frac{1}{5 \cdot 2} + 2 = 1 \cdot \frac{1}{10} + 2 = 0.1 + 2 = 2.10
+
+$$n=3: a_3 = (-1)^3 \cdot \frac{1}{5 \cdot 3} + 2 = -1 \cdot \frac{1}{15} + 2 \approx -0.07 + 2 = 1.93
+
+$$n=4: a_4 = (-1)^4 \cdot \frac{1}{5 \cdot 4} + 2 = 1 \cdot \frac{1}{20} + 2 = 0.05 + 2 = 2.05
+
+$$n=5: a_5 = (-1)^5 \cdot \frac{1}{5 \cdot 5} + 2 = -1 \cdot \frac{1}{25} + 2 = -0.04 + 2 = 1.96
+$$n=6: a_6 = (-1)^6 \cdot \frac{1}{5 \cdot 6} + 2 = 1 \cdot \frac{1}{30} + 2 \approx 0.03 + 2 = 2.03
+
+Zobrazení hodnot v soustavě souřadnic:
+$$(1, 1.80), (2, 2.10), (3, 1.93), (4, 2.05), (5, 1.96), (6, 2.03)$$
+
+Vykreslení bodů (není možné přímo v textu, ale jedná se o body na grafu):
+\$$
+\underline{
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel=$n$,
+    ylabel=$a_n$,
+    xmin=0, xmax=7,
+    ymin=1.7, ymax=2.2,
+    xtick={1,2,3,4,5,6},
+    ytick={1.80,1.90,2.00,2.10,2.20},
+    grid=both,
+    grid style={line width=.1pt, draw=gray!10},
+    major grid style={line width=.2pt,draw=gray!50},
+    axis lines=middle,
+    legend pos=outer north east,
+]
+\addplot[only marks, mark=*, red] coordinates {
+(1, 1.80)
+(2, 2.10)
+(3, 1.93)
+(4, 2.05)
+(5, 1.96)
+(6, 2.03)
+};
+\end{axis}
+\end{tikzpicture}
+}
+$$
+$$
+
+- má-li posloupnost limitu, říkáme, že je konvergentní. Každá posloupnost má pouze jednu limitu
