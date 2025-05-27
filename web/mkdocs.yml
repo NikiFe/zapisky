@@ -1,0 +1,45 @@
+site_name: Zápisky
+
+docs_dir: ..
+
+nav:
+  - Home: README.md
+  - CIT: CIT.md
+  - CJL: CJL.md
+  - EKO: EKO.md
+  - ELE: ELE.md
+  - FYZ: FYZ.md
+  - MAT: MAT.md
+  - NEJ-Sk1: NEJ-Sk1.md
+
+theme:
+  name: material
+  icon:
+    logo: material/library
+  palette:
+    - scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.instant
+    - navigation.expand
+  font:
+    text: Inter
+  markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  extra_css:
+    - css/extra.css
