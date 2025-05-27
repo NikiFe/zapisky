@@ -2617,6 +2617,45 @@ j_5=j_0*(1+0.85*\frac{p}{100})^n\newline
 j_5=435439\text{ Kč}
 $$
 
+# 93. hodina
+
+## Opakování na písemku
+
+1. $a_3=8;~a_6=16;$geom. posloupnost Určete $a_1=?,~q=?,S_6=?$
+   $$
+   a_3 = 8 \\
+   a_6 = 16 \\
+   a_1 = ? \\
+   q = ? \\
+   S_6 = ? \\
+   \\
+   a_n = a_k \cdot q^{n-k} \\
+   a_6 = a_3 \cdot q^{6-3} \\
+   16 = 8 \cdot q^3 \\
+   q^3 = \frac{16}{8} \\
+   q^3 = 2 \\
+   q = \sqrt[3]{2} \\
+   q \approx 1.26 \\
+   \\
+   a_n = a_1 \cdot q^{n-1} \\
+   a_3 = a_1 \cdot q^{3-1} \\
+   8 = a_1 \cdot (1.26)^2 \\
+   8 = a_1 \cdot 1.5876 \\
+   a_1 = \frac{8}{1.5876} \\
+   a_1 \approx 5.04 \\
+   \\
+   S_n = a_1 \cdot \frac{q^n - 1}{q - 1} \\
+   S_6 = 5.04 \cdot \frac{(1.26)^6 - 1}{1.26 - 1} \\
+   S_6 = 5.04 \cdot \frac{4.00 - 1}{0.26} \\
+   S_6 = 5.04 \cdot \frac{3.00}{0.26} \\
+   S_6 = 5.04 \cdot 11.54 \\
+   S_6 \approx 58.10 \\
+   \\
+   \underline{a_1 \approx 5.04} \\
+   \underline{q \approx 1.26} \\
+   \underline{S_6 \approx 58.10}
+   $$
+
 ## Limita posloupnosti
 
 1. Vypište prvních 6 členů posloupnosti $(a_n)^\infin_{n=1}$ kde $a_n=(-1)^n*\frac{1}{5n}+2$ a zobrazte jejich hodnoty v soustavě souřadnic.
