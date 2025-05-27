@@ -2465,6 +2465,63 @@ a_5=161.1-100\newline
 \boxed{a_5=61.1}
 $$
 
+# 88. hodina
+
+1. $$(a_n)^\infin_{n=1}$$ -> v posloupnosti doplňte následující tabulku zbývajícími prvky této geometrické posloupnosti
+
+| $$a_1$$ | $$q$$           | $$n$$ | $$a_n$$          | $$S_N$$ |
+| ------- | --------------- | ----- | ---------------- | ------- |
+| 90      | $$\frac{1}{3}$$ | 5     | $$\frac{10}{9}$$ | $90$    |
+| 2       |                 | 7     | $1458$           | $2186$  |
+
+
+
+---------------
+
+# 89. hodina
+
+## Užití geometrické posloupnosti
+
+- výpočet pravidelného přírůstku nebo poklesu určité hodnoty
+
+$a_n=a_0*r^n$
+	$r=1+\frac{p}{100}$
+	$r=1-\frac{p}{100}$
+		$a_0$ -> počáteční hodnota
+		$a_n$ -> hodnota po $n$ (letech, měsícech, dnech)
+		$n$ -> doba (roky, měsíce, ...)
+		$p$ -> počet procent
+
+  
+
+1. Ve městě dnes žije 95400 obyvatel. Kolik lidí bude ve městě žít za 6 let, jestliže každoroční přírůstek obyvatelstva lze odhadnout na 1.8%?
+
+$$
+a_0 = 95400\newline
+P=1.8\ \newline
+n=6\newline
+$$
+
+2. Počet obyvatel města vzrostl po deseti letech z 25000 na 33600. Jaký byl roční přírůstek v procentech, roste-li počet obyvatel rovnoměrně?
+
+$$
+a_0=25000\newline
+a_n=33600\newline
+n=10\newline
+r=1+\frac{p}{100}\newline
+-------\newline
+33600=25000*r^{10}\newline
+r^{10}=\frac{33600}{25000}=1,344\newline
+r=1.334^{\frac{1}{10}}\newline
+-------\newline
+r=r=1.334^{\frac{1}{10}}\approx1,030\newline
+-------\newline
+r=1+\frac{p}{100}\newline
+1,030=1+\frac{p}{100}\newline
+\frac{p}{100}=0,030\newline
+\boxed{p=3,0}
+$$
+
 # 90. hodina
 
 ## Př. 1
@@ -2477,7 +2534,7 @@ $$
 20\%/\text{rok}-P\newline
 a_{15}=?\newline
 a_{15}=86400(1-\frac{20}{100})^{25}\newline
-\boxed{a_{15}\approx 3039.9}
+\boxed{a_{15}\approx 3039.9 \text{ Kč}}
 $$
 
 ## Př. 2
@@ -2495,12 +2552,22 @@ $$
 Počet obyvatel města vzrostl za 10 let z 56 000 na 72 800.
 Jaký byl roční přírůstek obyvatel v %
 $$
-n=10\newline
-a_0=56000\newline
-a_10=72800\newline
-p=?\%\newline
-p=2.68\%
+   a_n = a_0 \cdot (1 + \frac{p}{100})^n \\
+   72800 = 56000 \cdot (1 + \frac{p}{100})^{10} \\
+   \frac{72800}{56000} = (1 + \frac{p}{100})^{10} \\
+   1.3 = (1 + \frac{p}{100})^{10} \\
+   \sqrt[10]{1.3} = 1 + \frac{p}{100} \\
+   1.02656 \doteq 1 + \frac{p}{100} \\
+   0.02656 = \frac{p}{100} \\
+   p = 0.02656 \cdot 100 \\
+   p \doteq \underline{\underline{2.66 \%}}
 $$
+
+# 91. hodina
+
+- psán test, ne zápis
+
+  [MA 20_5.pdf](https://spssol-my.sharepoint.com/:b:/g/personal/simackova_alena_spssol_cz/EQ2VXI7vRXlNozXmyqa4Sn8B9OjbBT7pypKkklWnzrwFvA?e=yHeqE9) (Šimi zápis)
 
 # 92. hodina
 
@@ -2552,6 +2619,45 @@ $$
 
 ## Limita posloupnosti
 
-Číslo a je limitou posloupnosti $$(a_n)_{n=1}^\inf$$ právě když platí ke každému reálnému číslu epsylon > 0 existuje takové kladné číslo n_0 že pro všechna přirozená čísla n >=n_0 je absolutní hodnota |a_n-a|<epsylon 
+1. Vypište prvních 6 členů posloupnosti $(a_n)^\infin_{n=1}$ kde $a_n=(-1)^n*\frac{1}{5n}+2$ a zobrazte jejich hodnoty v soustavě souřadnic.
 
-^ nejspíš všechno špatně
+$$
+a_n = (-1)^n \cdot \frac{1}{5n} + 2
+$$
+
+Výpočet několika členů:
+
+- $$( n = 1: \quad a_1 = (-1)^1 \cdot \frac{1}{5 \cdot 1} + 2 = -\frac{1}{5} + 2 = 1.80 )$$
+- $$( n = 2: \quad a_2 = (-1)^2 \cdot \frac{1}{5 \cdot 2} + 2 = \frac{1}{10} + 2 = 2.10 )$$
+- $$( n = 3: \quad a_3 = (-1)^3 \cdot \frac{1}{5 \cdot 3} + 2 = -\frac{1}{15} + 2 \approx 1.93 )$$
+- $$( n = 4: \quad a_4 = (-1)^4 \cdot \frac{1}{5 \cdot 4} + 2 = \frac{1}{20} + 2 = 2.05 )$$
+- $$( n = 5: \quad a_5 = (-1)^5 \cdot \frac{1}{5 \cdot 5} + 2 = -\frac{1}{25} + 2 = 1.96 )$$
+- $$( n = 6: \quad a_6 = (-1)^6 \cdot \frac{1}{5 \cdot 6} + 2 = \frac{1}{30} + 2 \approx 2.03 )$$
+
+Souřadnice bodů:
+$$
+(1, 1.80), \quad (2, 2.10), \quad (3, 1.93), \quad (4, 2.05), \quad (5, 1.96), \quad (6, 2.03)
+$$
+
+Grafické znázornění (přibližně, textově):
+
+```
+n    1     2     3     4     5     6
+a_n  1.80  2.10  1.93  2.05  1.96  2.03
+
+Rough visualization:
+
+2.10 |       ●
+2.05 |             ●     ●
+2.00 |
+1.95 |                 ●     ●
+1.90 |
+1.85 |
+1.80 |  ●
+       ----------------------------
+         1     2     3     4     5     6
+```
+
+
+
+- má-li posloupnost limitu, říkáme, že je konvergentní. Každá posloupnost má pouze jednu limitu
