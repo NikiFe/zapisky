@@ -2786,11 +2786,119 @@ limn→∞(8+3n+11)n=∞
 
 ## Témata písemky
 
-1. Aritmetická/geometrická posloupnost
-2. Růst a pokles (slovní úlohy)
-3. Finanční matematika
-4. nekonečná geometrická řada, součet
+1. 97. hodina
+   $$
+   \sum_{n=1}^{\infty} \frac{(\sqrt{3} - 1)^n}{\sqrt{2}} \\
+   = \frac{1}{\sqrt{2}} \sum_{n=1}^{\infty} (\sqrt{3} - 1)^n \\
+   = \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{3} - 1}{1 - (\sqrt{3} - 1)} \\
+   = \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{3} - 1}{2 - \sqrt{3}} \\
+   = \frac{1}{\sqrt{2}} \cdot \left( \frac{\sqrt{3} - 1}{2 - \sqrt{3}} \cdot \frac{2 + \sqrt{3}}{2 + \sqrt{3}} \right) \\
+   = \frac{1}{\sqrt{2}} \cdot \frac{(\sqrt{3} - 1)(2 + \sqrt{3})}{(2 - \sqrt{3})(2 + \sqrt{3})} \\
+   = \frac{1}{\sqrt{2}} \cdot \frac{2\sqrt{3} + 3 - 2 - \sqrt{3}}{4 - 3} \\
+   = \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{3} + 1}{1} \\
+   = \frac{\sqrt{3} + 1}{\sqrt{2}} \\
+   $$
+
+   Řešte v R rovnici:
+   $$
+   (x - 1) + (x - 1)^2 + (x - 1)^3 + \dots = 1 \\
+   \text{Označíme } r = x - 1 \Rightarrow \sum_{n=1}^{\infty} r^n = 1 \\
+   \text{Geometrická řada: } \sum_{n=1}^{\infty} r^n = \frac{r}{1 - r}, \quad |r| < 1 \\
+   \frac{r}{1 - r} = 1 \Rightarrow r = 1 - r \Rightarrow 2r = 1 \Rightarrow r = \frac{1}{2} \\
+   x - 1 = \frac{1}{2} \Rightarrow x = \frac{3}{2} \\
+   |r| = \frac{1}{2} < 1 \Rightarrow \text{podmínka konvergence splněna} \\
+   \boxed{x = \frac{3}{2}} \\
+   $$
+   Vyjádřete pomocí zlomku
+   $$
+   0.\overline{9} = \frac{9}{10} + \frac{9}{100} + \frac{9}{1000} + \dots \\
+   = \sum_{n=1}^{\infty} \frac{9}{10^n} \\
+   \text{Geometrická řada se } a = \frac{9}{10}, \ r = \frac{1}{10} \\
+   \sum_{n=1}^{\infty} \frac{9}{10^n} = \frac{\frac{9}{10}}{1 - \frac{1}{10}} = \frac{\frac{9}{10}}{\frac{9}{10}} = 1 \\
+   \boxed{0.\overline{9} = 1} \\
+   $$
+
+   $$
+   -0.\overline{34} = -\left( \frac{34}{100} + \frac{34}{10000} + \frac{34}{10^6} + \dots \right) \\
+   = -\sum_{n=1}^{\infty} \frac{34}{100^n} \\
+   \text{Geometrická řada: } a = \frac{34}{100}, \ r = \frac{1}{100} \\
+   \sum_{n=1}^{\infty} \frac{34}{100^n} = \frac{\frac{34}{100}}{1 - \frac{1}{100}} = \frac{\frac{34}{100}}{\frac{99}{100}} = \frac{34}{99} \\
+   \boxed{-0.\overline{34} = -\frac{34}{99}} \\
+   $$
+
+   $$
+   z = 4.\overline{5} = 4 + 0.\overline{5} \\
+   0.\overline{5} = \frac{5}{10} + \frac{5}{100} + \frac{5}{1000} + \dots = \sum_{n=1}^{\infty} \frac{5}{10^n} \\
+   \text{Geometrická řada: } a = \frac{5}{10}, \ r = \frac{1}{10} \\
+   \sum_{n=1}^{\infty} \frac{5}{10^n} = \frac{\frac{5}{10}}{1 - \frac{1}{10}} = \frac{\frac{5}{10}}{\frac{9}{10}} = \frac{5}{9} \\
+   z = 4 + \frac{5}{9} = \frac{36}{9} + \frac{5}{9} = \frac{41}{9} \\
+   \boxed{z = \frac{41}{9}} \\
+   $$
+
+2. Aritmetická/geometrická posloupnost
+
+3. Růst a pokles (slovní úlohy)
+
+4. Finanční matematika
+
+5. nekonečná geometrická řada, součet
+
 5. objemy a povrchy těles
 
 
 
+# 96. hodina
+
+přepis coming soon
+
+
+
+# 97. hodina
+
+$$
+\sum_{n=1}^{\infty} \frac{(\sqrt{3} - 1)^n}{\sqrt{2}} \\
+= \frac{1}{\sqrt{2}} \sum_{n=1}^{\infty} (\sqrt{3} - 1)^n \\
+= \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{3} - 1}{1 - (\sqrt{3} - 1)} \\
+= \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{3} - 1}{2 - \sqrt{3}} \\
+= \frac{1}{\sqrt{2}} \cdot \left( \frac{\sqrt{3} - 1}{2 - \sqrt{3}} \cdot \frac{2 + \sqrt{3}}{2 + \sqrt{3}} \right) \\
+= \frac{1}{\sqrt{2}} \cdot \frac{(\sqrt{3} - 1)(2 + \sqrt{3})}{(2 - \sqrt{3})(2 + \sqrt{3})} \\
+= \frac{1}{\sqrt{2}} \cdot \frac{2\sqrt{3} + 3 - 2 - \sqrt{3}}{4 - 3} \\
+= \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{3} + 1}{1} \\
+= \frac{\sqrt{3} + 1}{\sqrt{2}} \\
+$$
+
+Řešte v $\R$ rovnici:
+$$
+(x - 1) + (x - 1)^2 + (x - 1)^3 + \dots = 1 \\
+\text{Označíme } r = x - 1 \Rightarrow \sum_{n=1}^{\infty} r^n = 1 \\
+\text{Geometrická řada: } \sum_{n=1}^{\infty} r^n = \frac{r}{1 - r}, \quad |r| < 1 \\
+\frac{r}{1 - r} = 1 \Rightarrow r = 1 - r \Rightarrow 2r = 1 \Rightarrow r = \frac{1}{2} \\
+x - 1 = \frac{1}{2} \Rightarrow x = \frac{3}{2} \\
+|r| = \frac{1}{2} < 1 \Rightarrow \text{podmínka konvergence splněna} \\
+\boxed{x = \frac{3}{2}} \\
+$$
+Vyjádřete pomocí zlomku:
+$$
+0.\overline{9} = \frac{9}{10} + \frac{9}{100} + \frac{9}{1000} + \dots \\
+= \sum_{n=1}^{\infty} \frac{9}{10^n} \\
+\text{Geometrická řada se } a = \frac{9}{10}, \ r = \frac{1}{10} \\
+\sum_{n=1}^{\infty} \frac{9}{10^n} = \frac{\frac{9}{10}}{1 - \frac{1}{10}} = \frac{\frac{9}{10}}{\frac{9}{10}} = 1 \\
+\boxed{0.\overline{9} = 1} \\
+$$
+
+$$
+-0.\overline{34} = -\left( \frac{34}{100} + \frac{34}{10000} + \frac{34}{10^6} + \dots \right) \\
+= -\sum_{n=1}^{\infty} \frac{34}{100^n} \\
+\text{Geometrická řada: } a = \frac{34}{100}, \ r = \frac{1}{100} \\
+\sum_{n=1}^{\infty} \frac{34}{100^n} = \frac{\frac{34}{100}}{1 - \frac{1}{100}} = \frac{\frac{34}{100}}{\frac{99}{100}} = \frac{34}{99} \\
+\boxed{-0.\overline{34} = -\frac{34}{99}} \\
+$$
+
+$$
+z = 4.\overline{5} = 4 + 0.\overline{5} \\
+0.\overline{5} = \frac{5}{10} + \frac{5}{100} + \frac{5}{1000} + \dots = \sum_{n=1}^{\infty} \frac{5}{10^n} \\
+\text{Geometrická řada: } a = \frac{5}{10}, \ r = \frac{1}{10} \\
+\sum_{n=1}^{\infty} \frac{5}{10^n} = \frac{\frac{5}{10}}{1 - \frac{1}{10}} = \frac{\frac{5}{10}}{\frac{9}{10}} = \frac{5}{9} \\
+z = 4 + \frac{5}{9} = \frac{36}{9} + \frac{5}{9} = \frac{41}{9} \\
+\boxed{z = \frac{41}{9}} \\
+$$
