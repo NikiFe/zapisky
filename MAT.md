@@ -2687,8 +2687,8 @@ a_n  1.80  2.10  1.93  2.05  1.96  2.03
 Rough visualization:
 
 2.10 |       ●
-2.05 |             ●     ●
-2.00 |
+2.05|             ●     ●
+2.00|
 1.95 |                 ●     ●
 1.90 |
 1.85 |
@@ -2700,3 +2700,97 @@ Rough visualization:
 
 
 - má-li posloupnost limitu, říkáme, že je konvergentní. Každá posloupnost má pouze jednu limitu
+
+
+
+# 95. hodina
+
+c.
+$$
+lim\frac{3n^2+4n+5}{4n^3-2n^2}=lim\frac{\frac{3n^2}{n^3}+\frac{4n}{n^3}+\frac{5}{n^3}}{\frac{4n^3}{n^3}-\frac{2n^2}{n^3}}=lim\frac{\frac{3}{n}+\frac{4}{n^2}+\frac{5}{n^3}}{4-\frac{2}{n}}=\frac{0}{4}=0
+$$
+d.
+$$
+lim\frac{n^3+5n^2-2}{2n^3-n}=lim\frac{\frac{n^3}}{n^3}
+$$
+
+- je dána geometrická posloupnost $(a_n)_{n=1}^\infin$, pro jejíž koeficient $q$ platí, že $|q<1|$ 
+- vytvoříme posloupnost $(S_n)_{n=1}^\infin$, tj. $S_1=a_1;~S_2=a_1+a_2$
+- lze dokázat, že tato posloupnost je konvergentní a platí $lim~S_n=\frac{a_1}{1-q}$
+  - značíme $lim~S_n=S=\sum^\infin_{n=1}a_n$
+  - 
+
+
+
+
+
+
+
+Sure, I can help you with these limit problems. Let's calculate them one by one.
+
+General approach for limits of the form (1+nk)n or similar:
+
+Recall that limn→∞(1+nk)n=ek. This is a fundamental limit. We will try to transform the given expressions into this form or a related one.
+
+------
+
+### a) $(1+\frac{1}{n})^n$
+
+This is a direct application of the fundamental limit.
+
+$\[lim_{test}]$
+
+------
+
+### b) **limn→∞(7−n1)n**
+
+As n→∞, n1→0.
+
+So, the base 7−n1→7.
+
+The exponent n→∞.
+
+This limit is of the form 7∞, which tends to infinity.
+
+limn→∞(7−n1)n=∞
+
+------
+
+### c) **limn→∞(5−n+11)n**
+
+As n→∞, n+11→0.
+
+So, the base 5−n+11→5.
+
+The exponent n→∞.
+
+This limit is of the form 5∞, which tends to infinity.
+
+limn→∞(5−n+11)n=∞
+
+------
+
+### d) $limn→∞(8+3n+11)n$
+
+As n→∞, 3n+11→0.
+
+So, the base 8+3n+11→8.
+
+The exponent n→∞.
+
+This limit is of the form 8∞, which tends to infinity.
+
+limn→∞(8+3n+11)n=∞
+
+
+
+## Témata písemky
+
+1. Aritmetická/geometrická posloupnost
+2. Růst a pokles (slovní úlohy)
+3. Finanční matematika
+4. nekonečná geometrická řada, součet
+5. objemy a povrchy těles
+
+
+
