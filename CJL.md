@@ -3701,3 +3701,78 @@ Další díla:
     - skončí zlomený osudem 
     - jednotlivec nic nezmůže
 
+# Estetismus a dekadence v Anglii
+
+## Oscar Wilde (1854-1900)
+
+- irský dramatik, básník a spisovatel
+- velký fešák a provokatér své doby
+- vůdčí postava hnutí **estetismu** -> heslo "l'art pour l'art" (umění pro umění)
+- umění má být hlavně krásné, nemusí mít žádný morální nebo výchovný účel
+- proslulý svým ostrým vtipem, elegancí a aforismy (krátké, vtipné výroky)
+- žil v Londýně, byl hvězdou společnosti
+- jeho život zničil soudní proces
+  - byl homosexuál, v té době trestné
+  - měl poměr s lordem Alfredem Douglasem ("Bosie")
+  - jeho otec Wildea veřejně urazil
+  - Wilde ho zažaloval, ale soud prohrál a sám byl odsouzen za "nemravnost"
+  - dostal 2 roky nucených prací
+- vězení ho zlomilo -> po propuštění odjel do Francie, kde zemřel v bídě
+
+### Obraz Doriana Graye (1890)
+
+- jediný román, který Wilde napsal
+- filozofický román s prvky hororu a gotiky
+- **Témata:** kult mládí a krásy, dvojakost člověka (vzhled vs. duše), morální úpadek, kritika pokrytecké společnosti, vztah umění a života
+
+#### Postavy
+
+- **Dorian Gray**
+  - na začátku mladý, krásný a nevinný chlapec
+  - nechá si od malíře Basila namalovat portrét
+  - pod vlivem lorda Henryho vysloví přání, aby stárnul obraz místo něj
+  - stane se z něj sobecký, krutý hédonista (člověk, co hledá jen slast a potěšení)
+  - zatímco on zůstává věčně mladý, obraz se mění a ukazuje ošklivost jeho hříchů
+  - na konci se pokusí obraz zničit -> probodne ho nožem a tím zabije sám sebe
+
+- **Lord Henry "Harry" Wotton**
+  - cynický a vtipný aristokrat, filozof
+  - Dorianův "mentor" a ďábelský pokušitel
+  - hlásá myšlenky nového hédonismu -> člověk má zkusit všechno a neohlížet se na morálku
+  - svými řečmi Doriana naprosto zkazí
+  - sám ale žije celkem normálně, je to spíš teoretik a pozorovatel
+
+- **Basil Hallward**
+  - malíř, autor portrétu
+  - je Dorianem posedlý, vidí v něm svůj umělecký ideál
+  - představuje morálku, svědomí a dobro
+  - snaží se Doriana varovat, ale marně
+  - když po letech uvidí, co se stalo s jeho obrazem, Dorian ho v afektu zavraždí
+
+- **Sibyla Vaneová**
+  - mladá, chudá herečka
+  - Dorian se do ní zamiluje, protože je na jevišti úžasná
+  - když se do Doriana zamiluje doopravdy, její herectví zmizí (už nemusí hrát lásku, když ji cítí)
+  - Dorian ji kvůli tomu krutě odmítne -> ona spáchá sebevraždu
+  - její smrt je první "šrám" na Dorianově duši (a na obraze)
+
+#### Děj ve zkratce
+
+- Basil maluje Doriana. Seznámí ho s lordem Henrym.
+- Henryho řeči -> Dorian vysloví osudné přání.
+- Zamiluje se do herečky Sibyly, pak ji odvrhne. Ona se zabije. Na obraze se objeví krutý úšklebek.
+- Dorian obraz zamkne na půdě a žije hříšným životem plným večírků, skandálů a milenek/milenců. Zůstává mladý.
+- Po 18 letech mu malíř Basil vyčítá jeho zkaženou pověst. Dorian mu ukáže zrůdný obraz a pak ho zabije.
+- Těla se zbaví pomocí vydírání starého přítele-chemika.
+- Pronásleduje ho bratr Sibyly, chce se pomstít, ale sám je omylem zabit.
+- Dorian je ze všeho unavený a znechucený. Chce se "polepšit", ale zjistí, že i jeho "dobré skutky" jsou sobecké.
+- V záchvatu zuřivosti probodne obraz nožem.
+- Služebnictvo najde na zemi mrtvého, ošklivého starce s nožem v srdci. Vedle něj visí dokonalý portrét mladého Doriana Graye.
+
+#### Myšlenky a zajímavosti
+
+- **Faustovské téma:** Zaprodal duši (obraz) za věčné mládí.
+- **Kritika společnosti:** Viktoriánská Anglie byla posedlá vzhledem a postavením. Dokud byl Dorian krásný a bohatý, nikdo neřešil jeho hrozné činy.
+- **Symbolika:** Obraz je zrcadlem duše a svědomí.
+- V předmluvě Wilde píše slavnou větu: "**Veškeré umění je zcela neužitečné.**" -> typická provokace estetiků. Román sám ale ukazuje, že život bez morálky vede ke zkáze.
+- Dílo je plné **aforismů** a paradoxů, hlavně v promluvách lorda Henryho ("Jediný způsob, jak se zbavit pokušení, je vzdát se mu.").
