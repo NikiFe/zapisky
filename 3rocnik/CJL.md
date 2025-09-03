@@ -34,4 +34,4 @@
 
 ## Opakování
 
-[Vše lze nalézt v souboru shrnutí. :copyright:Fotjová](../files/litMod.pdf)
+[Vše lze nalézt v souboru shrnutí. :copyright:Fojtová](../files/litMod.pdf)
