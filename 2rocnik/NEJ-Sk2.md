@@ -124,8 +124,24 @@ Mein Zimmer ist... (3 adj.)
 
 Mein Zimmer ist groß, hell und modern.
 In meinem Zimmer gibt es ein Bett. Das Bett ist unbequem.
-Ich habe einen alten Stuhl.
+Ich habe einen Stuhl. Der Stuhl ist alt.
 Mein Schreibtisch ist gemütlich.
 Ich habe auch einen Teppich und einen Schrank.
 Auf dem Tisch steht eine Lampe.
 Ich habe drei Fenster.
+
+# der 18. Juni
+
+124/16
+
+Ich lege das Buch auf den Tisch. Ich lege das T-Shirt in den Schrank. Ich stelle den Basketball in die Ecke. Ich hänge den Fernseher an die Wand. Ich hänge das Bild an die Wand. Ich stelle die Schultasche neben den Tisch. Ich lege den Taschenrechner auf den Schreibtisch. Ich stelle das Fahrrad in den Keller.
+
+| Negativ     | Positiv   |
+| ----------- | --------- |
+| alt         | modern    |
+| unmodern    | groß      |
+| klein       | hell      |
+| dunkel      | neu       |
+| unbequem    | gemütlich |
+| ungemütlich | bequem    |
+
