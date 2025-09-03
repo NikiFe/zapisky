@@ -3,7 +3,7 @@
 - nové čítanky, autor Marie Sotrová
   - [anonymní zdroje říkají že se dá sehnat zdarma online :3](../files/citanka.pdf)
 - na začátku se zopakuje druhák a budou testíčky
-- [všechny zápisy zkrácené ve složce na Teams](#opakovani)
+- [všechny zápisy z druháky shrnuté dostupné zde](#opakování)
 - "z restu potřebujeme ještě udělat":
   - slezské písně
   - Jiří Wolker
@@ -34,4 +34,4 @@
 
 ## Opakování
 
-[Vše lze nalézt v souboru shrnutí.](../files/litMod.pdf)
+[Vše lze nalézt v souboru shrnutí. :copyright:Fotjová](../files/litMod.pdf)
