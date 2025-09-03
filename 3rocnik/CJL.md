@@ -1,6 +1,6 @@
 # Úvodní hodina
 
-- nové čítanky, autor Marie Sotrová
+- nové čítanky, autor Marie Sochrová
   - [anonymní zdroje říkají že se dá sehnat zdarma online :3](../files/citanka.pdf)
 - na začátku se zopakuje druhák a budou testíčky
 - [všechny zápisy z druháky shrnuté dostupné zde](#opakování)
