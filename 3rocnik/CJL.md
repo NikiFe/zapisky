@@ -35,3 +35,5 @@
 ## Opakování
 
 [Vše lze nalézt v souboru shrnutí. :copyright:Fojtová](../files/litMod.pdf)
+
+- pí. uč. Fojtovou štve RegioJet a Microsoft
