@@ -103,10 +103,14 @@ H: "Dankeschön."
 
 H: "Ich möchte bezahlen."
 
-N: "Also, ein Zanderfilet und ein Wein, das macht €599.98."
+N: "Also, das macht €599.98."
 
 H: "€700. Das stimmt so."
 
 N: "Danke und auf Wiedersehen."
 
 H: "Auf Wiedersehen."
+
+
+
+Výsledek: Parádička 10/10 nebylo co vytknout. :3 
