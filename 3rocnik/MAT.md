@@ -160,3 +160,111 @@ c) $f:y=(x+1)^3-2$
       $H(f)=\R-\{0\}$
       rost. ---
       kles. $(-\infty,0)\cup(0,\infty)$
+
+# 3. hodina
+
+## Funkce nepřímá úměrnost
+
+- $f: y = \frac{k}{x}$ k...koeficient nepřímé úměrnosti
+- grafem je rovno-osá hyperbola
+- Pro k>0: ![image-20250908114125028](../img/image-20250908114125028.png)
+- Pro k<0: ![image-20250908114233237](../img/image-20250908114233237.png)
+
+$D(f)=\R-\{0\}$
+
+$H(f)=\R-\{0\}=(-\infty,0)\cup(0,\infty)$
+
+1. Načrtněte graf funkce $f:y=\frac{1}{x-3};\, x\ne 3$
+
+$D(f)=\R-\{3\}$
+
+![image-20250908114752049](../img/image-20250908114752049.png)
+
+2. Načrtni graf funkce $y=-\frac{2}{x+4}$
+
+$k=-2$ ... $k<0$
+
+$D(f)=\R-\{-4\}$
+
+![image-20250908115101587](../img/image-20250908115101587.png)
+
+3. Načrtni graf funkce $f:y=\frac{1}{x+1}-1$
+
+$D(f)=\R-\{-1\}$
+
+$H(f)=\R-\{-1\}$
+
+$k>0$
+
+![image-20250908115322499](../img/image-20250908115322499.png)
+
+4. Ozubené kolo má 210 zubů a otočí se 11 krát za minutu
+
+   a) kolik zubů má druhé kolo soukolí, otáčí-li se 15x za minutu?
+
+   b) kolikrát se otočí třetí kolo soukolí, které zapadá do toho prvního kola a má pouze 55 zubů?
+
+$Z_1=210\newline
+n_1=11\newline
+n_2=15\newline
+z_2=?\newline
+\frac{z_1}{n_2}=\frac{n_2}{z_2}$ 
+
+nebo
+
+$\frac{z_1}{z_2}=\frac{n_2}{n_1}$
+
+$\frac{210}{z_2}=\frac{15}{11}/\cdot z_2\cdot 11$
+
+$210\cdot 11 = 15 \cdot z_2$
+
+$\frac{210 \cdot 11}{15} = z_2$
+
+$z_2=154$
+
+b)
+
+$z_1=210;n_1=11$
+
+$z_3=55;n_3=?$
+
+$\frac{210}{55}=\frac{n_3}{11}\implies n_3=42$
+
+## Exponenciální funkce a rovnice
+
+$f:y=a^x$
+
+$a\in (0,1)$
+
+![image-20250908120640419](../img/image-20250908120640419.png)
+
+$D(f)=\R$
+
+$H(f)=(0,\infty)$
+
+$a>1$
+
+![image-20250908120709494](../img/image-20250908120709494.png)
+
+1. Načrtni graf funkce $f:y=3^{x+1}-1$
+
+$y=3^{0+1}-1=2$
+
+$0=3^{x+1}-1$
+
+$1=3^{x+1}$
+
+$3^0 =3^{x+1}$
+
+![image-20250908120950863](../img/image-20250908120950863.png)
+
+2. Řešte rovnici:
+
+$8\cdot 2^{2-x} = 16^{-3}$
+
+$2^3 \cdot 2^{2-x} = (2^4)^{-3}$
+
+$2^{3+2-x}=2^{4\cdot (-3)}$
+
+$5-x=-12\implies \boxed{x=17}$
+
