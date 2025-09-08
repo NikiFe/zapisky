@@ -54,14 +54,25 @@
 Honza přichází a vchází do restaurace, číšník připraven u pultíku
 
 N: "Guten Tag"
+
 H: "Guten Tag"
-N: "Haben Sie ein Reservation, bitte?"
-H: "Ja, genau, für Name Jan Vitásek."
-N: "Ein Moment, Jan Vitásek, kommen Sie mit mir, bitte."
+
+N: "Haben Sie eine Reservierung?"
+
+H: "Ja, genau, ich heiße Jan Vitásek."
+
+N: "Einen Moment bitte. Herr Vitásek, kommen Sie mit mir, bitte."
+
 *Honza přijde, posadí se*
+
 *Niki předá Speisekarte a Trinkkarte*
+
 N: "Hier, bitte."
+
 H: "Danke schön."
+
 *Honza se zadívá do lístku a vybere si pití*
+
 *Niki přijde ke stolu a ptá se*
-N: "Möchten Sie schon was zum Trinken?"
+
+N: "Möchten Sie schon etwas trinken?"
