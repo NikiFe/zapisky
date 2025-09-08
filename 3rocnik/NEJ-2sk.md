@@ -69,10 +69,44 @@ N: "Einen Moment bitte. Herr Vitásek, kommen Sie mit mir, bitte."
 
 N: "Hier, bitte."
 
-H: "Danke schön."
+H: "Dankeschön."
 
 *Honza se zadívá do lístku a vybere si pití*
 
 *Niki přijde ke stolu a ptá se*
 
 N: "Möchten Sie schon etwas trinken?"
+
+H: "Ja, ich nehme Wein, bitte."
+
+N: "Rot oder Weiß?"
+
+H: "Rot"
+
+N: "Gut, kommt sofort."
+
+*Niki donese pití*
+
+N: "Haben Sie schon gewählt?"
+
+H: "Ja, ich nehme Zanderfilet mit Gemüse und Pommes. :)"
+
+N: "Es tut mir leid, Herr Vitásek, aber die Pommes gibt es nicht mehr."
+
+H: "Ah, schade, dann ohne Pommes. :)"
+
+N: "Gut, kommt sofort."
+
+*Niki donese jídlo*
+
+H: "Dankeschön."
+
+H: "Ich möchte bezahlen."
+
+N: "Also, ein Zanderfilet und ein Wein, das macht €599.98."
+
+H: "€700. Das stimmt so."
+
+N: "Danke und auf Wiedersehen."
+
+H: "Auf Wiedersehen."
