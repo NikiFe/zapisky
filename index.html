@@ -5,11 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Notes Hub - Niki & Krychty</title>
     
-    <!-- KaTeX for LaTeX rendering (bundled) -->
+    <!-- Enhanced math rendering with fallback -->
     <script>
-        // Simple markdown parser
+        // Enhanced math rendering with CSS fallback
+        function renderMathFallback(text) {
+            // Handle display math ($$...$$)
+            text = text.replace(/\$\$([\s\S]*?)\$\$/g, function(match, math) {
+                return `<div class="math-display">${formatMathExpression(math.trim())}</div>`;
+            });
+            
+            // Handle inline math ($...$)
+            text = text.replace(/\$([^\$\n]+)\$/g, function(match, math) {
+                return `<span class="math-inline">${formatMathExpression(math.trim())}</span>`;
+            });
+            
+            return text;
+        }
+
+        // Enhanced math expression formatting
+        function formatMathExpression(math) {
+            return math
+                // Fractions
+                .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '<span class="fraction"><span class="numerator">$1</span><span class="denominator">$2</span></span>')
+                // Superscripts
+                .replace(/\^(-?\w+)/g, '<sup>$1</sup>')
+                .replace(/\^\{([^}]*)\}/g, '<sup>$1</sup>')
+                // Subscripts
+                .replace(/_(-?\w+)/g, '<sub>$1</sub>')
+                .replace(/_{([^}]*)}/g, '<sub>$1</sub>')
+                // Greek letters
+                .replace(/\\alpha/g, 'α').replace(/\\beta/g, 'β').replace(/\\gamma/g, 'γ')
+                .replace(/\\delta/g, 'δ').replace(/\\epsilon/g, 'ε').replace(/\\theta/g, 'θ')
+                .replace(/\\lambda/g, 'λ').replace(/\\mu/g, 'μ').replace(/\\pi/g, 'π')
+                .replace(/\\rho/g, 'ρ').replace(/\\sigma/g, 'σ').replace(/\\tau/g, 'τ')
+                .replace(/\\phi/g, 'φ').replace(/\\chi/g, 'χ').replace(/\\psi/g, 'ψ')
+                .replace(/\\omega/g, 'ω').replace(/\\Omega/g, 'Ω').replace(/\\Phi/g, 'Φ')
+                // Math operators
+                .replace(/\\leq/g, '≤').replace(/\\geq/g, '≥').replace(/\\neq/g, '≠')
+                .replace(/\\approx/g, '≈').replace(/\\equiv/g, '≡').replace(/\\pm/g, '±')
+                .replace(/\\mp/g, '∓').replace(/\\times/g, '×').replace(/\\div/g, '÷')
+                .replace(/\\cdot/g, '⋅').replace(/\\bullet/g, '•')
+                // Arrows
+                .replace(/\\to/g, '→').replace(/\\gets/g, '←').replace(/\\leftrightarrow/g, '↔')
+                .replace(/\\Rightarrow/g, '⇒').replace(/\\Leftarrow/g, '⇐').replace(/\\Leftrightarrow/g, '⇔')
+                // Set notation
+                .replace(/\\in/g, '∈').replace(/\\notin/g, '∉').replace(/\\subset/g, '⊂')
+                .replace(/\\supset/g, '⊃').replace(/\\subseteq/g, '⊆').replace(/\\supseteq/g, '⊇')
+                .replace(/\\cup/g, '∪').replace(/\\cap/g, '∩').replace(/\\emptyset/g, '∅')
+                // Logic
+                .replace(/\\land/g, '∧').replace(/\\lor/g, '∨').replace(/\\neg/g, '¬')
+                .replace(/\\forall/g, '∀').replace(/\\exists/g, '∃')
+                // Calculus
+                .replace(/\\int/g, '∫').replace(/\\sum/g, '∑').replace(/\\prod/g, '∏')
+                .replace(/\\lim/g, 'lim').replace(/\\sin/g, 'sin').replace(/\\cos/g, 'cos')
+                .replace(/\\tan/g, 'tan').replace(/\\log/g, 'log').replace(/\\ln/g, 'ln')
+                // Roots
+                .replace(/\\sqrt\{([^}]*)\}/g, '√<span class="sqrt-content">$1</span>')
+                // Infinity
+                .replace(/\\infty/g, '∞')
+                // Remove remaining backslashes for simple commands
+                .replace(/\\([a-zA-Z]+)/g, '$1')
+                // Clean up extra spaces
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        // Try to load MathJax, fallback to CSS rendering
+        let mathJaxLoaded = false;
+        
+        // Attempt to load MathJax
+        (function() {
+            try {
+                window.MathJax = {
+                    tex: {
+                        inlineMath: [['$', '$']],
+                        displayMath: [['$$', '$$']],
+                        processEscapes: true,
+                        processEnvironments: true
+                    },
+                    options: {
+                        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+                    },
+                    startup: {
+                        ready: function () {
+                            mathJaxLoaded = true;
+                            MathJax.startup.defaultReady();
+                            console.log('MathJax loaded successfully');
+                        }
+                    }
+                };
+
+                const script = document.createElement('script');
+                script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+                script.async = true;
+                script.onerror = function() {
+                    console.log('MathJax CDN failed, using fallback CSS renderer');
+                    mathJaxLoaded = false;
+                };
+                document.head.appendChild(script);
+            } catch (error) {
+                console.log('MathJax initialization failed, using fallback CSS renderer');
+                mathJaxLoaded = false;
+            }
+        })();
+    </script>
+
+    <script>
+        // Enhanced markdown parser
         function parseMarkdown(text) {
-            // Convert markdown to HTML
             return text
                 // Headers
                 .replace(/^### (.*$)/gim, '<h3>$1</h3>')
@@ -17,14 +120,14 @@
                 .replace(/^# (.*$)/gim, '<h1>$1</h1>')
                 
                 // Bold and italic
-                .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
-                .replace(/\*(.*)\*/gim, '<em>$1</em>')
+                .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/gim, '<em>$1</em>')
                 
                 // Links
-                .replace(/\[([^\]]*)\]\(([^\)]*)\)/gim, '<a href="$2">$1</a>')
+                .replace(/\[([^\]]*)\]\(([^\)]*)\)/gim, '<a href="$2" target="_blank" rel="noopener">$1</a>')
                 
                 // Images
-                .replace(/!\[([^\]]*)\]\(([^\)]*)\)/gim, '<img src="$2" alt="$1" style="max-width: 100%; height: auto;">')
+                .replace(/!\[([^\]]*)\]\(([^\)]*)\)/gim, '<img src="$2" alt="$1" loading="lazy">')
                 
                 // Code blocks
                 .replace(/```([\s\S]*?)```/gim, '<pre><code>$1</code></pre>')
@@ -34,39 +137,14 @@
                 .replace(/^\* (.+$)/gim, '<li>$1</li>')
                 .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
                 
-                // Line breaks
+                // Line breaks and paragraphs
                 .replace(/\n\n/gim, '</p><p>')
                 .replace(/\n/gim, '<br>')
-                
-                // Wrap in paragraphs
                 .replace(/^(?!<[h|u|p|l])/gim, '<p>')
                 .replace(/(?![>])$/gim, '</p>')
-                
-                // Clean up extra paragraph tags
                 .replace(/<p><\/p>/gim, '')
                 .replace(/<p>(<[h|u])/gim, '$1')
                 .replace(/(<\/[h|u]>)<\/p>/gim, '$1');
-        }
-
-        // Simple LaTeX renderer using CSS styling
-        function renderMath(text) {
-            // Handle display math ($$...$$)
-            text = text.replace(/\$\$([\s\S]*?)\$\$/g, function(match, math) {
-                return `<div class="math-display">${escapeHtml(math.trim())}</div>`;
-            });
-            
-            // Handle inline math ($...$)
-            text = text.replace(/\$([^\$\n]+)\$/g, function(match, math) {
-                return `<span class="math-inline">${escapeHtml(math.trim())}</span>`;
-            });
-            
-            return text;
-        }
-
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
         }
     </script>
     
@@ -77,11 +155,30 @@
             box-sizing: border-box;
         }
 
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --bg-surface: #1c2128;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --text-muted: #6e7681;
+            --accent-primary: #238636;
+            --accent-secondary: #1f6feb;
+            --border-primary: #30363d;
+            --border-secondary: #21262d;
+            --hover-bg: #262c36;
+            --error: #f85149;
+            --warning: #f5a623;
+            --success: #56d364;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: #f8f9fa;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            overflow: hidden;
         }
 
         .app-container {
@@ -92,78 +189,183 @@
 
         /* Sidebar Navigation */
         .sidebar {
-            width: 300px;
-            background: #2f363d;
-            color: white;
+            width: 320px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border-primary);
             overflow-y: auto;
-            transition: transform 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-primary) transparent;
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--border-primary);
+            border-radius: 3px;
         }
 
         .sidebar-header {
-            padding: 1.5rem;
-            background: #24292e;
-            border-bottom: 1px solid #444;
+            padding: 2rem 1.5rem 1.5rem;
+            background: var(--bg-tertiary);
+            border-bottom: 1px solid var(--border-primary);
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
         .sidebar-header h1 {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
+            font-weight: 600;
             margin-bottom: 0.5rem;
+            color: var(--text-primary);
         }
 
         .sidebar-header .subtitle {
             font-size: 0.9rem;
-            color: #959da5;
+            color: var(--text-secondary);
+            opacity: 0.8;
+        }
+
+        .dashboard-stats {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: var(--bg-surface);
+            border-radius: 8px;
+            border: 1px solid var(--border-secondary);
+        }
+
+        .stat-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-secondary);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .search-container {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-primary);
+            position: sticky;
+            top: 88px;
+            background: var(--bg-secondary);
+            z-index: 9;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-primary);
+            border-radius: 8px;
+            background: var(--bg-surface);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-secondary);
+            box-shadow: 0 0 0 2px rgba(31, 111, 235, 0.1);
         }
 
         .nav-section {
-            margin: 1rem 0;
+            margin: 0;
         }
 
         .nav-section-title {
-            padding: 0.75rem 1.5rem;
-            background: #444d56;
-            font-size: 0.9rem;
+            padding: 1rem 1.5rem 0.75rem;
+            font-size: 0.85rem;
             font-weight: 600;
-            border-bottom: 1px solid #586069;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            position: sticky;
+            top: 150px;
+            background: var(--bg-secondary);
+            z-index: 8;
         }
 
         .nav-item {
             display: block;
-            padding: 0.75rem 1.5rem;
-            color: #e1e4e8;
+            padding: 0.875rem 1.5rem;
+            color: var(--text-secondary);
             text-decoration: none;
-            border-bottom: 1px solid #444d56;
-            transition: background-color 0.2s;
+            border-bottom: 1px solid var(--border-secondary);
+            transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
             cursor: pointer;
+            position: relative;
+        }
+
+        .nav-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 3px;
+            background: var(--accent-primary);
+            transform: scaleY(0);
+            transition: transform 0.2s ease;
         }
 
         .nav-item:hover {
-            background: #444d56;
-            color: white;
+            background: var(--hover-bg);
+            color: var(--text-primary);
+            transform: translateX(4px);
         }
 
         .nav-item.active {
-            background: #0366d6;
-            color: white;
+            background: var(--hover-bg);
+            color: var(--text-primary);
+            border-color: var(--accent-primary);
+        }
+
+        .nav-item.active::before {
+            transform: scaleY(1);
         }
 
         .nav-item-code {
             font-weight: 600;
-            color: #79b8ff;
+            color: var(--accent-secondary);
+            font-size: 0.9rem;
         }
 
         .nav-item.active .nav-item-code {
-            color: white;
+            color: var(--accent-primary);
         }
 
         .nav-item-name {
-            font-size: 0.85rem;
-            color: #959da5;
+            font-size: 0.8rem;
+            color: var(--text-muted);
             margin-top: 0.25rem;
+            opacity: 0.8;
         }
 
         .nav-item.active .nav-item-name {
-            color: #e1e4e8;
+            color: var(--text-secondary);
+            opacity: 1;
         }
 
         /* Main Content Area */
@@ -172,48 +374,117 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            background: var(--bg-primary);
         }
 
         .content-header {
-            background: white;
-            padding: 1rem 2rem;
-            border-bottom: 1px solid #e1e5e9;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            background: var(--bg-secondary);
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid var(--border-primary);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 5;
         }
 
         .content-title {
-            font-size: 1.5rem;
-            color: #2f363d;
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: var(--text-primary);
             margin-bottom: 0.5rem;
         }
 
         .content-subtitle {
-            color: #586069;
-            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-size: 1rem;
         }
 
         .content-body {
             flex: 1;
             padding: 2rem;
             overflow-y: auto;
-            background: white;
+            background: var(--bg-primary);
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-primary) transparent;
         }
 
-        .welcome-screen {
+        .content-body::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .content-body::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .content-body::-webkit-scrollbar-thumb {
+            background: var(--border-primary);
+            border-radius: 4px;
+        }
+
+        .dashboard {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .dashboard-welcome {
             text-align: center;
-            padding: 4rem 2rem;
-            color: #586069;
+            padding: 3rem 2rem;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            border: 1px solid var(--border-primary);
+            margin-bottom: 2rem;
         }
 
-        .welcome-screen h2 {
-            color: #2f363d;
+        .dashboard-welcome h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
             margin-bottom: 1rem;
+        }
+
+        .dashboard-welcome p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: var(--bg-surface);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-secondary);
+            transition: all 0.2s ease;
+        }
+
+        .feature-card:hover {
+            border-color: var(--accent-secondary);
+            transform: translateY(-2px);
+        }
+
+        .feature-title {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-desc {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
         }
 
         /* Markdown Content Styling */
         .markdown-content {
             max-width: none;
             line-height: 1.7;
+            color: var(--text-primary);
         }
 
         .markdown-content h1,
@@ -222,55 +493,71 @@
         .markdown-content h4,
         .markdown-content h5,
         .markdown-content h6 {
-            color: #2f363d;
+            color: var(--text-primary);
             margin-top: 2rem;
             margin-bottom: 1rem;
             line-height: 1.25;
+            font-weight: 600;
         }
 
         .markdown-content h1 {
-            font-size: 2rem;
-            border-bottom: 2px solid #e1e5e9;
-            padding-bottom: 0.5rem;
+            font-size: 2.25rem;
+            border-bottom: 2px solid var(--border-primary);
+            padding-bottom: 0.75rem;
         }
 
         .markdown-content h2 {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
         }
 
         .markdown-content h3 {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
         }
 
         .markdown-content p {
             margin-bottom: 1rem;
+            color: var(--text-secondary);
         }
 
         .markdown-content code {
-            background: #f6f8fa;
+            background: var(--bg-surface);
+            color: var(--accent-secondary);
             padding: 0.2em 0.4em;
-            border-radius: 3px;
+            border-radius: 4px;
             font-size: 0.9em;
+            border: 1px solid var(--border-secondary);
         }
 
         .markdown-content pre {
-            background: #f6f8fa;
-            padding: 1rem;
-            border-radius: 6px;
+            background: var(--bg-surface);
+            padding: 1.5rem;
+            border-radius: 8px;
             overflow-x: auto;
-            margin: 1rem 0;
+            margin: 1.5rem 0;
+            border: 1px solid var(--border-secondary);
+        }
+
+        .markdown-content pre code {
+            background: none;
+            border: none;
+            padding: 0;
+            color: var(--text-primary);
         }
 
         .markdown-content blockquote {
-            border-left: 4px solid #dfe2e5;
+            border-left: 4px solid var(--accent-primary);
             padding-left: 1rem;
             margin: 1rem 0;
-            color: #6a737d;
+            color: var(--text-secondary);
+            background: var(--bg-surface);
+            padding: 1rem 1rem 1rem 2rem;
+            border-radius: 0 4px 4px 0;
         }
 
         .markdown-content ul, .markdown-content ol {
             margin: 1rem 0;
             padding-left: 2rem;
+            color: var(--text-secondary);
         }
 
         .markdown-content li {
@@ -280,48 +567,47 @@
         .markdown-content table {
             border-collapse: collapse;
             width: 100%;
-            margin: 1rem 0;
+            margin: 1.5rem 0;
+            background: var(--bg-surface);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border-primary);
         }
 
         .markdown-content th,
         .markdown-content td {
-            border: 1px solid #dfe2e5;
+            border: 1px solid var(--border-secondary);
             padding: 0.75rem;
             text-align: left;
         }
 
         .markdown-content th {
-            background: #f6f8fa;
+            background: var(--bg-tertiary);
             font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .markdown-content td {
+            color: var(--text-secondary);
         }
 
         .markdown-content img {
             max-width: 100%;
             height: auto;
-            border-radius: 6px;
-            margin: 1rem 0;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid var(--border-secondary);
         }
 
-        /* Math expressions styling */
-        .math-display {
-            display: block;
-            margin: 1rem 0;
-            padding: 1rem;
-            background: #f8f9fa;
-            border: 1px solid #e1e5e9;
-            border-radius: 4px;
-            font-family: 'Times New Roman', serif;
-            font-size: 1.1em;
-            text-align: center;
-            overflow-x: auto;
+        .markdown-content a {
+            color: var(--accent-secondary);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s ease;
         }
 
-        .math-inline {
-            background: #f6f8fa;
-            padding: 0.2em 0.4em;
-            border-radius: 3px;
-            font-family: 'Times New Roman', serif;
-            font-size: 1.05em;
+        .markdown-content a:hover {
+            border-bottom-color: var(--accent-secondary);
         }
 
         /* Mobile Responsiveness */
@@ -329,13 +615,14 @@
             .sidebar {
                 position: fixed;
                 top: 0;
-                left: -300px;
+                left: -320px;
                 height: 100vh;
                 z-index: 1000;
+                width: 320px;
             }
 
             .sidebar.open {
-                transform: translateX(300px);
+                transform: translateX(320px);
             }
 
             .mobile-menu-btn {
@@ -343,17 +630,31 @@
                 position: fixed;
                 top: 1rem;
                 left: 1rem;
-                background: #0366d6;
+                background: var(--accent-secondary);
                 color: white;
                 border: none;
-                padding: 0.5rem;
-                border-radius: 4px;
+                padding: 0.75rem;
+                border-radius: 8px;
                 cursor: pointer;
                 z-index: 1001;
+                font-size: 1.1rem;
+                transition: all 0.2s ease;
+            }
+
+            .mobile-menu-btn:hover {
+                background: var(--accent-primary);
             }
 
             .content-body {
                 padding: 1rem;
+            }
+
+            .dashboard-welcome h2 {
+                font-size: 2rem;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
             }
         }
 
@@ -367,12 +668,12 @@
             justify-content: center;
             align-items: center;
             height: 200px;
-            color: #586069;
+            color: var(--text-secondary);
         }
 
         .spinner {
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #0366d6;
+            border: 3px solid var(--border-primary);
+            border-top: 3px solid var(--accent-secondary);
             border-radius: 50%;
             width: 40px;
             height: 40px;
@@ -385,148 +686,187 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Search functionality */
-        .search-container {
+        /* Accessibility features */
+        .nav-item:focus,
+        .search-input:focus,
+        .mobile-menu-btn:focus {
+            outline: 2px solid var(--accent-secondary);
+            outline-offset: 2px;
+        }
+
+        /* Smooth animations */
+        * {
+            transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+        }
+
+        /* Error states */
+        .error-message {
+            background: var(--bg-surface);
+            border: 1px solid var(--error);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            color: var(--error);
+        }
+
+        .error-message h3 {
+            margin-bottom: 1rem;
+        }
+
+        /* Enhanced Math expressions styling with better fallback */
+        .math-display {
+            display: block;
+            margin: 1.5rem 0;
             padding: 1rem 1.5rem;
-            border-bottom: 1px solid #444d56;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-primary);
+            border-left: 4px solid var(--accent-secondary);
+            border-radius: 8px;
+            font-family: 'Times New Roman', 'STIX Two Math', serif;
+            font-size: 1.2em;
+            text-align: center;
+            overflow-x: auto;
+            color: var(--text-primary);
+            line-height: 1.4;
         }
 
-        .search-input {
-            width: 100%;
-            padding: 0.5rem;
-            border: 1px solid #444d56;
+        .math-inline {
+            background: var(--bg-surface);
+            color: var(--accent-secondary);
+            padding: 0.2em 0.5em;
             border-radius: 4px;
-            background: #2f363d;
-            color: white;
-            font-size: 0.9rem;
+            font-family: 'Times New Roman', 'STIX Two Math', serif;
+            font-size: 1.05em;
+            border: 1px solid var(--border-secondary);
+            white-space: nowrap;
         }
 
-        .search-input::placeholder {
-            color: #959da5;
+        /* Enhanced fraction styling */
+        .fraction {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 0.9em;
         }
 
-        .search-input:focus {
-            outline: none;
-            border-color: #0366d6;
+        .numerator {
+            display: block;
+            border-bottom: 1px solid currentColor;
+            padding-bottom: 0.1em;
+            margin-bottom: 0.1em;
+        }
+
+        .denominator {
+            display: block;
+            padding-top: 0.1em;
+        }
+
+        /* Square root styling */
+        .sqrt-content {
+            border-top: 1px solid currentColor;
+            padding-left: 0.2em;
+        }
+
+        /* Superscript and subscript improvements */
+        .math-display sup,
+        .math-inline sup {
+            font-size: 0.7em;
+            vertical-align: super;
+        }
+
+        .math-display sub,
+        .math-inline sub {
+            font-size: 0.7em;
+            vertical-align: sub;
+        }
+
+        /* MathJax styling for dark mode */
+        .MathJax {
+            color: var(--text-primary) !important;
+        }
+
+        mjx-container[jax="CHTML"] {
+            color: var(--text-primary) !important;
+        }
+
+        mjx-container[jax="CHTML"][display="true"] {
+            background: var(--bg-surface) !important;
+            border: 1px solid var(--border-primary) !important;
+            border-left: 4px solid var(--accent-secondary) !important;
+            border-radius: 8px !important;
+            padding: 1rem 1.5rem !important;
+            margin: 1.5rem 0 !important;
         }
     </style>
 </head>
 <body>
     <div class="app-container">
-        <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+        <button class="mobile-menu-btn" onclick="toggleSidebar()" aria-label="Toggle navigation menu">
+            <span>☰</span>
+        </button>
         
-        <nav class="sidebar" id="sidebar">
+        <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
             <div class="sidebar-header">
-                <h1>📚 Study Notes Hub</h1>
+                <h1>Study Notes Hub</h1>
                 <p class="subtitle">Niki & Krychty | Class 2.E</p>
+                <div class="dashboard-stats" id="dashboardStats">
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalFiles">0</div>
+                        <div class="stat-label">Files</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalSubjects">0</div>
+                        <div class="stat-label">Subjects</div>
+                    </div>
+                </div>
             </div>
             
             <div class="search-container">
-                <input type="text" class="search-input" placeholder="Search notes..." onkeyup="filterNavigation(this.value)">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    placeholder="Search notes..." 
+                    onkeyup="filterNavigation(this.value)"
+                    aria-label="Search through study notes"
+                >
             </div>
 
-            <div class="nav-section">
-                <div class="nav-section-title">📖 2nd Year (2rocnik)</div>
-                <div class="nav-item" onclick="loadFile('2rocnik/ANJ-Sk2.md')">
-                    <div class="nav-item-code">ANJ-Sk2</div>
-                    <div class="nav-item-name">English Language</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/CIT.md')">
-                    <div class="nav-item-code">CIT</div>
-                    <div class="nav-item-name">Computer Science & IT</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/CJL.md')">
-                    <div class="nav-item-code">CJL</div>
-                    <div class="nav-item-name">Czech Language & Literature</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/EKO.md')">
-                    <div class="nav-item-code">EKO</div>
-                    <div class="nav-item-name">Economics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/ELE.md')">
-                    <div class="nav-item-code">ELE</div>
-                    <div class="nav-item-name">Electronics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/FYZ.md')">
-                    <div class="nav-item-code">FYZ</div>
-                    <div class="nav-item-name">Physics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/MAT.md')">
-                    <div class="nav-item-code">MAT</div>
-                    <div class="nav-item-name">Mathematics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/NEJ-Sk1.md')">
-                    <div class="nav-item-code">NEJ-Sk1</div>
-                    <div class="nav-item-name">German Language I</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('2rocnik/NEJ-Sk2.md')">
-                    <div class="nav-item-code">NEJ-Sk2</div>
-                    <div class="nav-item-name">German Language II</div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <div class="nav-section-title">📚 3rd Year (3rocnik)</div>
-                <div class="nav-item" onclick="loadFile('3rocnik/ANJ-2sk.md')">
-                    <div class="nav-item-code">ANJ-2sk</div>
-                    <div class="nav-item-name">English Language</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('3rocnik/CJL.md')">
-                    <div class="nav-item-code">CJL</div>
-                    <div class="nav-item-name">Czech Language & Literature</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('3rocnik/EKO.md')">
-                    <div class="nav-item-code">EKO</div>
-                    <div class="nav-item-name">Economics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('3rocnik/ELE.md')">
-                    <div class="nav-item-code">ELE</div>
-                    <div class="nav-item-name">Electronics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('3rocnik/MAT.md')">
-                    <div class="nav-item-code">MAT</div>
-                    <div class="nav-item-name">Mathematics</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('3rocnik/NEJ-2sk.md')">
-                    <div class="nav-item-code">NEJ-2sk</div>
-                    <div class="nav-item-name">German Language</div>
-                </div>
-                <div class="nav-item" onclick="loadFile('3rocnik/OBN.md')">
-                    <div class="nav-item-code">OBN</div>
-                    <div class="nav-item-name">Civic Education</div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <div class="nav-section-title">📁 Additional Resources</div>
-                <div class="nav-item" onclick="loadFile('temp.md')">
-                    <div class="nav-item-code">TEMP</div>
-                    <div class="nav-item-name">Temporary Notes</div>
-                </div>
+            <div id="navigationContent">
+                <!-- Dynamic content will be loaded here -->
             </div>
         </nav>
 
-        <main class="main-content">
-            <div class="content-header">
-                <h1 class="content-title" id="contentTitle">Welcome to Study Notes Hub</h1>
-                <p class="content-subtitle" id="contentSubtitle">Select a subject from the sidebar to view notes</p>
-            </div>
+        <main class="main-content" role="main">
+            <header class="content-header">
+                <h1 class="content-title" id="contentTitle">Study Notes Hub</h1>
+                <p class="content-subtitle" id="contentSubtitle">Professional academic notes interface</p>
+            </header>
             
             <div class="content-body" id="contentBody">
-                <div class="welcome-screen">
-                    <h2>📚 Professional Study Notes Hub</h2>
-                    <p>This is a professional-grade interface for accessing academic notes by Niki & Krychty.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul style="text-align: left; max-width: 600px; margin: 2rem auto;">
-                        <li>✅ Full LaTeX math rendering (both $ and $$ syntax)</li>
-                        <li>✅ Dynamic markdown content loading</li>
-                        <li>✅ Professional navigation interface</li>
-                        <li>✅ Mobile-responsive design</li>
-                        <li>✅ Search functionality</li>
-                        <li>✅ Automatic content integration</li>
-                    </ul>
-                    <p>Select any subject from the sidebar to start reading the notes.</p>
-                    <p><em>Notes are written in Czech language.</em></p>
+                <div class="dashboard">
+                    <div class="dashboard-welcome">
+                        <h2>Welcome to Study Notes Hub</h2>
+                        <p>A professional interface for accessing academic notes with full LaTeX math support and dynamic content integration.</p>
+                        
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <div class="feature-title">LaTeX Math Rendering</div>
+                                <div class="feature-desc">Full support for mathematical expressions using MathJax with both inline and display modes.</div>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-title">Dynamic Content</div>
+                                <div class="feature-desc">Automatically discovers and integrates all markdown files without manual configuration.</div>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-title">Professional Interface</div>
+                                <div class="feature-desc">Dark mode design with smooth animations and accessibility features.</div>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-title">Mobile Responsive</div>
+                                <div class="feature-desc">Optimized for all devices with touch-friendly navigation and responsive layout.</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -534,11 +874,176 @@
 
     <script>
         let currentFile = null;
+        let discoveredFiles = [];
+        let fileStats = { totalFiles: 0, totalSubjects: 0 };
+
+        // Enhanced subject mappings
+        const subjectMap = {
+            'ANJ-Sk2': 'English Language (2nd Year)',
+            'ANJ-2sk': 'English Language (3rd Year)', 
+            'CIT': 'Computer Science & IT',
+            'CJL': 'Czech Language & Literature',
+            'EKO': 'Economics',
+            'ELE': 'Electronics',
+            'FYZ': 'Physics',
+            'MAT': 'Mathematics',
+            'NEJ-Sk1': 'German Language I',
+            'NEJ-Sk2': 'German Language II',
+            'NEJ-2sk': 'German Language (3rd Year)',
+            'OBN': 'Civic Education',
+            'temp': 'Temporary Notes'
+        };
+
+        // Directory structure to scan
+        const directories = [
+            { path: '2rocnik', title: '2nd Year (2rocnik)' },
+            { path: '3rocnik', title: '3rd Year (3rocnik)' },
+            { path: '', title: 'Additional Resources' }
+        ];
+
+        // Known files for fallback (if dynamic discovery fails)
+        const knownFiles = [
+            { path: '2rocnik/ANJ-Sk2.md', year: '2rocnik' },
+            { path: '2rocnik/CIT.md', year: '2rocnik' },
+            { path: '2rocnik/CJL.md', year: '2rocnik' },
+            { path: '2rocnik/EKO.md', year: '2rocnik' },
+            { path: '2rocnik/ELE.md', year: '2rocnik' },
+            { path: '2rocnik/FYZ.md', year: '2rocnik' },
+            { path: '2rocnik/MAT.md', year: '2rocnik' },
+            { path: '2rocnik/NEJ-Sk1.md', year: '2rocnik' },
+            { path: '2rocnik/NEJ-Sk2.md', year: '2rocnik' },
+            { path: '3rocnik/ANJ-2sk.md', year: '3rocnik' },
+            { path: '3rocnik/CJL.md', year: '3rocnik' },
+            { path: '3rocnik/EKO.md', year: '3rocnik' },
+            { path: '3rocnik/ELE.md', year: '3rocnik' },
+            { path: '3rocnik/MAT.md', year: '3rocnik' },
+            { path: '3rocnik/NEJ-2sk.md', year: '3rocnik' },
+            { path: '3rocnik/OBN.md', year: '3rocnik' },
+            { path: 'temp.md', year: 'additional' }
+        ];
 
         // Initialize the application
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('Study Notes Hub initializing...');
+            
+            // Try to discover files dynamically, fallback to known files
+            await discoverFiles();
+            buildNavigation();
+            updateStats();
+            
+            // Add keyboard navigation
+            setupKeyboardNavigation();
+            
             console.log('Study Notes Hub initialized');
         });
+
+        // Dynamic file discovery
+        async function discoverFiles() {
+            try {
+                // Try to discover files dynamically by testing known files
+                const discoveredFiles = [];
+                
+                for (const file of knownFiles) {
+                    try {
+                        const response = await fetch(file.path, { method: 'HEAD' });
+                        if (response.ok) {
+                            discoveredFiles.push(file);
+                        }
+                    } catch (error) {
+                        // File doesn't exist, skip
+                        continue;
+                    }
+                }
+                
+                // Store discovered files
+                window.discoveredFiles = discoveredFiles;
+                
+                if (discoveredFiles.length === 0) {
+                    console.warn('No markdown files discovered, using fallback');
+                    window.discoveredFiles = knownFiles;
+                }
+                
+            } catch (error) {
+                console.error('Error discovering files:', error);
+                window.discoveredFiles = knownFiles;
+            }
+        }
+
+        // Build navigation dynamically
+        function buildNavigation() {
+            const navContent = document.getElementById('navigationContent');
+            const groupedFiles = groupFilesByYear(window.discoveredFiles);
+            
+            let navHtml = '';
+            
+            // Build sections for each year
+            for (const dir of directories) {
+                const files = groupedFiles[dir.path] || [];
+                if (files.length === 0) continue;
+                
+                navHtml += `
+                    <div class="nav-section">
+                        <div class="nav-section-title">${dir.title}</div>
+                `;
+                
+                files.forEach(file => {
+                    const fileName = file.path.split('/').pop().replace('.md', '');
+                    const subjectName = getSubjectName(fileName);
+                    
+                    navHtml += `
+                        <div class="nav-item" 
+                             onclick="loadFile('${file.path}')" 
+                             onkeydown="handleNavKeydown(event, '${file.path}')"
+                             tabindex="0"
+                             role="button"
+                             aria-label="Load ${subjectName} notes">
+                            <div class="nav-item-code">${fileName}</div>
+                            <div class="nav-item-name">${subjectName}</div>
+                        </div>
+                    `;
+                });
+                
+                navHtml += '</div>';
+            }
+            
+            navContent.innerHTML = navHtml;
+        }
+
+        // Group files by directory
+        function groupFilesByYear(files) {
+            const groups = {
+                '2rocnik': [],
+                '3rocnik': [],
+                '': []
+            };
+            
+            files.forEach(file => {
+                if (file.path.startsWith('2rocnik/')) {
+                    groups['2rocnik'].push(file);
+                } else if (file.path.startsWith('3rocnik/')) {
+                    groups['3rocnik'].push(file);
+                } else {
+                    groups[''].push(file);
+                }
+            });
+            
+            return groups;
+        }
+
+        // Update statistics
+        function updateStats() {
+            const uniqueSubjects = new Set();
+            window.discoveredFiles.forEach(file => {
+                const fileName = file.path.split('/').pop().replace('.md', '');
+                uniqueSubjects.add(fileName);
+            });
+            
+            fileStats.totalFiles = window.discoveredFiles.length;
+            fileStats.totalSubjects = uniqueSubjects.size;
+            
+            document.getElementById('totalFiles').textContent = fileStats.totalFiles;
+            document.getElementById('totalSubjects').textContent = fileStats.totalSubjects;
+        }
 
         // Load and display markdown file
         async function loadFile(filePath) {
@@ -546,13 +1051,19 @@
                 // Update active navigation item
                 document.querySelectorAll('.nav-item').forEach(item => {
                     item.classList.remove('active');
+                    item.setAttribute('aria-pressed', 'false');
                 });
-                event.target.closest('.nav-item').classList.add('active');
+                
+                const clickedItem = event?.target?.closest('.nav-item');
+                if (clickedItem) {
+                    clickedItem.classList.add('active');
+                    clickedItem.setAttribute('aria-pressed', 'true');
+                }
 
                 // Show loading state
                 document.getElementById('contentBody').innerHTML = `
-                    <div class="loading">
-                        <div class="spinner"></div>
+                    <div class="loading" role="status" aria-live="polite">
+                        <div class="spinner" aria-hidden="true"></div>
                         Loading content...
                     </div>
                 `;
@@ -571,16 +1082,28 @@
                 
                 const markdownText = await response.text();
                 
-                // First render math expressions
-                const mathRendered = renderMath(markdownText);
+                // Process math expressions first
+                let processedText = markdownText;
+                if (!mathJaxLoaded) {
+                    processedText = renderMathFallback(markdownText);
+                }
                 
-                // Then parse markdown to HTML
-                const htmlContent = parseMarkdown(mathRendered);
+                // Parse markdown to HTML
+                const htmlContent = parseMarkdown(processedText);
                 
                 // Update content
                 document.getElementById('contentBody').innerHTML = `
                     <div class="markdown-content">${htmlContent}</div>
                 `;
+
+                // Re-render MathJax if available
+                if (mathJaxLoaded && window.MathJax) {
+                    try {
+                        await window.MathJax.typesetPromise();
+                    } catch (mathError) {
+                        console.warn('MathJax rendering failed:', mathError);
+                    }
+                }
 
                 currentFile = filePath;
 
@@ -589,10 +1112,13 @@
                     document.getElementById('sidebar').classList.remove('open');
                 }
 
+                // Announce content loaded for screen readers
+                announceToScreenReader(`Loaded ${subjectName} notes`);
+
             } catch (error) {
                 console.error('Error loading file:', error);
                 document.getElementById('contentBody').innerHTML = `
-                    <div style="text-align: center; padding: 2rem; color: #d73a49;">
+                    <div class="error-message" role="alert">
                         <h3>Error Loading Content</h3>
                         <p>Could not load ${filePath}</p>
                         <p><em>${error.message}</em></p>
@@ -603,50 +1129,133 @@
 
         // Get readable subject name
         function getSubjectName(code) {
-            const subjectMap = {
-                'ANJ-Sk2': 'English Language (2nd Year)',
-                'ANJ-2sk': 'English Language (3rd Year)',
-                'CIT': 'Computer Science & IT',
-                'CJL': 'Czech Language & Literature',
-                'EKO': 'Economics',
-                'ELE': 'Electronics',
-                'FYZ': 'Physics',
-                'MAT': 'Mathematics',
-                'NEJ-Sk1': 'German Language I',
-                'NEJ-Sk2': 'German Language II',
-                'NEJ-2sk': 'German Language (3rd Year)',
-                'OBN': 'Civic Education',
-                'TEMP': 'Temporary Notes'
-            };
             return subjectMap[code] || code;
         }
 
         // Toggle sidebar for mobile
         function toggleSidebar() {
-            document.getElementById('sidebar').classList.toggle('open');
+            const sidebar = document.getElementById('sidebar');
+            const isOpen = sidebar.classList.contains('open');
+            sidebar.classList.toggle('open');
+            
+            // Update aria attributes
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            menuBtn.setAttribute('aria-expanded', !isOpen);
+            
+            // Focus management
+            if (!isOpen) {
+                const firstNavItem = sidebar.querySelector('.nav-item');
+                if (firstNavItem) {
+                    firstNavItem.focus();
+                }
+            }
         }
 
         // Filter navigation based on search
         function filterNavigation(searchTerm) {
             const navItems = document.querySelectorAll('.nav-item');
+            const sections = document.querySelectorAll('.nav-section');
             const lowerSearchTerm = searchTerm.toLowerCase();
+            let visibleCount = 0;
 
+            // Filter items
             navItems.forEach(item => {
                 const code = item.querySelector('.nav-item-code')?.textContent.toLowerCase() || '';
                 const name = item.querySelector('.nav-item-name')?.textContent.toLowerCase() || '';
                 
-                if (code.includes(lowerSearchTerm) || name.includes(lowerSearchTerm)) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
+                const isVisible = code.includes(lowerSearchTerm) || name.includes(lowerSearchTerm);
+                item.style.display = isVisible ? 'block' : 'none';
+                
+                if (isVisible) visibleCount++;
+            });
+
+            // Hide empty sections
+            sections.forEach(section => {
+                const visibleItems = section.querySelectorAll('.nav-item[style="display: block"], .nav-item:not([style*="display: none"])');
+                section.style.display = visibleItems.length > 0 ? 'block' : 'none';
+            });
+
+            // Announce search results
+            if (searchTerm) {
+                announceToScreenReader(`${visibleCount} results found for "${searchTerm}"`);
+            }
+        }
+
+        // Keyboard navigation support
+        function setupKeyboardNavigation() {
+            document.addEventListener('keydown', function(event) {
+                // Escape to close sidebar on mobile
+                if (event.key === 'Escape' && window.innerWidth <= 768) {
+                    const sidebar = document.getElementById('sidebar');
+                    if (sidebar.classList.contains('open')) {
+                        sidebar.classList.remove('open');
+                        document.querySelector('.mobile-menu-btn').focus();
+                    }
+                }
+                
+                // Arrow navigation in sidebar
+                if (event.target.classList.contains('nav-item')) {
+                    const items = Array.from(document.querySelectorAll('.nav-item:not([style*="display: none"])'));
+                    const currentIndex = items.indexOf(event.target);
+                    
+                    let nextIndex = currentIndex;
+                    
+                    switch (event.key) {
+                        case 'ArrowDown':
+                            event.preventDefault();
+                            nextIndex = (currentIndex + 1) % items.length;
+                            break;
+                        case 'ArrowUp':
+                            event.preventDefault();
+                            nextIndex = currentIndex > 0 ? currentIndex - 1 : items.length - 1;
+                            break;
+                        case 'Home':
+                            event.preventDefault();
+                            nextIndex = 0;
+                            break;
+                        case 'End':
+                            event.preventDefault();
+                            nextIndex = items.length - 1;
+                            break;
+                    }
+                    
+                    if (nextIndex !== currentIndex && items[nextIndex]) {
+                        items[nextIndex].focus();
+                    }
                 }
             });
+        }
+
+        // Handle keyboard events on nav items
+        function handleNavKeydown(event, filePath) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                loadFile(filePath);
+            }
+        }
+
+        // Screen reader announcements
+        function announceToScreenReader(message) {
+            const announcement = document.createElement('div');
+            announcement.setAttribute('aria-live', 'polite');
+            announcement.setAttribute('aria-atomic', 'true');
+            announcement.style.position = 'absolute';
+            announcement.style.left = '-10000px';
+            announcement.textContent = message;
+            
+            document.body.appendChild(announcement);
+            
+            setTimeout(() => {
+                document.body.removeChild(announcement);
+            }, 1000);
         }
 
         // Handle window resize
         window.addEventListener('resize', function() {
             if (window.innerWidth > 768) {
-                document.getElementById('sidebar').classList.remove('open');
+                const sidebar = document.getElementById('sidebar');
+                sidebar.classList.remove('open');
+                document.querySelector('.mobile-menu-btn').setAttribute('aria-expanded', 'false');
             }
         });
 
@@ -658,8 +1267,18 @@
                 
                 if (!sidebar.contains(event.target) && !menuBtn.contains(event.target)) {
                     sidebar.classList.remove('open');
+                    menuBtn.setAttribute('aria-expanded', 'false');
                 }
             }
+        });
+
+        // Enhanced error handling
+        window.addEventListener('error', function(event) {
+            console.error('Application error:', event.error);
+        });
+
+        window.addEventListener('unhandledrejection', function(event) {
+            console.error('Unhandled promise rejection:', event.reason);
         });
     </script>
 </body>
