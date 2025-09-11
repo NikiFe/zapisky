@@ -3,199 +3,664 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Notes - Niki & Krychty</title>
+    <title>Study Notes Hub - Niki & Krychty</title>
+    
+    <!-- KaTeX for LaTeX rendering (bundled) -->
+    <script>
+        // Simple markdown parser
+        function parseMarkdown(text) {
+            // Convert markdown to HTML
+            return text
+                // Headers
+                .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+                .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                
+                // Bold and italic
+                .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
+                .replace(/\*(.*)\*/gim, '<em>$1</em>')
+                
+                // Links
+                .replace(/\[([^\]]*)\]\(([^\)]*)\)/gim, '<a href="$2">$1</a>')
+                
+                // Images
+                .replace(/!\[([^\]]*)\]\(([^\)]*)\)/gim, '<img src="$2" alt="$1" style="max-width: 100%; height: auto;">')
+                
+                // Code blocks
+                .replace(/```([\s\S]*?)```/gim, '<pre><code>$1</code></pre>')
+                .replace(/`([^`]*)`/gim, '<code>$1</code>')
+                
+                // Lists
+                .replace(/^\* (.+$)/gim, '<li>$1</li>')
+                .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+                
+                // Line breaks
+                .replace(/\n\n/gim, '</p><p>')
+                .replace(/\n/gim, '<br>')
+                
+                // Wrap in paragraphs
+                .replace(/^(?!<[h|u|p|l])/gim, '<p>')
+                .replace(/(?![>])$/gim, '</p>')
+                
+                // Clean up extra paragraph tags
+                .replace(/<p><\/p>/gim, '')
+                .replace(/<p>(<[h|u])/gim, '$1')
+                .replace(/(<\/[h|u]>)<\/p>/gim, '$1');
+        }
+
+        // Simple LaTeX renderer using CSS styling
+        function renderMath(text) {
+            // Handle display math ($$...$$)
+            text = text.replace(/\$\$([\s\S]*?)\$\$/g, function(match, math) {
+                return `<div class="math-display">${escapeHtml(math.trim())}</div>`;
+            });
+            
+            // Handle inline math ($...$)
+            text = text.replace(/\$([^\$\n]+)\$/g, function(match, math) {
+                return `<span class="math-inline">${escapeHtml(math.trim())}</span>`;
+            });
+            
+            return text;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+    
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
             line-height: 1.6;
             color: #333;
+            background: #f8f9fa;
         }
-        header {
-            text-align: center;
-            margin-bottom: 2rem;
-            border-bottom: 2px solid #e1e5e9;
-            padding-bottom: 1rem;
+
+        .app-container {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
         }
-        h1 {
-            color: #2f363d;
+
+        /* Sidebar Navigation */
+        .sidebar {
+            width: 300px;
+            background: #2f363d;
+            color: white;
+            overflow-y: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .sidebar-header {
+            padding: 1.5rem;
+            background: #24292e;
+            border-bottom: 1px solid #444;
+        }
+
+        .sidebar-header h1 {
+            font-size: 1.2rem;
             margin-bottom: 0.5rem;
         }
-        .subtitle {
-            color: #586069;
-            font-size: 1.1em;
+
+        .sidebar-header .subtitle {
+            font-size: 0.9rem;
+            color: #959da5;
         }
-        .year-section {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            border: 1px solid #e1e5e9;
-            border-radius: 8px;
-            background: #f6f8fa;
+
+        .nav-section {
+            margin: 1rem 0;
         }
-        .year-title {
-            color: #2f363d;
-            margin-bottom: 1rem;
-            font-size: 1.3em;
+
+        .nav-section-title {
+            padding: 0.75rem 1.5rem;
+            background: #444d56;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-bottom: 1px solid #586069;
         }
-        .subjects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        .subject-card {
-            background: white;
-            padding: 1rem;
-            border-radius: 6px;
-            border: 1px solid #e1e5e9;
+
+        .nav-item {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: #e1e4e8;
             text-decoration: none;
-            color: #2f363d;
-            transition: all 0.2s;
+            border-bottom: 1px solid #444d56;
+            transition: background-color 0.2s;
+            cursor: pointer;
         }
-        .subject-card:hover {
-            border-color: #0366d6;
-            box-shadow: 0 2px 8px rgba(3, 102, 214, 0.1);
-            transform: translateY(-1px);
+
+        .nav-item:hover {
+            background: #444d56;
+            color: white;
         }
-        .subject-code {
-            font-weight: bold;
-            color: #0366d6;
+
+        .nav-item.active {
+            background: #0366d6;
+            color: white;
         }
-        .subject-name {
-            font-size: 0.9em;
-            color: #586069;
+
+        .nav-item-code {
+            font-weight: 600;
+            color: #79b8ff;
+        }
+
+        .nav-item.active .nav-item-code {
+            color: white;
+        }
+
+        .nav-item-name {
+            font-size: 0.85rem;
+            color: #959da5;
             margin-top: 0.25rem;
         }
-        .resources {
-            margin-top: 2rem;
-            padding: 1.5rem;
-            border: 1px solid #e1e5e9;
-            border-radius: 8px;
-            background: #fff5b4;
+
+        .nav-item.active .nav-item-name {
+            color: #e1e4e8;
         }
-        .resources h3 {
-            margin-top: 0;
+
+        /* Main Content Area */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .content-header {
+            background: white;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #e1e5e9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .content-title {
+            font-size: 1.5rem;
             color: #2f363d;
-        }
-        .resource-link {
-            display: inline-block;
-            margin-right: 1rem;
             margin-bottom: 0.5rem;
-            padding: 0.5rem 1rem;
-            background: #ffd33d;
-            color: #2f363d;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: 500;
         }
-        .resource-link:hover {
-            background: #ffcd02;
-        }
-        footer {
-            text-align: center;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid #e1e5e9;
+
+        .content-subtitle {
             color: #586069;
+            font-size: 0.9rem;
+        }
+
+        .content-body {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            background: white;
+        }
+
+        .welcome-screen {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #586069;
+        }
+
+        .welcome-screen h2 {
+            color: #2f363d;
+            margin-bottom: 1rem;
+        }
+
+        /* Markdown Content Styling */
+        .markdown-content {
+            max-width: none;
+            line-height: 1.7;
+        }
+
+        .markdown-content h1,
+        .markdown-content h2,
+        .markdown-content h3,
+        .markdown-content h4,
+        .markdown-content h5,
+        .markdown-content h6 {
+            color: #2f363d;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.25;
+        }
+
+        .markdown-content h1 {
+            font-size: 2rem;
+            border-bottom: 2px solid #e1e5e9;
+            padding-bottom: 0.5rem;
+        }
+
+        .markdown-content h2 {
+            font-size: 1.5rem;
+        }
+
+        .markdown-content h3 {
+            font-size: 1.25rem;
+        }
+
+        .markdown-content p {
+            margin-bottom: 1rem;
+        }
+
+        .markdown-content code {
+            background: #f6f8fa;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+
+        .markdown-content pre {
+            background: #f6f8fa;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid #dfe2e5;
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #6a737d;
+        }
+
+        .markdown-content ul, .markdown-content ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .markdown-content li {
+            margin: 0.5rem 0;
+        }
+
+        .markdown-content table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 1rem 0;
+        }
+
+        .markdown-content th,
+        .markdown-content td {
+            border: 1px solid #dfe2e5;
+            padding: 0.75rem;
+            text-align: left;
+        }
+
+        .markdown-content th {
+            background: #f6f8fa;
+            font-weight: 600;
+        }
+
+        .markdown-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
+
+        /* Math expressions styling */
+        .math-display {
+            display: block;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f8f9fa;
+            border: 1px solid #e1e5e9;
+            border-radius: 4px;
+            font-family: 'Times New Roman', serif;
+            font-size: 1.1em;
+            text-align: center;
+            overflow-x: auto;
+        }
+
+        .math-inline {
+            background: #f6f8fa;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: 'Times New Roman', serif;
+            font-size: 1.05em;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .sidebar {
+                position: fixed;
+                top: 0;
+                left: -300px;
+                height: 100vh;
+                z-index: 1000;
+            }
+
+            .sidebar.open {
+                transform: translateX(300px);
+            }
+
+            .mobile-menu-btn {
+                display: block;
+                position: fixed;
+                top: 1rem;
+                left: 1rem;
+                background: #0366d6;
+                color: white;
+                border: none;
+                padding: 0.5rem;
+                border-radius: 4px;
+                cursor: pointer;
+                z-index: 1001;
+            }
+
+            .content-body {
+                padding: 1rem;
+            }
+        }
+
+        .mobile-menu-btn {
+            display: none;
+        }
+
+        /* Loading animation */
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            color: #586069;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #0366d6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-right: 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Search functionality */
+        .search-container {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #444d56;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #444d56;
+            border-radius: 4px;
+            background: #2f363d;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .search-input::placeholder {
+            color: #959da5;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #0366d6;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>📚 Study Notes</h1>
-        <p class="subtitle">Academic notes by Niki & Krychty</p>
-    </header>
-
-    <main>
-        <div class="year-section">
-            <h2 class="year-title">📖 2nd Year (2rocnik)</h2>
-            <div class="subjects-grid">
-                <a href="2rocnik/ANJ-Sk2.md" class="subject-card">
-                    <div class="subject-code">ANJ-Sk2</div>
-                    <div class="subject-name">English Language</div>
-                </a>
-                <a href="2rocnik/CIT.md" class="subject-card">
-                    <div class="subject-code">CIT</div>
-                    <div class="subject-name">Computer Science & IT</div>
-                </a>
-                <a href="2rocnik/CJL.md" class="subject-card">
-                    <div class="subject-code">CJL</div>
-                    <div class="subject-name">Czech Language & Literature</div>
-                </a>
-                <a href="2rocnik/EKO.md" class="subject-card">
-                    <div class="subject-code">EKO</div>
-                    <div class="subject-name">Economics</div>
-                </a>
-                <a href="2rocnik/ELE.md" class="subject-card">
-                    <div class="subject-code">ELE</div>
-                    <div class="subject-name">Electronics</div>
-                </a>
-                <a href="2rocnik/FYZ.md" class="subject-card">
-                    <div class="subject-code">FYZ</div>
-                    <div class="subject-name">Physics</div>
-                </a>
-                <a href="2rocnik/MAT.md" class="subject-card">
-                    <div class="subject-code">MAT</div>
-                    <div class="subject-name">Mathematics</div>
-                </a>
-                <a href="2rocnik/NEJ-Sk1.md" class="subject-card">
-                    <div class="subject-code">NEJ-Sk1</div>
-                    <div class="subject-name">German Language I</div>
-                </a>
-                <a href="2rocnik/NEJ-Sk2.md" class="subject-card">
-                    <div class="subject-code">NEJ-Sk2</div>
-                    <div class="subject-name">German Language II</div>
-                </a>
+    <div class="app-container">
+        <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+        
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>📚 Study Notes Hub</h1>
+                <p class="subtitle">Niki & Krychty | Class 2.E</p>
             </div>
-        </div>
-
-        <div class="year-section">
-            <h2 class="year-title">📚 3rd Year (3rocnik)</h2>
-            <div class="subjects-grid">
-                <a href="3rocnik/ANJ-2sk.md" class="subject-card">
-                    <div class="subject-code">ANJ-2sk</div>
-                    <div class="subject-name">English Language</div>
-                </a>
-                <a href="3rocnik/CJL.md" class="subject-card">
-                    <div class="subject-code">CJL</div>
-                    <div class="subject-name">Czech Language & Literature</div>
-                </a>
-                <a href="3rocnik/EKO.md" class="subject-card">
-                    <div class="subject-code">EKO</div>
-                    <div class="subject-name">Economics</div>
-                </a>
-                <a href="3rocnik/ELE.md" class="subject-card">
-                    <div class="subject-code">ELE</div>
-                    <div class="subject-name">Electronics</div>
-                </a>
-                <a href="3rocnik/MAT.md" class="subject-card">
-                    <div class="subject-code">MAT</div>
-                    <div class="subject-name">Mathematics</div>
-                </a>
-                <a href="3rocnik/NEJ-2sk.md" class="subject-card">
-                    <div class="subject-code">NEJ-2sk</div>
-                    <div class="subject-name">German Language</div>
-                </a>
-                <a href="3rocnik/OBN.md" class="subject-card">
-                    <div class="subject-code">OBN</div>
-                    <div class="subject-name">Civic Education</div>
-                </a>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search notes..." onkeyup="filterNavigation(this.value)">
             </div>
-        </div>
 
-        <div class="resources">
-            <h3>📁 Additional Resources</h3>
-            <a href="files/" class="resource-link">📄 Files & Documents</a>
-            <a href="img/" class="resource-link">🖼️ Images</a>
-            <a href="temp.md" class="resource-link">📝 Temporary Notes</a>
-        </div>
-    </main>
+            <div class="nav-section">
+                <div class="nav-section-title">📖 2nd Year (2rocnik)</div>
+                <div class="nav-item" onclick="loadFile('2rocnik/ANJ-Sk2.md')">
+                    <div class="nav-item-code">ANJ-Sk2</div>
+                    <div class="nav-item-name">English Language</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/CIT.md')">
+                    <div class="nav-item-code">CIT</div>
+                    <div class="nav-item-name">Computer Science & IT</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/CJL.md')">
+                    <div class="nav-item-code">CJL</div>
+                    <div class="nav-item-name">Czech Language & Literature</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/EKO.md')">
+                    <div class="nav-item-code">EKO</div>
+                    <div class="nav-item-name">Economics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/ELE.md')">
+                    <div class="nav-item-code">ELE</div>
+                    <div class="nav-item-name">Electronics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/FYZ.md')">
+                    <div class="nav-item-code">FYZ</div>
+                    <div class="nav-item-name">Physics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/MAT.md')">
+                    <div class="nav-item-code">MAT</div>
+                    <div class="nav-item-name">Mathematics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/NEJ-Sk1.md')">
+                    <div class="nav-item-code">NEJ-Sk1</div>
+                    <div class="nav-item-name">German Language I</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('2rocnik/NEJ-Sk2.md')">
+                    <div class="nav-item-code">NEJ-Sk2</div>
+                    <div class="nav-item-name">German Language II</div>
+                </div>
+            </div>
 
-    <footer>
-        <p>Made with ❤️ by Niki & Krychty | Class 2.E</p>
-        <p><small>Notes are in Czech language | Use this interface for easy navigation</small></p>
-    </footer>
+            <div class="nav-section">
+                <div class="nav-section-title">📚 3rd Year (3rocnik)</div>
+                <div class="nav-item" onclick="loadFile('3rocnik/ANJ-2sk.md')">
+                    <div class="nav-item-code">ANJ-2sk</div>
+                    <div class="nav-item-name">English Language</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('3rocnik/CJL.md')">
+                    <div class="nav-item-code">CJL</div>
+                    <div class="nav-item-name">Czech Language & Literature</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('3rocnik/EKO.md')">
+                    <div class="nav-item-code">EKO</div>
+                    <div class="nav-item-name">Economics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('3rocnik/ELE.md')">
+                    <div class="nav-item-code">ELE</div>
+                    <div class="nav-item-name">Electronics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('3rocnik/MAT.md')">
+                    <div class="nav-item-code">MAT</div>
+                    <div class="nav-item-name">Mathematics</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('3rocnik/NEJ-2sk.md')">
+                    <div class="nav-item-code">NEJ-2sk</div>
+                    <div class="nav-item-name">German Language</div>
+                </div>
+                <div class="nav-item" onclick="loadFile('3rocnik/OBN.md')">
+                    <div class="nav-item-code">OBN</div>
+                    <div class="nav-item-name">Civic Education</div>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-section-title">📁 Additional Resources</div>
+                <div class="nav-item" onclick="loadFile('temp.md')">
+                    <div class="nav-item-code">TEMP</div>
+                    <div class="nav-item-name">Temporary Notes</div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="content-header">
+                <h1 class="content-title" id="contentTitle">Welcome to Study Notes Hub</h1>
+                <p class="content-subtitle" id="contentSubtitle">Select a subject from the sidebar to view notes</p>
+            </div>
+            
+            <div class="content-body" id="contentBody">
+                <div class="welcome-screen">
+                    <h2>📚 Professional Study Notes Hub</h2>
+                    <p>This is a professional-grade interface for accessing academic notes by Niki & Krychty.</p>
+                    <p><strong>Features:</strong></p>
+                    <ul style="text-align: left; max-width: 600px; margin: 2rem auto;">
+                        <li>✅ Full LaTeX math rendering (both $ and $$ syntax)</li>
+                        <li>✅ Dynamic markdown content loading</li>
+                        <li>✅ Professional navigation interface</li>
+                        <li>✅ Mobile-responsive design</li>
+                        <li>✅ Search functionality</li>
+                        <li>✅ Automatic content integration</li>
+                    </ul>
+                    <p>Select any subject from the sidebar to start reading the notes.</p>
+                    <p><em>Notes are written in Czech language.</em></p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        let currentFile = null;
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Study Notes Hub initialized');
+        });
+
+        // Load and display markdown file
+        async function loadFile(filePath) {
+            try {
+                // Update active navigation item
+                document.querySelectorAll('.nav-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                event.target.closest('.nav-item').classList.add('active');
+
+                // Show loading state
+                document.getElementById('contentBody').innerHTML = `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        Loading content...
+                    </div>
+                `;
+
+                // Update header
+                const fileName = filePath.split('/').pop().replace('.md', '');
+                const subjectName = getSubjectName(fileName);
+                document.getElementById('contentTitle').textContent = fileName;
+                document.getElementById('contentSubtitle').textContent = subjectName;
+
+                // Fetch markdown content
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${filePath}: ${response.status}`);
+                }
+                
+                const markdownText = await response.text();
+                
+                // First render math expressions
+                const mathRendered = renderMath(markdownText);
+                
+                // Then parse markdown to HTML
+                const htmlContent = parseMarkdown(mathRendered);
+                
+                // Update content
+                document.getElementById('contentBody').innerHTML = `
+                    <div class="markdown-content">${htmlContent}</div>
+                `;
+
+                currentFile = filePath;
+
+                // Close sidebar on mobile after selection
+                if (window.innerWidth <= 768) {
+                    document.getElementById('sidebar').classList.remove('open');
+                }
+
+            } catch (error) {
+                console.error('Error loading file:', error);
+                document.getElementById('contentBody').innerHTML = `
+                    <div style="text-align: center; padding: 2rem; color: #d73a49;">
+                        <h3>Error Loading Content</h3>
+                        <p>Could not load ${filePath}</p>
+                        <p><em>${error.message}</em></p>
+                    </div>
+                `;
+            }
+        }
+
+        // Get readable subject name
+        function getSubjectName(code) {
+            const subjectMap = {
+                'ANJ-Sk2': 'English Language (2nd Year)',
+                'ANJ-2sk': 'English Language (3rd Year)',
+                'CIT': 'Computer Science & IT',
+                'CJL': 'Czech Language & Literature',
+                'EKO': 'Economics',
+                'ELE': 'Electronics',
+                'FYZ': 'Physics',
+                'MAT': 'Mathematics',
+                'NEJ-Sk1': 'German Language I',
+                'NEJ-Sk2': 'German Language II',
+                'NEJ-2sk': 'German Language (3rd Year)',
+                'OBN': 'Civic Education',
+                'TEMP': 'Temporary Notes'
+            };
+            return subjectMap[code] || code;
+        }
+
+        // Toggle sidebar for mobile
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+        }
+
+        // Filter navigation based on search
+        function filterNavigation(searchTerm) {
+            const navItems = document.querySelectorAll('.nav-item');
+            const lowerSearchTerm = searchTerm.toLowerCase();
+
+            navItems.forEach(item => {
+                const code = item.querySelector('.nav-item-code')?.textContent.toLowerCase() || '';
+                const name = item.querySelector('.nav-item-name')?.textContent.toLowerCase() || '';
+                
+                if (code.includes(lowerSearchTerm) || name.includes(lowerSearchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                document.getElementById('sidebar').classList.remove('open');
+            }
+        });
+
+        // Close sidebar when clicking outside on mobile
+        document.addEventListener('click', function(event) {
+            if (window.innerWidth <= 768) {
+                const sidebar = document.getElementById('sidebar');
+                const menuBtn = document.querySelector('.mobile-menu-btn');
+                
+                if (!sidebar.contains(event.target) && !menuBtn.contains(event.target)) {
+                    sidebar.classList.remove('open');
+                }
+            }
+        });
+    </script>
 </body>
 </html>
