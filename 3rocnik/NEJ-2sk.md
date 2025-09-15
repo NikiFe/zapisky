@@ -114,3 +114,33 @@ H: "Auf Wiedersehen."
 
 
 Výsledek: Parádička 10/10 nebylo co vytknout. :3 
+
+# Der 15. September
+
+G Wiederholung L 7-8
+
+Jedeme do Švýcarska - Wir fahren in die Schweiz
+
+V srpnu jsme byli na Slovensku - Im August waren wir in der Slowakei
+
+Oddělení sportu je v 5. poschodí - Die Sportabteilung ist im fünften Etage
+
+Škola se nachází naproti nádraží - Die Schule ist gegenüber dem Bahnhof
+
+Přijde z práce o půl páté - Er kommt um halb fünf von der Arbeit
+
+Jdeš do pekárny nebo do supermarketu? - Gehst du zur Bäckerei oder zum Supermarkt
+
+S tebou - Mit dir
+
+Bez něho - Ohne ihn
+
+K nám - Zu uns
+
+Od Vás - von Ihnen
+
+Naší tetě - Unserer Tante
+
+Od mého učitele - Von meinem Lehrer
+
+Pro jeho přítelkyni - Für seine Freundin 
