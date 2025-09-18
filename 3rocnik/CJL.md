@@ -37,3 +37,16 @@
 [Vše lze nalézt v souboru shrnutí. :copyright:Fojtová](../files/litMod.pdf)
 
 - pí. uč. Fojtovou štve RegioJet a Microsoft
+
+# 18. 9.  Česká dekadence
+
+## Jiří Karásek ze Lvovic (1871-1951)
+
+- Sodoma (1895)
+- Sexus necans (1897)
+
+## Karel Hlaváček (1874-1898)
+
+- Pozdě k ránu (1896)
+- motiv hudby - velmi moc
+- nálada smutku, sentimentu, spíš pochmurnější depresivnější -> klasický dekadent
