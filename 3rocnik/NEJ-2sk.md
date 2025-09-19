@@ -144,3 +144,75 @@ Naší tetě - Unserer Tante
 Od mého učitele - Von meinem Lehrer
 
 Pro jeho přítelkyni - Für seine Freundin 
+
+# Der 19. September
+
+1. Vyber vhodné slovo
+
+Wo liegt Berlin?
+
+Ich stelle das Fahrrad in die Diele.
+
+Wir hängen das Bild an die Wand.
+
+Wohin legt ihr eure Sachen?
+
+An einem Apfelbaum hängen viele Äpfel.
+
+Setzt du den Teddybären auf das Bett?
+
+2. A. Doplň předložky a členy. In nebo an?
+
+Wo ist dein Bruder?
+
+im Kino
+
+an der/am See
+
+in der Fußgängerzone
+
+am Marktplatz 
+
+in Hannover 
+
+in der Bäckerei
+
+2. B Kde je kulička? Napiš správnou předložku.
+
+| auf dem Tisch    | vor dem Tisch   |
+| ---------------- | --------------- |
+| neben dem Tisch  | unter dem Tisch |
+| hinter dem Tisch | in dem Tisch    |
+| über dem Tisch   | zwischen        |
+
+2. C Kde to je? Vyber správnou variantu. Pracuj s plánkem.
+
+neben dem Kaufhaus
+
+zwischen dem Parkplatz und dem Kino
+
+gegenüber der Bäckerei
+
+zwischen der Konditorei und dem Restaurant
+
+an der Ecke
+
+3. Doplň předložky a členy: an, an ... vorbei, in, mit, durch, nach, über, um, zu, an ... entlang.
+
+Wie kommen wir …
+
+zur Bank? – Geht bis zum Marktplatz und dann nach rechts.
+
+in die Fischergasse? – Geht über die Brücke und an der Kreuzung nach links.
+
+ins Stadtzentrum? – Geht am Fluss entlang.
+
+zum Rathaus? – Geht bis zum Bahnhof und dann durch die Unterführung und dann nach links.
+
+zum Gymnasium? – Geht durch den Park und dann biegt rechts ab.
+
+zum Ernst-August-Platz? – Fahrt mit der Straßenbahn bis zur Ernststraße.
+
+zum Kino? – Geht um die Kirche herum.
+
+zum Museum? – Fahrt an der Post vorbei und immer geradeaus bis zum Bahnhofplatz.
