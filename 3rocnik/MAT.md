@@ -268,3 +268,44 @@ $2^{3+2-x}=2^{4\cdot (-3)}$
 
 $5-x=-12\implies \boxed{x=17}$
 
+# 29. 9.
+
+Urči $\overrightarrow{u}$ +$\overrightarrow{v}$ , $\overrightarrow{u}$ -$\overrightarrow{v}$ i graficky, je-li dáno 
+
+$\overrightarrow{u}=(-2;3)$
+
+$\overrightarrow{v}=(4;5)$
+
+---
+
+$\overrightarrow{u}+\overrightarrow{v}=(-2+4;3+5)=(2;8)$
+
+$\overrightarrow{u}-\overrightarrow{v}=(-2-4;3-5)=(-6;-2)$
+
+![image-20250929115412797](../img/image-20250929115412797.png)
+
+$A[3,0];B[2,-1];C[5,-3]$ najdětě P,Q,R tak, aby platilo: $\vec{AB}=\vec{CP};\vec{BC}=\vec{AQ};\vec{CA}=\vec{BR}$
+
+$P[p_1;p_2]\, Q[q_1;q_2]\, R[r_1;r_2]$
+
+$\vec{AB}=B-A=(2-3;-1-0)=(-1,-1)=\vec{CP}$
+
+$\vec{CP}=P-C=(p_1-5;p_2+3)=(-1;-1)$
+
+$P[4,-4]$
+
+$\vec{BC}=\vec{AQ}$
+
+$\vec{BC}=C-B=(5-2;-3+1)=(3;-2)$
+
+$\vec{AQ}=Q-A=(q_1-3;q_2-0)=(3;-2)$
+
+$Q=[6,-2]$
+
+$\vec{CA}=A-C=(3-5;0+3)=(-2;3)$
+
+$\vec{BR}=R-B=(r_1-2;r_2+1)=(-2;3)$
+
+$R[0,2]$
+
+![Visualization of Vector Problem](../img/image-20250929121847.png)
