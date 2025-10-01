@@ -309,3 +309,86 @@ $\vec{BR}=R-B=(r_1-2;r_2+1)=(-2;3)$
 $R[0,2]$
 
 ![Visualization of Vector Problem](../img/image-20250929121847.png)
+
+# 1. 10. 2025
+
+Zakreslete vektor $\vec{v}=\vec{b}-\vec{a}$ tak, aby byl bod O počátečním bodem jeho umístění.
+
+![image-20251001090043485](../img/image-20251001090043485.png)
+
+$\vec{a}=\vec{BC}=C-B=(-3,2)$
+
+$A[-3,-3]$
+
+$B[-3,0]$
+
+$C[-6,2]$
+
+$\vec{b}=\vec{AB}=B-A=(0,3)$
+
+$\vec{v}=\vec{b}-\vec{a}=(0,3)-(-3,2)=(3,1)$
+
+![image-20251001090534533](../img/image-20251001090534533.png)
+
+## Velikost vektoru
+
+Nechť $\vec{u}=(u_1,u_2)$, pak $|u|=\sqrt{u_{1}^2+u_2^2}$
+
+Nechť $\vec{u}(u_1,u_2,u_3)$, pak $|u|=\sqrt{u_1^2+u_2^2+u_3^2}$
+
+Urči velikost vektoru
+
+a) $\vec{u}=(3,-\frac{5}{4})$
+
+b) $\vec{AB}$, kde $A[6,\frac{13}{3}];B[0,4]$
+
+c) $\vec{AB}$, kde $A[-2,3,4];B[4,-6,2]$
+
+d) $\vec{v}=(-4,8,-8)$
+
+
+
+a) $|u|=\sqrt{3^2+(-\frac{5}{4})^2}=\sqrt{9+\frac{25}{16}}=\sqrt{\frac{144+25}{16}}=\sqrt{\frac{169}{16}}=\frac{13}{4}$
+
+b) $\vec{AB}=B-A=(-6,4-\frac{13}{3})=(-6,-\frac{1}{3})$
+
+$|u|=\sqrt{(-6)^2+(-\frac{1}{3})^2}=\sqrt{36+\frac{1}{9}}=\sqrt{\frac{324+1}{9}}=\sqrt{\frac{325}{9}}=\sqrt{\frac{25\times 13}{9}}=\frac{5\times \sqrt{13}}{3}$
+
+c) $\vec{AB}=B-A=(6,-9,-2)$
+
+$|u|=\sqrt{6^2+(-9)^2+(-2)^2}=\sqrt{36+81+4}=\sqrt{121}=11$
+
+d) $|v|=\sqrt{16+64+64}=\sqrt{144}=12$
+
+---
+
+Urči chybějící souřadnici vektoru $\vec{u}$ , který je jednotkový
+
+a) $\vec{u}=(-\frac{3}{5};u_2)$
+
+b) $\vec{u}=(u_1;\frac{8}{17})$
+
+c) $\vec{u}=(-\frac{2}{3};\frac{1}{3};u_3)$
+
+
+
+a) $|u|=\sqrt{u_1^2+u_2^2}=1\newline 
+\sqrt{(-\frac{3}{5})^2+u_2^2}=2\newline
+\frac{9}{25}+u_2^2=1\newline
+u_2^2=\frac{16}{25}\newline
+u_2=\pm \frac{4}{5}\newline
+\vec{u}=(\frac{-3}{5},\frac{4}{5}),(\frac{-3}{5},\frac{-4}{5})$
+
+
+
+b) $|u|=1=\sqrt{u_1^2+\frac{64}{289}}\newline
+1=u_1^2+\frac{64}{289}\newline
+1-\frac{64}{289}=u_1^2\newline
+\frac{225}{289}=u_1^2\implies u_1=\pm \frac{15}{17}$
+
+
+
+c) $|u|=1=\sqrt{\frac{4}{9}+\frac{1}{9}+u_3^2}\newline
+1=\frac{4}{9}+\frac{1}{9}+u_3^2\newline
+1-\frac{5}{9}=u_3^2\newline
+\frac{4}{9}=u_3^2\implies u_3=\pm \frac{2}{3}$
