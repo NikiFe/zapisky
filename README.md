@@ -1,9 +1,3 @@
-# Zápisy Niki a Krychty
+# Zápisy Niki
 
-Tyto zápisy jsou psány s láskou od studentky a studenta 2.E :3
-
-<details>
-    <summary>realita</summary>
-    RAAAAAAAH (＃`Д´)
-</details>
-
+Tyto zápisy jsou psány s láskou od studentky 3.E :3
