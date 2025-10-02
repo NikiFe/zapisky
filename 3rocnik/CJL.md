@@ -109,5 +109,5 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
 - sbírka Kaligramy
 - Pásmo - vymyslel pásmo
 
-### za DÚ vytvořit kaligram
+### ~~za DÚ vytvořit kaligram~~
 
