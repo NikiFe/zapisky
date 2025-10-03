@@ -216,3 +216,76 @@ zum Ernst-August-Platz? – Fahrt mit der Straßenbahn bis zur Ernststraße.
 zum Kino? – Geht um die Kirche herum.
 
 zum Museum? – Fahrt an der Post vorbei und immer geradeaus bis zum Bahnhofplatz.
+
+# der 3. Oktober
+
+uč. 133/4
+
+Leseverstehen
+
+| Kategorie         | Antwort                                                      |
+| ----------------- | ------------------------------------------------------------ |
+| Lage              | Mitteleuropa                                                 |
+| grenzt an         | Deutschland, Tschechien, Schweiz, Liechtenstein, Italien, Slowenien, Ungarn, Slowakei |
+| Flagge und Wappen | 🇦🇹 Rot-Weiß-Rot / Bundeswappen mit Adler                     |
+| Bundesländer      | 9                                                            |
+| Hauptstadt        | Wien                                                         |
+| Amtssprachen      | Deutsch + Slowenisch, Ungarisch, Kroatisch                   |
+| Fläche            | 83 879 km²                                                   |
+| Einwohnerzahl     | 8,8 Millionen                                                |
+| Währung           | Euro (EUR)                                                   |
+| Kfz-Kennzeichen   | A                                                            |
+| Internet-TLD      | .at                                                          |
+| Telefonvorwahl    | +43                                                          |
+| der höchste Berg  | Großglockner                                                 |
+| der längste Fluss | Donau                                                        |
+| der größte See    | Neusiedler See                                               |
+
+Österreich liegt in Mitteleuropa.  
+Rakousko leží ve střední Evropě.  
+
+Österreich grenzt an Deutschland, Tschechien, die Schweiz und Liechtenstein, Italien, Slowenien, Ungarn und die Slowakei.  
+Rakousko sousedí s Německem, Českem, Švýcarskem, Lichtenštejskem, Itálií, Slovinskem, Maďarskem a Slovenskem.  
+
+Die Hauptstadt von Österreich ist Wien.  
+Hlavní město Rakouska je Vídeň.  
+
+Österreich hat neun Bundesländer.  
+Rakousko má devět spolkových zemí.  
+
+Die Amtssprache ist Deutsch. Es gibt auch Slowenisch, Ungarisch und Kroatisch.  
+Úředním jazykem je němčina.  Také existuje slovinština, maďarština a chorvatština.  
+
+Die Fläche ist dreiundachtzigtausend achthundert neunundsiebzig Quadratkilometer.  
+Rozloha je 83 879 kilometrů čtverečních.  
+
+In Österreich leben acht Komma acht Millionen Menschen.  
+V Rakousku žije 8,8 milionu obyvatel.  
+
+Die Währung ist Euro.  
+Měna je euro.  
+
+Das Kfz-Kennzeichen ist A.  
+Poznávací značka je A.  
+
+Die Internet-TLD ist Punkt at.  
+Internetová doména je .at.  
+
+Die Telefonvorwahl ist vier drei.  
+Telefonní předvolba je 43.  
+
+Der höchste Berg ist der Großglockner.  
+Nejvyšší hora je Grossglockner.  
+
+Der längste Fluss ist die Donau.  
+Nejdelší řeka je Dunaj.  
+
+Der größte See ist der Neusiedler See.  
+Největší jezero je Neziderské jezero.  
+
+Die Flagge ist rot-weiß-rot.  
+Vlajka je červeno-bílo-červená.  
+
+Das Wappen ist einen Adler.  
+Znak je orel.  
+
