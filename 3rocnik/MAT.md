@@ -392,3 +392,90 @@ c) $|u|=1=\sqrt{\frac{4}{9}+\frac{1}{9}+u_3^2}\newline
 1=\frac{4}{9}+\frac{1}{9}+u_3^2\newline
 1-\frac{5}{9}=u_3^2\newline
 \frac{4}{9}=u_3^2\implies u_3=\pm \frac{2}{3}$
+
+# 3. 10.
+
+## Lineární závislost vektorů
+
+Dva vektory $\vec{u}$ a $\vec{v}$ jsou lin. závislé, pokud je jeden násobkem druhého, např. $\vec{v}=k\cdot\vec{u}$	$k\in\R$
+
+Vektory $\vec{u},\vec{v},\vec{w}$ jsou lin. závislé, pokud lze jeden zapsat jako lineární kombinací ostatních, např.
+
+$\vec{w}=k\cdot\vec{u}+l\cdot\vec{v}$	$k,l\in\R$
+
+---
+
+Zjistěte zda jsou vektory lineárně závislé
+
+a) $\vec{a}=(-1,1)\newline\vec{b}=(1,1)$
+
+b) $\vec{c}=(6,-2)\newline\vec{d}=(-3,1)$
+
+c) $\vec{m}=(3,1,0)\newline\vec{n}=(2,1,-2)$
+
+d) $\vec{p}=(-3,1,4)\newline\vec{q}=(6,-2,-8)$
+
+
+
+a)
+
+$\vec{a}=k\cdot\vec{b}$
+
+$a_1=k\cdot b_1$	$a_2 = k\cdot b_2$
+
+$-1=k\cdot 1$	$1=k\cdot 1$
+
+$-1=k$	     $1=k$
+
+k je různé $\implies$ LNZ (lineárně nezávislé)
+
+
+
+b)
+
+$\vec{c}=k\cdot \vec{d}$
+
+$c_1 = k \cdot d_1$
+
+$6=k\cdot (-3)$
+
+$-2=k$
+
+$-2=k\cdot 1$
+
+$-2=k$
+
+k je stejné $\implies$ LZ
+
+
+
+c) nesedí, stačí se podívat
+
+d) sedí, stačí se podívat, $k$ sedí
+
+---
+
+Vyjádři $\vec{w}$ jako lineární kombinaci vektorů $\vec{u},\vec{v}$
+
+a) $\vec{w}=(7,5)\newline\vec{u}=(1,1)\newline\vec{v}=(0,1)$
+
+b) $(-1,4,-1)=\vec{w}\newline\vec{u}=(1,-2,3)\newline\vec{v}=(2,-1,5)$
+
+
+
+a)
+
+$\vec{w}=k\cdot\vec{u}+k\cdot\vec{v}$
+
+$7=k\cdot 1 + l \cdot 0$ $\implies k=7$
+
+$5 = k\cdot 1 + l \cdot 1$
+
+
+
+$5=7\cdot 1 + l\cdot 1$
+
+$-2=l$
+
+$\boxed{\vec{w}=7\cdot\vec{u}-2\cdot\vec{v}}$
+
