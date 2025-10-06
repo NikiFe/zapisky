@@ -289,3 +289,65 @@ Vlajka je červeno-bílo-červená.
 Das Wappen ist einen Adler.  
 Znak je orel.  
 
+# der 6. Oktober
+
+## G Perfekt = minulý čas
+
+NJ - 3 minulé časy
+
+1. Präteritum - jednoduchý minulý čas - souvislý děj v minulosti
+2. Perfekt - složený minulý čas - běžná komunikace, odpovědi
+3. Plusquamperfekt - předminulý čas (nebudeme probírat, úroveň B1)
+
+### Perfekt
+
+Er hat gestern Mathe gelernt.
+
+Wir haben Deutsch studiert.
+
+Du hast Auto verkauft.
+
+Ihr habt am Freitag im Šantovka eingekauft.
+
+Ich bin in die Schweiz gereist.
+
+Pomocné sloveso (sein, haben v přít. čase - vyčasovat) + ostatní větné členy + příčestí minulé (u pravidelných sloves končí na -t, u silných neboli nepravidelných končí na -n)
+
+#### Příčestí minulé pravidelných sloves
+
+- končí na -t
+- předpona ge-
+  - gekauft
+  - gemacht
+  - gearbeitet
+- v případě odlučitelné předpony dám ge- mezi odluč. před. a sloveso
+  - eingekauft
+- POZOR - **slovesa s neodlučitelnou předponou ge- nedávají**
+  - ausverkauft
+  - beginnt
+
+---
+
+Neodlučitelné předpony:
+
+- be-
+- ge-
+- ent-
+- er-
+- ver-
+- zer-
+- miss-
+
+---
+
+- **slovesa končící na -ieren (většinou cizího původu) tak ge- nedáváme**
+  - studiert
+  - fotografiert
+  - programmiert
+
+Pomocné sloveso - kdy dát haben a kdy sein?
+
+- sein jsou slovesa pohybu, či změna stavu
+  - reisen
+- haben - všechna ostatní
+  - machen, lernen, spielen
