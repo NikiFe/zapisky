@@ -479,3 +479,162 @@ $-2=l$
 
 $\boxed{\vec{w}=7\cdot\vec{u}-2\cdot\vec{v}}$
 
+
+
+# 6. 10.
+
+b)
+
+$\vec{w}=k\cdot\vec{u}+l\cdot\vec{v}$
+
+$-1=k\cdot1+l\cdot2$
+
+$-4=k\cdot(-2)+l\cdot(-1)$
+
+$-1=k\cdot 3+l\cdot 5$
+
+
+
+$-1=k\cdot1+l\cdot2$
+
+$-4=k\cdot(-2)+l\cdot(-1)/\cdot2$
+
+
+
+$-8=-4k-2l$
+
+$-9=-3k$
+
+$\boxed{3=k}$
+
+$-1=3\cdot1+2\cdot l/-3$
+
+$-4=2l$
+
+$\boxed{-2=l}$
+
+kontrola: dosadíme do 3. rovnice
+
+$-1=3\cdot3+(-2)\cdot5$
+
+$-1=9-10$
+
+$-1=-1$ :heavy_check_mark:
+
+$\vec{w}=3\vec{u}-2\vec{v}$
+
+---
+
+Vektory $\vec{u}$ a $\vec{v}$ jsou lineárně závislé. Určete jejich chybějící souřadnice.
+
+a) $\vec{u}=(u_1;5;-1)$ $\vec{v}=(3;1;v_3)$
+
+b) $\vec{u}=(u_1;u_2;-3)$ $\vec{v}=(0;2;2)$
+
+
+
+a)
+
+$\vec{v}=k\cdot\vec{u}$
+
+$3=k\cdot u_1$
+
+$1=k\cdot5\implies k=\frac{1}{5}$
+
+$v_3=k\cdot(-1)$
+
+$3=\frac{1}{5}\cdot u_1\implies u_1=15$
+
+$v_3=\frac{1}{5}\cdot(-1)\implies v_3=-\frac{1}{5}$
+
+
+
+b)
+
+$\vec{v}=k\cdot\vec{u}$
+
+$0=k\cdot u_1$
+
+$2=k\cdot u_2$
+
+$2=k\cdot (-3)\implies k=-\frac{2}{3}$
+
+$0=-\frac{2}{3}\cdot u_1\implies u_1=0$
+
+$2=-\frac{2}{3}\cdot u_2\implies u_2=-3$
+
+$\vec{u}=(0;-3;-3)$
+
+---
+
+Napište vektor $\vec{AD}$ jako lineární kombinaci vektorů $\vec{AB}$ a $\vec{AC}$ je-li dáno $A[3;5],B[2;10],C[5;-2],D[5;4]$
+
+$\vec{AD}=k\cdot\vec{AB}+l\cdot\vec{AC}$
+
+$\vec{AD}=D-A=(2;-1)$
+
+$\vec{AB}=B-A=(-1;5)$
+
+$\vec{AC}=C-A=(2;-7)$
+
+
+
+$2=k\cdot (-1) + l\cdot 2/\cdot5$
+
+$-1=k\cdot (5) + l\cdot (-7)$
+
+
+
+$10=-5k+10l$
+
+$-1=k\cdot (5) + l\cdot (-7)$
+
+
+
+$9=3l\implies l=3$
+
+$2=-k+3\cdot2\implies k=4$
+
+kontrola: dosadíme do druhé rovnice
+
+$-1=5\cdot 4 - 7 \cdot 3$
+
+$-1=20-21$
+
+$-1=-1$
+
+$\vec{AD}=4\cdot \vec{AB}+3\cdot\vec{AC}$
+
+
+
+ b) $A[1;0;7],B[3;1;0],C[4;2;5],D[8;4;-9]$
+
+$\vec{AD}=k\cdot\vec{AB}+l\cdot\vec{AC}$
+
+$\vec{AD}=D-A=(7;4;-16)$
+
+$\vec{AB}=B-A=(2;1;-7)$
+
+$\vec{AC}=C-A=(3;2;-2)$
+
+
+
+$7=k\cdot2 + l\cdot3$
+
+$4=k\cdot1 + l\cdot 2$
+
+$-16=k\cdot (-7) + l\cdot (-2)$
+
+
+
+$-12=-6k\implies k=2$
+
+$4=2\cdot 1 + 2l\implies l=1$
+
+
+
+$7=2\cdot2 + 3 \cdot 1$
+
+$7=7$
+
+$\boxed{\vec{AD}=2\cdot\vec{AB}+\vec{AC}}$
