@@ -26,3 +26,37 @@
   - spíše pro 18+, může nastat problém pokud pod
 - Kameníčková si užila prázdniny a cestovala po česku
 - začne se s opakováním
+
+# 7. 10.
+
+3.
+
+riding
+
+going
+
+interrupting
+
+to see
+
+to have
+
+to be
+
+watching
+
+playing
+
+4.
+
+My brother spends a lot of time working.
+
+I really want to get a good mark.
+
+My mum / dad doesn't mind driving long distances.
+
+I refuse to answer.
+
+My friend promised to lend me money.
+
+I avoid dying.
