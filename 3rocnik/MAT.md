@@ -638,3 +638,169 @@ $7=2\cdot2 + 3 \cdot 1$
 $7=7$
 
 $\boxed{\vec{AD}=2\cdot\vec{AB}+\vec{AC}}$
+
+# 8.10.
+
+## Lineárně závislé a nezávislé vektory - opět
+
+Jsou dány body $P,Q,R$, urči souřadnici $r_2$ tak, aby body $P,Q,R$ ležely na jedné přímce.
+
+a) $P[2;-3],Q[-2;-1],R[10;r_2]$
+
+b) $P[4;5],Q[1;4],R[13;r_2]$
+
+
+
+a)
+
+pozn. aby body ležely na jedné přímce musí platit, že vektory $\vec{PQ}$ a $\vec{PR}$ jsou lineárně závislé
+
+$\vec{PQ}=Q-P=(-4;1)$
+
+$\vec{PR}=R-P=(8;r_2 +3)$
+
+$\vec{PQ}=k\cdot\vec{PR}$
+
+$-4=k\cdot 8\implies k=-\frac{1}{2}$
+
+$2=k\cdot (r_2 +3)$
+
+$2=-\frac{1}{2}(r_2+3)/\cdot(-2)$
+
+$-4=r_2+3$
+
+$-7=r_2$
+
+
+
+b)
+
+$\vec{PQ}=Q-P=(-3;-1)$
+
+$\vec{PR}=R-P=(9;r_2-5)$
+
+$-3=k\cdot 9 \implies k = - \frac{1}{3}$
+
+$-1=k\cdot (r_2 -5)$
+
+$-1=-\frac{1}{3}(r_2 -5)/\cdot (-3)$
+
+$3=r_2-5$
+
+$8=r_2$
+
+---
+
+Test v pátek 10. 10.
+
+---
+
+Zjisti zda jsou vektry $\vec{u}$,$\vec{v}$ lineárně závislé
+
+$\vec{u}=(1;2;-1)$
+
+$\vec{v}=(-3;-6;0)$
+
+
+
+$\vec{v}=k\cdot\vec{u}$
+
+$-3=k\cdot 1 \implies k = -3$
+
+$-6 = k\cdot 2 \implies k = -3$
+
+$0 = k\cdot (-1)\implies k = 0$
+
+LNZ
+
+---
+
+Urči souřadniic vektoru $\vec{a}$ tak, aby vektory $\vec{a},\vec{b},\vec{c}$ byly lineárně závislé
+
+$\vec{a}=(a_1;2;0)$
+
+$\vec{b}=(1;1;-1)$
+
+$\vec{c}=(1;4;2)$
+
+$\vec c = k \cdot \vec a + l \vec b$
+
+$1=k\cdot a_1 + l \cdot 1$
+
+$4 = k\cdot 2 + l \cdot 1$
+
+$2 = k\cdot 0 + l \cdot (-1)\implies l =-2$
+
+$4=k\cdot 2 + (-2)\cdot 1$
+
+$3=k$
+
+$1=3\cdot a_1 + (-2)\cdot 1$
+
+$1=a_1$
+
+---
+
+## Úhel vektoru
+
+Def. Jsou-li vektory
+
+$\vec u = (u_1;u_2)$ a $\vec v = (v_1;v_2)$ dva nenulové vektory, pak jejich úhel $\phi\in<0\degree,180\degree>$ vypočítáme ze vzorce $\cos{\phi}=\frac{u_1\cdot v_1+u_2\cdot v_2}{|\vec u | \cdot | \vec v |}$
+
+
+
+Urči úhel vektorů $\vec u$ a $\vec v $
+
+a) $\vec u = (-1;2)$
+
+$\vec v = (1;3)$
+
+b) $\vec u = (1;-2)$
+
+$\vec v = (2;1)$
+
+c) $\vec u = (-2;1)$
+
+$\vec v = (-1;-3)$
+
+
+
+a)
+
+$\cos{\phi}=\frac{(-1)\cdot 1+2\cdot 3}{\sqrt{(-1)^2+2^2}\cdot\sqrt{1^2 + 3^2}}=\frac{5}{\sqrt{5}\cdot\sqrt{10}}=\frac{5}{\sqrt{5}\cdot\sqrt{2\cdot 5}}=\frac{5}{5\cdot\sqrt{2}}=\frac{1}{\sqrt{2}}=\frac{1}{\sqrt{2}}\cdot\frac{\sqrt2}{\sqrt2}=\frac{\sqrt2}{2}$
+
+$\phi = 45\degree$
+
+
+
+b)
+
+$\cos{\phi}=\frac{1\cdot2+(-2)\cdot1}{\sqrt{1^2+(-2)^2}\cdot\sqrt{2^2+1^2}}=0$
+
+$\phi=90\degree $
+
+vektory jsou na sebe kolmé
+
+$\vec u \cdot \vec v = \vec o $
+
+$u_1\cdot v_1 + u_2 \cdot v_2=0 $
+
+
+
+c)
+
+$\cos{\phi}=\frac{(-2)\cdot(-1)+(-1)\cdot(-3)}{\sqrt{(-2)^2+(-1)^2}\cdot \sqrt{(-1)^2+(-3)^2}}=\frac{5}{\sqrt{5}\cdot\sqrt{10}}=\frac{\sqrt{2}}{2} $
+
+$\phi=45\degree$
+
+
+
+d)
+
+$\vec u = (1;1;1)$
+
+$\vec v = (2;0;3)$
+
+$\cos{\phi} = \frac{u_1v_1+u_2v_2+u_3v_3}{|\vec u | \cdot | \vec v |}=\frac{1\cdot 2 + 1\cdot 0 + 1\cdot 3 }{\sqrt{1^2+1^2+1^2}\cdot \sqrt{2^2 + 0^2 + 3^3}}=\frac{5}{\sqrt{3}\cdot\sqrt{13}}=\frac{5}{\sqrt{3\cdot13}}=\frac{5}{\sqrt{39}} $
+
+$\phi=36\degree48'$
