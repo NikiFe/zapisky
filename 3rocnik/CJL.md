@@ -96,7 +96,7 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
 
 ### Surrealismus
 
-- popisuje vyšší skutečnost než je ta, kterou můžeme poznat našimi smysly
+- t jako žáci je jasně definována ve Školním řádu.popisuje vyšší skutečnost než je ta, kterou můžeme poznat našimi smysly
 - vyhází z psychoanalýzy - zájem o podvědomí, pudy
 - používají tzv. psychický automatismus - autor tvoří bez kontroly logikou, rozumem, pouze na základě okamžité asociace, dojmu, halucinace
 - typický je princip koláže
@@ -219,3 +219,144 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
   - on to udělá, ale je raněn během výbuchu a je jasné že se do bezpečí nedostane
   - spolubojovníky pošle pryč a čeká u mostu na protivníky s puškou v ruce
 
+# 8. 10.
+
+## Francis Scott Fitzgerald
+
+- z rodiny irských přistěhovalců
+- 1917 vstoupil do armády, ze strachu, že zemře, napsal několik týdnů před narukováním knihu
+- oženil se s Zeldou Syrovou (později trpěla schizofrenií), vedl s ní velice náročný život
+  - protože jeho způsob života stál výrazně více, než vydělal, začal psát krátké články do novin a scénáře pro Hollywood
+- mnoho mají jeho díla autobiografické rysy
+
+### Povídky jazzového věku
+
+- obsahuje povídky
+- podivuhodný případ Benjamina Buttona
+
+### Velký Gatsby
+
+- jeho nejznámější kniha
+- román, ale kraťoučký román
+- o hlavním hrdinovi se dlouho mluví, ale poprvé se objeví až po jedné třetině textu
+- v příběhu nevystupuje žádná kladná postava
+- děj se odehrává v soudobém New Yorku, na Long Islandu (boháči)
+- celá kniha ich forma
+  - vypravěčem jedna z postav vyprávějící příběh
+  - vypravěč nespolehlivý, přikrašluje věci
+- příběh
+  - vypravěč přijíždí do New Yorku
+  - jeho sestra součástí skupiny pochybných lidí
+  - nedokáže se nedívat a nebýt součástí toho co dělají, ale odsuzuje je
+  - stává se součástí celého procesu
+- celá kniha kritika amerického snu
+- styl díla:
+  - velmi detailní popisy - počasí, prostředí, navození atmosféry
+  - vyvážený a elegantní
+  - vystižení atmosféry dusivé nudy americké smetánky
+  - krutost vzájemných vztahů
+  - symboly, charakteristika postav stylem vyjadřování
+- postavy:
+  - Jay Gatsby
+    - tajemný mladý magnát
+    - pořádá obrovské večírky
+    - o jeho minulosti kolují neuvěřitelné smyšlenky
+    - nikdo neví odkud pochází ani čím se živí
+    - je okouzlující, sebevědomí, podnikavý
+    - nikoho si nepřipustí k tělu
+    - objevuje se až poměrně pozdě (v průběhu knihy) - vytvoření atmosféry tajemna
+    - naznačuje se že pašuje alkohol, ale není potvrzeno
+  - Nick Carraway
+    - náš vypravěč
+    - mladík ze středozápadu
+    - chce se prosadit na burze, moc mu to nejde
+    - citlivý a dobrý pozorovatel
+    - poznává povrchnost života smetánky
+    - nemorálnost postav jej odpuzuje, je ale nerozhodný, je příliš fascinován tím, co vidí, než aby odešel, účastní se večírků i když je odsuzuje
+    - není zcela bezúhonný ani spolehlivý vypravěč
+  - Daisy Buchananová
+    - femme fatala
+    - povrchní křehká dívka
+    - přelétavá
+    - neví si rady s vlastním životem
+    - nevzdělaná
+    - zvyklá na blahobyt, nechce se jí měnit pohodlí za nejisté vyhlídky
+    - přes okaté opovrhování míněním smetánky je pro nic právě veřejné mínění důležitější než možnost osamostatnit se
+    - ví že ji manžel podvádí, ale neopustí ho
+    - neví co má dělat, je v nepohodlné poloze a neví co dál
+  - Tom Buchanan
+    - boháč
+    - nejvíc odpudivý člověk z knihy
+    - pochází z bohaté rodiny do které se narodil
+    - jediná životní hodnota je že hraje polo (golf)
+    - snob a rasista
+    - Daisyin manžel
+    - nevěrný manželce, považuje to za něco co je naprosto v pořádku
+    - vznětlivý, násilnický
+    - bezcharakterní požitkář
+    - sukničkář a žárlivec
+    - ukazuje dvojí metr na mužskou/ženskou nevěru
+  - Myrtle Wilson
+    - manželka majitele autodílny
+    - manžela nestydatě podvády s Tomem Buchananem
+    - snaží se využít svého vzhledu k vyšvihnutí mezi smetánku
+    - náladová, bezcharakterní, bezohledná
+    - ve vztahu k Tomovi bezbranná
+    - Tomova kopie v ženském provedení
+  - George Wilson
+    - manžel Myrtle
+    - poctivý dříč
+    - pracuje rukama a nevydělá dost, aby uspokojil nároky své ženy
+    - právě na něm se ukazuje falešnost amerického snu
+    - nemá Tomovy peníze ani výhodu původu, manželka s ním jedná, jako by neexistoval
+    - neví o nevěře své manželky, trvá mu dlouho než na to přijde
+  - Jordan Baker
+    - Daisyina známá
+    - živí se jako golfistka
+    - emancipovaná mladá dáma, která hodlá udělat cokoliv aby dostala co chce, hodlá podvádět na závodech, atd.
+    - proplouvá životem newyorské smetánky
+    - popásá se na cizím neštěstí
+    - začne si s Nickem
+- děj:
+  - Nick Carraway přichází do New Yorku ze zapadákova aby udělal kariéru jako makléř na burze
+  - moc mu to nejde
+  - usadí se na Long Islandu
+  - zjistí že blízko bydlí Gatsby, je to jeho soused
+  - blízko bydlí i jeho sestřenice Daisy, kde se potkává se smetánkou
+  - Tom vezme Nicka na projížďku a po cestě se zastavují v dílně pana Wilsona
+  - vezmou Myrtle do města na večírek, kde dojde na konflikt mezi Myrtle a Tomem, kde ji na konci uhodí
+  - Nick se seznámí se svým sousedem Gatsbym, jednoho dne mu přijde pozvánky že by se s ním chtěl Gatsby seznámit
+  - Gatsby ho vezme do ilegální nálevny, Nick se dozvídá detaily o podezřelých obchodech s alkoholem
+  - řekne Nickovi že zná jeho sestřenici a zeptá se zda ji může setkat jelikož s ní chce být
+  - ona je z toho hotová, že zapomněla že nějaký Gatsby vůbec existoval
+  - Gatsby k sobě pozve Daisy i jejího muže, ten žárlí
+  - Tom začne intrikovat proti Gatsbymu
+  - vyostří se to tak že Gatsby nabídne Daisy aby se rozvedla, že ji nabídne společnou budoucnost
+  - Daisy neschopna se rozhodnout
+  - Gatsby a Daisy odjíždí z večírku, oba popili
+  - Daisy rozrušena, ale Gatsby ji nechá i tak řídit
+  - jak se řídí zpět na Long Island, tak jim Myrtle vběhne do cesty, oni ji přejedou, ujedou a ona zemře
+  - její manžel se naštve, zjistí kdo to byl, přichází do domu Gatsbyho, kde ho zastřelí
+  - vztahy s Tomem a Daisy se urovnají, aby se to nerozkřiklo se vydají na cesty do Evropy
+  - poté se koná Gatsbyho pohřeb, na který nepřijde nikdo krom Nicka a starého pána, který se ukáže být Gatsbyho otcem
+  - závěrem je americký sen jen bublina
+- žádná z postav není v podstatě kladná
+- obě hlavní ženské postavy mají jména podle rostlin, obě jsou ve svých manželství nespokojené
+- aktuální témata:
+  - americký sen
+  - rasismus - eugenika
+  - sport - polo, golf
+  - automobilismus
+  - prohibice
+  - jazz
+  - pochybné tajné kluby (nálevny)
+  - odvrácená strana průmyslových velkoměst
+- věk ztráty nevinnosti
+  - světová válka → deziluze, nervozita, rasismus, strach z bolševismu, stávka pracujících, vlna imigrace do USA, prohibice, organizovaný zločin
+  - uvolnění sešněrované morálky - ženská emancipace, vztahy mezi pohlavími, volební právo pro ženy, jazz, krátké sukně i vlasy
+  - obrovský hospodářský rozmach → konzumní styl života
+  - nová svobody s sebou nepřinesla odpovědnost
+
+### Něžná je noc
+
+- autobiografické prvky
