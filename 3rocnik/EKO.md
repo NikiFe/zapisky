@@ -159,3 +159,56 @@
 ### Osobní obch. spol.
 
 - v osobních společnostech všichni nebo část společníků ručí neomezeně, tedy i osobním majetkem, a osobně v nich pracují
+
+# 8.10.
+
+## Obchodní společnosti - Lukáš Nevěčný
+
+- korporace = právnická osoba, kterou stvořilo několik osob
+- v.o.s.
+  - veřejná obchodní společnost, kde společníci ručí celý svým jaetkem
+  - vhodná pro menší podniky
+- s.r.o.
+  - kapitálová společnost, ručení společníků do výše vkladů
+  - nejběžnější forma pro malé a střední podniky
+  - minimální zákl. kapitál - 1 Kč
+  - firmy často volí vyšší částky - 1000 Kč
+- k.s.
+  - komanditisté a komplementář
+
+nevím nešlo moc opsat, ale skvělá prezentace
+
+## Charakteristika s.r.o. - Štěpán Otruba
+
+- společnost s ručením omezením
+- minimálně jeden zakladatel, fyzický či právnický
+- zákl. kap. min. 1 Kč
+- zisk dle podílu společníků
+- orgány společnosti
+  - valná hromada - nejvyšší orgán
+  - ... šel moc rychle
+- výhody
+  - omezené ručení společníků
+  - jasně daná právní forma
+  - snadné převody podílů
+  - vyšší důvěryhodnost u partnerů
+- nevýhody
+  - povinné účetnictví a administrace
+  - složitější založení než živnost
+  - dvojí zdanění zisku a výplaty
+
+## Obchodní společnosti - pokračování
+
+### Osobní obchodní společnosti
+
+- obchodní společnosti řídí obvykle dva orgány:
+  - nejvyšší orgán - v osobních spol. jsou to společníci, v kap. valná hromada
+  - statutární orgán - jedná za společnost, zastupuje ji a uzavírá smlouvy
+
+### Znaky obchodních společností
+
+- Pro obchodní společnost je podstatné zejména to, jak ručí za své závazky a kdo je řídí
+
+## Obchodní korporace - společnosti - vznik a zánik
+
+Prezentace na Teams
