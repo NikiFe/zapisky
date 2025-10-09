@@ -351,12 +351,64 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
   - jazz
   - pochybné tajné kluby (nálevny)
   - odvrácená strana průmyslových velkoměst
+- symboly
+  - oči = velká reklama na služby očního lékaře Dr. TJ. Eckleburga podél cesty z Long Islandu, nedaleko místa, kde žije Myrtle
+    - symbol boží vševědoucnosti
+
+  - ale odlupujííc se barva z reklamy naznačuje že lidé ztratili kontakt s bohem
+  - světlo, které Gatsby rozsvěcuje na mole jako symbol, že stále čeká na Daisy
+  - prašné údolí - místo chudoby, skládka (odpad skutečný i lidský), šedivé bezútěšné místo, kde nic nerost (x krásně upravené zahrady a domy smetánky na Long Island)
+
 - věk ztráty nevinnosti
   - světová válka → deziluze, nervozita, rasismus, strach z bolševismu, stávka pracujících, vlna imigrace do USA, prohibice, organizovaný zločin
   - uvolnění sešněrované morálky - ženská emancipace, vztahy mezi pohlavími, volební právo pro ženy, jazz, krátké sukně i vlasy
   - obrovský hospodářský rozmach → konzumní styl života
   - nová svobody s sebou nepřinesla odpovědnost
+- dílo moc ohlas nemělo při vydání a získalo pozornost až při posmrtném vydání
+- adaptace
+  - filmy:
+    - 1926
+    - 1949
+    - 1974
+    - 2000
+    - 2013 - DiCaprio - nepřesné
+
 
 ### Něžná je noc
 
 - autobiografické prvky
+
+# 9.10.
+
+## William Faulkner (1897-1961)
+
+- pocházel z amerického jihu
+- většina jeho děl se objevuje v jižních státech
+- říká se tomu také jižanská sága
+
+### Divoké palmy (1939)
+
+- milostný příběh
+- žena otěhotní a nemohou si dovolit dítě mít
+- muž provede interupci a ona na následky umírá v nemocnici
+- další příběh dojde k povodni
+  - vyplaví věznici
+  - jeden z vězňů najde loď, vězeň najde těhotnou ženu a zachrání ji
+  - ona porodí na lodi
+  - poté povodeň zmizí, on se nahlásí na policii
+  - zvýší mu trest kvůli "pokusu o útěk" místo pochvaly
+- nic moc veselého
+
+## Theodor Dreiser (1871-1945)
+
+### Americká tragédie
+
+- mladík tvrdě pracuje, ne z bohaté rodiny 
+- hlavní sen mít peníze a úspěch
+- seznámí se s mladou dívkou 
+- přivede ji do jiného stavu
+- do toho se dozvídá že mu šéf nabídne půl své firmy a dceru za manželku
+- vezme svou mladou dívku na lodičku, tam dojde k nějaké "nehodě" kde ona přepadne do vody
+- on ji nepomůže a ona zemře
+- neví se zda to provedl, či ne
+- nakonec je dán před soud, shledán vinen z vraždy, dán na elektrické křeslo
