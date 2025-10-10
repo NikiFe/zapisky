@@ -351,3 +351,27 @@ Pomocné sloveso - kdy dát haben a kdy sein?
   - reisen
 - haben - všechna ostatní
   - machen, lernen, spielen
+
+# Der 10. Oktober
+
+## Übung - Perfekt
+
+1. V květnu jsme cestovali do Švýcarska
+
+   Im Mai sind wir in die Schweiz gereist.
+
+2. Kdy jste prodal Vaše auto?
+
+   Wann haben Sie Ihr Auto verkauft?
+
+3. Postavil jsem dům na vesnici.
+
+   Ich habe ein Haus auf dem Land gebaut.
+
+4. Proč si vypnul počítač?
+
+   Warum hast du den Computer ausgeschaltet?
+
+5. Fotografovali jste v Praze? (vy)
+
+   Habt ihr in Prag fotografiert?
