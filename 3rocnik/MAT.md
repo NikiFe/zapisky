@@ -804,3 +804,151 @@ $\vec v = (2;0;3)$
 $\cos{\phi} = \frac{u_1v_1+u_2v_2+u_3v_3}{|\vec u | \cdot | \vec v |}=\frac{1\cdot 2 + 1\cdot 0 + 1\cdot 3 }{\sqrt{1^2+1^2+1^2}\cdot \sqrt{2^2 + 0^2 + 3^3}}=\frac{5}{\sqrt{3}\cdot\sqrt{13}}=\frac{5}{\sqrt{3\cdot13}}=\frac{5}{\sqrt{39}} $
 
 $\phi=36\degree48'$
+
+# 13.10.
+
+## Kolmost vektorů
+
+Vektory $\vec u , \vec v$ jsou kolmé právě když $\vec u \cdot \vec v = 0$ tedy $u_1\cdot v_1 + u_2 \cdot v_2 = 0$
+
+Určete souřadnici $\vec n$ tak, aby byl kolmý $\vec v $
+
+$\vec n = (3;n_2;2)$
+
+$\vec v = (1;-2;4)$
+
+ Dosadíme do 
+
+$n_1 * v_1 + n_2 * v_2 + n_3 * v_3 = 0$
+
+$3*1+n_2*(-2)+2*4=0 $ 
+
+$-2n_2 = -11 \implies n_2 = \frac{11}{2} $
+
+---
+
+Je dán čtyřúhelník $ABCD$ kde
+
+$A[1;1;-4]$
+
+$B[-5;3;-5]$
+
+$C[-3;1;2]$
+
+$D[4;0;1]$
+
+Dokažte, že úhlopříčky $AC\perp BD$
+
+$\vec u = \vec{AC}=C-A=(-4;0;6)$
+
+$\vec v = \vec{BD}=D-B=(9;-3;6) $
+
+Dosadíme do předpisu, měla by vyjít 0
+
+$u_1*v_1 + u_2*v_2+u_3*v_3=0$
+
+$(-4)*9+0*(-3)+6*6=-36+0+36=\boxed0 $ 
+
+$\vec u \cdot \vec v = 0\implies$Úhlopříčky jsou na sebe kolmé
+
+---
+
+Ověřte, že $\triangle ABC $ je pravoúhlý a vypočítejte zbývající $\angle \triangle $
+
+$A[5;-4]$
+
+$B[3;2]$
+
+$C[2;-5]$
+
+$\vec{AC}=C-A=(-3;-1)$
+
+$\vec{AB}=B-A=(-2;6)$
+
+Ověřme $(-3)(-2)+6*(-1)=6-6=0$
+
+$\alpha=90\degree $
+
+pro $\beta$ potřebuji určit:
+
+$\vec{BA}=(2;-6)$
+
+$\vec{BC}=C-B=(-1;-7)$
+
+$\cos{\beta}=\frac{2*(-1)+(-6)(-7)}{\sqrt{4+36}\cdot\sqrt{1+49} } = \frac{40}{\sqrt{40}\cdot\sqrt{50}} =\frac{40}{\sqrt{4*10}\cdot\sqrt{2*25}}=\frac{40}{2\sqrt{10}*5\sqrt{2}} =\frac{40}{10\sqrt{20}}=\frac{4}{\sqrt{20}}$
+
+$\beta=26\degree 34'$
+
+$\gamma = 180\degree -90\degree - 24\degree 34' = 63\degree 26' $
+
+---
+
+Urči vektor $\vec v $ tak aby vektory $\vec u$ a $\vec v $ byly na sebe kolmé
+
+a) $(1;2) $
+
+b) $(-1;3)$
+
+c) $(3;-2)$
+
+
+
+a)
+
+$\vec u = (1;2)$
+
+$\vec v = (-2;1)$ nebo $(2;-1)$
+
+$\vec v = (v_1 ; v_2)=(-u_2 ; u_1)$
+
+
+
+b)
+
+$\vec u = (-1;3)$
+
+$\vec v = (-3;-1)$ nebo $(3;1)$
+
+ověříme: $(-1)(-3)+3*(-1)=3-3=0$
+
+
+
+c)
+
+$\vec u = (3;-2)$
+
+$\vec v = (2;3)$ nebo $(-2;-3)$
+
+ověříme: $3*2+3*(-2)=6-6=0$
+
+
+
+$\boxed{\vec v = (-u_2;u_1)}$
+
+## Přímka v rovině
+
+$\vec{AX}=t\vec{u}$
+
+$X-A = t\vec u$
+
+$\boxed{X=A+t\vec u }$ parametrické vyjádření přímky v rovině (parametrická rovnice)
+
+pokud $A[x_1,y_1]$
+
+$X[x,y]$
+
+$\vec u (u_1;u_2)$
+
+můžeme rozepsat:
+
+$
+\boxed{
+\begin{aligned}
+x &= x_1 + t u_1 \\
+y &= y_1 + t u_2
+\end{aligned}
+}
+$
+
+
+
