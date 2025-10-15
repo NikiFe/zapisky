@@ -948,7 +948,177 @@ x &= x_1 + t u_1 \\
 y &= y_1 + t u_2
 \end{aligned}
 }
+$ parametrické vyjádření
+
+
+
+# 15.10.
+
+## Přímka v rovině - pokračování
+
+Napište parametrické vyjádření přímky procházející body
+
+a) $A[0;3]$ a $B[5;-2]$
+
+b) $C[-2;1]$ a $D[5;-1]$
+
+
+
+a)
+
+$\vec u = \vec{AB}=B-A=(5;-5)$
+
+$
+\begin{aligned}
+x=0+t\cdot 5 \\ y=3+t\cdot (-5) \end{aligned}
 $
 
+$\implies$ $x=5t \newline y=3-5t$
 
 
+
+b)
+
+$\vec u = \vec{CD}=D-C=(7;-2)$
+
+$x=-2+t\cdot 7 $
+
+$y=1+t\cdot (-2)$
+
+---
+
+Zapište parametrické vyjádření přímky procházející bodem
+
+a) $P[3;-2]$
+
+b) $P[0;1]$
+
+a je rovnoběžná s vektorem $\vec u = (3;-2)$
+
+
+
+$\vec u =(3;-2)$ je vektor té naší přímky
+
+a)
+
+$x=3+t*3$
+
+$y=-2+t*(-2)$
+
+
+
+b)
+
+$x=0+t*3$
+
+$y=1+t*(-2)$
+
+---
+
+Zapište parametrické vyjádření přímky procházející bodem $A$ a která je kolmá k $\vec v $.
+
+a) $A[0;1]\; \vec v = (-2;1)$
+
+b) $A[1;2]\; \vec v = (2;-1)$
+
+
+
+Sestavíme vektor $\vec u $, kde $\vec u \cdot \vec v = 0\;(\vec u \perp \vec v )$
+
+a)
+
+$\vec u = (v_2;-v_1)=(1;2)$
+
+kontrola: $1*(-2)+1*2=0\implies \vec u \perp \vec v $
+
+$x=0+t*1$
+
+$y=1+t*2$
+
+
+
+b)
+
+$\vec u = (v_2;-v_1)=(-1;-2)$
+
+$x=1+t(-1)$
+
+$y=2+t(-2)$
+
+---
+
+Pro které hodnoty $m_1$ leží bod $M[m_1;6]$ na přímce
+
+a) $x=1+3t \newline y=-1+7t$
+
+b) $x=5;-8t \newline y=-1+7t$
+
+
+
+a)
+
+Dosadíme souřadnice bodu $M$ za $x,y$
+
+$m_1=1+3t$
+
+$6=-1+7t\implies t=1 $
+
+
+
+$m_1=1+3*1\implies m_1=4$
+
+$M[4;6]$
+
+b)
+
+$m_1=5-8t$
+
+$6=-1+7t\implies t=1 $
+
+
+
+$m_1=5-8-1 \implies m_1 = -3$
+
+$M[-3;6]$
+
+---
+
+Ověřte, zda bod $N$ leží na přímce
+
+a) $N[10;-26]$
+
+p: $x=4-2t \newline y=-5+7t$
+
+b) $N[0;5]$
+
+p: $x=-t \newline y=2t$
+
+
+
+a)
+
+Dosadíme bod $N$ za $x,y$
+
+$10=4-2t\implies 6=-2t\implies t=-3$
+
+$-26=-5+7t\implies -21=7t\implies t=-3$
+
+
+
+vyjádříme $t$ z obou rovnic
+
+$t$ je stejné $\implies N\in p$ ($N$ leží na p)
+
+
+
+b)
+
+$0=-t\implies t=0$
+
+$5=2t\implies t=\frac{5}{2}$
+
+$t$ je různé
+
+$N\notin p$
+
+$N$ neleží na p
