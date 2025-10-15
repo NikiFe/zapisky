@@ -212,3 +212,68 @@ nevím nešlo moc opsat, ale skvělá prezentace
 ## Obchodní korporace - společnosti - vznik a zánik
 
 Prezentace na Teams
+
+# 15.10.
+
+## Samostatná práce - Charakterizujte znaky obchodních společností 
+
+### 1) Způsob ručení u komanditní společnosti a akciové společnosti
+
+- **Komanditní společnost (k. s.)**
+   Komplementáři ručí za závazky společnosti celým svým majetkem, tedy neomezeně.
+   Komanditisté ručí pouze do výše svého nesplaceného vkladu nebo do výše komanditní sumy uvedené ve společenské smlouvě.
+- **Akciová společnost (a. s.)**
+   Akcionáři neručí za závazky společnosti svým osobním majetkem.
+   Ručí pouze do výše svého vkladu (tedy do výše splacených akcií).
+   Za závazky ručí samotná společnost svým majetkem.
+
+------
+
+### 2) Minimální vklad do podnikání u veřejné obchodní společnosti a společnosti s ručením omezeným
+
+- **Veřejná obchodní společnost (v. o. s.)**
+   Zákon nestanovuje žádnou minimální výši vkladu. Je na dohodě společníků, zda a jaký vklad vloží.
+- **Společnost s ručením omezeným (s. r. o.)**
+   Minimální vklad je 1 Kč.
+   Základní kapitál společnosti tak může být již od jedné koruny.
+
+------
+
+### 3) Možnosti řízení u akciové společnosti a nejvyšší orgán
+
+Akciová společnost může mít dva možné systémy řízení:
+
+- **Dualistický systém**
+  - Nejvyšším orgánem je **valná hromada** (rozhoduje o základních otázkách, např. rozdělení zisku, změna stanov, volba orgánů).
+  - **Představenstvo** je statutární orgán, který vede společnost a rozhoduje o běžných záležitostech.
+  - **Dozorčí rada** dohlíží na činnost představenstva a kontroluje hospodaření společnosti.
+- **Monistický systém**
+  - Nejvyšším orgánem je opět **valná hromada**.
+  - Řídícím orgánem je **správní rada**, která spojuje funkce představenstva i dozorčí rady.
+
+V obou systémech je tedy nejvyšším orgánem **valná hromada akcionářů**.
+
+------
+
+### 4) Rozdělení zisku u komanditní společnosti a akciové společnosti
+
+- **Komanditní společnost (k. s.)**
+   Pokud společenská smlouva nestanoví jinak, zisk se obvykle rozdělí tak, že polovina připadne komplementářům a druhá polovina komanditistům.
+   Komplementáři se na své části zisku podílejí rovným dílem, zatímco komanditisté podle výše svých vkladů.
+- **Akciová společnost (a. s.)**
+   Zisk se rozděluje formou **dividend**, a to podle jmenovité hodnoty akcií (pokud stanovy neurčí jinak).
+   Rozdělení zisku schvaluje valná hromada na základě účetní závěrky.
+   Společnost může vyplácet zisk jen tehdy, pokud tím nesníží svůj vlastní kapitál pod zákonem stanovenou hranici.
+
+------
+
+### 5) Řízení a zastupování u společnosti s ručením omezeným
+
+- **Nejvyšší orgán**: **Valná hromada**, která rozhoduje o základních otázkách (např. rozdělení zisku, změny společenské smlouvy, jmenování jednatelů).
+   Pokud má společnost jen jednoho společníka, vykonává jeho působnost on sám.
+- **Statutární orgán**: **Jednatel** nebo více jednatelů.
+   Jednatelé zastupují společnost navenek a rozhodují o jejím běžném chodu.
+   Není-li ve společenské smlouvě stanoveno jinak, jedná každý jednatel samostatně.
+
+Jednatelé musí jednat s péčí řádného hospodáře – tedy zodpovědně, informovaně a v zájmu společnosti.
+ Společníci ručí za závazky společnosti pouze do výše nesplacené části svého vkladu. 
