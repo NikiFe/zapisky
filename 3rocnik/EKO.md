@@ -277,3 +277,18 @@ V obou systémech je tedy nejvyšším orgánem **valná hromada akcionářů**.
 
 Jednatelé musí jednat s péčí řádného hospodáře – tedy zodpovědně, informovaně a v zájmu společnosti.
  Společníci ručí za závazky společnosti pouze do výše nesplacené části svého vkladu. 
+
+# 5. 11.
+
+## Náklady
+
+- podnikatelé, kteří mají příliš vysoké náklady by na trhu neuspěli, proto potřebují vědět, kde vznikají na jak je lze ovlivnit - OPTIMALIZOVAT
+- Náklady se člení:
+  - Provozní - souvisejí s hlavní činností, především jsou to náklady na spotřebu materiálu, odpisy, mzdové náklady a služby dodavatelů související s hlavní činností (dodávky energie, opravy, dopravné atd.)
+  - Finanční - jsou spojeny s pohybem peněz při placení, např. placené úroky
+  - Mimořádné (dnes se používá Jiné) - živelná událost, atd.
+
+### Fixní a variabilní náklady
+
+- Pro ovlivňování výše nákladů je důležité také vědět, že některé náklady existují stále a jiné vznikají až při výrobě nebo poskytování služeb
+- Fixní náklady - (neměnné) - vyskytují se stále a jejich celková výše se při zvyšování (nebo) snižování produkce nemění. Vznikají již pouhou existencí firmy, tedy i když se nám nepodařilo vyrobit nebo prodat ani jeden kus.

@@ -375,3 +375,131 @@ Pomocné sloveso - kdy dát haben a kdy sein?
 5. Fotografovali jste v Praze? (vy)
 
    Habt ihr in Prag fotografiert?
+
+# Der 31. Oktober
+
+## Perfektum der starken Verben
+
+pomocné sloveso haben/sein + příčestí minulé -en
+
+wir sind geflogen - fliegen - letěli jsme
+
+wir sind gefahren - fahren - jeli jsme
+
+wir haben gesehen - sehen - viděli jsme
+
+wir haben gegessen - essen - jedli jsme
+
+er hat vergessen - vergessen - zapomněl
+
+er hat verloren - verlieren - ztratil
+
+ich bin berggestiegen - stiegen - vystoupal jsem horu
+
+wir sind angekommen - ankommen - dorazili jsme
+
+ich habe bekommen - bekommen - dostal jsem
+
+er hat geschlafen - schlafen - spal
+
+ich bin geblieben - bleiben - zůstal
+
+ich bin gegangen - gehen - šel jsem
+
+ich habe gelesen - lesen - četl jsem
+
+er hat gefallen - gefallen - líbil se
+
+wir sind angekommen - ankommen - dorazili jsme
+
+ich habe geschrieben - schreiben - psal jsem
+
+er hat gefunden - finden - našel
+
+er ist gefahren - fahren - jel
+
+ich bin geblieben - bleiben - zůstal jsem
+
+ich habe gegessen - essen - snědl jsem
+
+
+
+ankommen - přijet/dorazit - wir sind angekommen
+
+bekommen - dostat - ich habe bekommen
+
+kommen - přijít - er ist gekommen
+
+
+
+bergsteigen - vylézt na horu - ich bin bergstiegen
+
+bleiben - zůstat - ich bin geblieben
+
+schreiben - psát - ich habe geschrieben
+
+
+
+essen - jíst - ich habe gegessen
+
+lesen - číst - ich habe gelesen
+
+sehen - vidět - ich habe gesehen
+
+vergessen - zapomenout - ich habe vergessen
+
+
+
+Ski fahren - lyžovat - ich bin Ski gefahren
+
+fahren - jezdit - ich bin gefahren
+
+Snowboard fahren - jezdit na snowboardu - ich bin Snowboard gefahren
+
+
+
+anrufen - zavolat - ich habe anrufen
+
+
+
+verlieren - ztratit - ich habe verloren
+
+fliegen - letět - ich bin geflogen
+
+
+
+gefallen - líbit se - ich habe gefallen
+
+schlafen - spát - ich habe geschlafen
+
+verschlafen - zaspat - ich habe verschlafen
+
+einschlafen - usnout - ich habe einschlafen
+
+
+
+sprechen - mluviti - ich habe gesprochen
+
+
+
+gehen - jít - ich bin gegangen
+
+spazieren gehen - jít na procházku - ich bin sparieren gegangen
+
+
+
+finden - najít - ich habe gefunden
+
+
+
+sein:
+
+- kommen
+- gehen
+- fahren
+- fliegen
+- bergsteigen
+- bleiben
+- stehen
+- aufstehen
+- laufen

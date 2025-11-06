@@ -1122,3 +1122,124 @@ $t$ je různé
 $N\notin p$
 
 $N$ neleží na p
+
+# 5. 11.
+
+Urči vzájemnou polohu dvou přímek daných rovnicemi:
+
+p:
+
+$x=1+3t$
+
+$y=2+4t$
+
+q:
+
+$x=2+6s$
+
+$y=4+8s$
+
+
+
+Vypíši si směrové vektory
+
+$\vec{u_p}=(3;4)$
+
+$\vec{u_q}=(6;8)=2\vec{u_p}$
+
+p a q rovnoběžné
+
+Pokud bod např. A $\in$ q, pak p, q jsou totožné
+
+Ověříme zda bod A $\in$ q dosazením jeho souřadnic do rovnice q
+
+A[1;2]
+
+$1=2+6s\implies -1=6s \implies -\frac{1}{6}=s$
+
+$2=4+8s\implies -2=8s\implies -\frac{2}{8}=-\frac{1}{4}=s$
+
+A je různé $\implies$ A$\notin$q $\implies$ různé
+
+---
+
+Určete průsečík přímek, které mají rovnice:
+
+p: $x=1+2t\newline y=5+6t$
+
+q: $x=-1+s\newline y=-4+s$
+
+Použijeme metodu porovnávací
+
+$1+2t=-1+s$
+
+$5+6t=-4+s$
+
+
+
+$-1-2t=1-s$
+
+$5+6t=-4+s$
+
+
+
+$4+4t=-3\implies 4t=-7\implies t=-\frac{7}{4}$
+
+dosadíme např. s do rovnice přímky q
+
+$1+2\cdot (\frac{-7}{4})=-1+s$
+
+$1-\frac{7}{2}=s$
+
+$-\frac{3}{2}=s$
+
+
+
+$x=-1-\frac{3}{2}=-\frac{5}{2}$
+
+$y=-4-\frac{3}{2}=-\frac{11}{2}$
+
+$P[-\frac{5}{2}];-\frac{11}{2}]$
+
+---
+
+p: $x=2+t\newline y=1-2t$
+
+q: $x=-1+s\newline y=-s$
+
+
+
+$2+t=-1+s$
+
+$1-2t=-s$
+
+
+
+$3-t=-1$
+
+$t=4$
+
+
+
+$1-2\cdot 4=-s$
+
+$1-8=-s$
+
+$7=s$
+
+
+
+$x=-1+7=6$
+
+$y=-7$
+
+$P[6;-7]$
+
+
+
+$x=2+4=6$
+
+$y=1-2\cdot 4 =-7$
+
+$P[6;-7]$
+
