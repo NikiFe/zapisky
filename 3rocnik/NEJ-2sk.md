@@ -404,7 +404,7 @@ er hat geschlafen - schlafen - spal
 
 ich bin geblieben - bleiben - zůstal
 
-ich bin gegangen - gehen - šel jsem
+wir sind gegangen - gehen - šli jsme
 
 ich habe gelesen - lesen - četl jsem
 
@@ -503,3 +503,11 @@ sein:
 - stehen
 - aufstehen
 - laufen
+
+# Der 6. November
+
+137/13
+
+2 Verben -> Sätze
+
+Ich bin im Restaurant angekommen und habe Germknödel gegessen. Ich bin um acht Uhr durch die Fussgängerzone spazieren gegangen. Mein Freund hat sein Kraftfahrzeug, das mir gefallen hat, verloren.
