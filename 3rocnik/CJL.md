@@ -412,3 +412,42 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
 - on ji nepomůže a ona zemře
 - neví se zda to provedl, či ne
 - nakonec je dán před soud, shledán vinen z vraždy, dán na elektrické křeslo
+
+# 11. 11.
+
+- Floskule - mluvení o něčem jiném, filler
+- Veřejnoprávní média 
+  - placená z veřejných zdrojů
+  - koncesionářské poplatky
+  - ČT a Český rozhlas
+  - povinné reprezentace menšin procentuální
+- Soukromá média
+  - vlastní program
+  - reklamy
+
+# 18. 11.
+
+## Zpráva
+
+- Titulek
+  - jinak bulvár, jinak seriózní
+  - seriózní - měl by obsahovat informace, než dojmy
+  - bulvární - lze použít více emoce, aktualizace
+  - jasně oddělený od zbytku textu
+- info na téma:
+  - čas
+  - místo
+- vynechaný řádeček
+- perex
+  - 2 až max 5 vět, které obsahují základní informace článku
+  - seriózní - stručně shrneme, věcně
+  - bulvár - doslova cokoliv
+- řádek dva
+- text
+  - do odstavců
+    - lze prokládat mezititulky, pokud dostatečně dlouhý
+  - citace nějakého účastníka
+    - kdo to je
+    - jakou má funkci
+  - nemusí mít výrazný závěr
+  - zakončit větou kde jde poznat že to končí
