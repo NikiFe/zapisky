@@ -1243,3 +1243,147 @@ $y=1-2\cdot 4 =-7$
 
 $P[6;-7]$
 
+# 19.11.
+
+Určete souřadnice středu S úsečky AB, kde A[1;2] B[-2;3]
+
+S[x;y]
+
+$x=\frac{a_1+b_1}{2}=\frac{1-2}{2}=\frac{-1}{2}$
+
+$y=\frac{a_2+b_2}{2}=\frac{2+3}{2}=\frac{5}{2}$
+
+---
+
+Urči obvod $\triangle ABC$, je-li dáno A[1;2] B[2;3] C[3;1]
+
+$|AB|=\sqrt{(b_1-a_1)^2+(b_2-a_2)^2}=\sqrt{(2-1)^2+(3-2)^2}=\sqrt{2}$
+
+$|AC|=\sqrt{(c_1-a_1)^2+(c_2-a_2)^2}=\sqrt{(3-1)^2+(1-2)^2}=\sqrt{5}$
+
+$|BC|=\sqrt{(c_1-b_1)^2+(c_2-b_2)^2}=\sqrt{(3-2)^2+(1-3)^2=\sqrt5}$
+
+$o=|AB|+|AC|+|BC|=\sqrt2 + \sqrt 5 + \sqrt5 \approx 5.886$
+
+---
+
+Napište parametrické vyjádření přímky procházející body A[1;2] B[-1;1]
+
+$X=A+t\cdot \vec{u}$
+
+$x=a_1+t\cdot u_1$
+
+$y=a_2+t\cdot u_2$
+
+$\vec{u}=\vec{AB}=B-A=(-2;-1)$
+
+dosadím
+
+$x=1-2t$
+
+$y=2-t$
+
+---
+
+Zjistěte zda body A a B leží na přímce p
+
+A[-1;3] B[1;2] p: $x=1-t\newline y=1+t$
+
+dosadíme za x y souřadnice bodu A
+
+A: 
+
+$-1=1-t\implies -2=-t\implies t=2$
+
+$3=1+t\implies t=2$
+
+$t$ je stejné, tudíž $A\in p$
+
+B:
+
+$1=1-t\implies t=0$
+
+$2=1+t\implies t=1$
+
+$t$ není stejné, tudíž $B \notin p$
+
+---
+
+Napište obecnou rovnici přímky p, která prochází body A[1;2] B[2;-1]
+
+$ax+by+c=0$
+
+$\vec{u}=\vec{AB}=B-A=(1;-3)$
+
+$\vec{n}=(3;1)=(a;b)$
+
+dosadíme za x,y,a,b
+
+$3\cdot 1 + 1 \cdot 2 + c = 0\implies c=-5\implies 3x+y-5=0$
+
+
+
+možnost 2
+
+sestavíme parametrické vyjádření a převedeme na obecnou rovnici
+
+$\vec{u}=(1;-3)$
+
+
+
+$x=1+t/\cdot 3$
+
+$y=2-3t$
+
+
+
+$3x=3+3t$
+
+$y=2-3t$
+
+
+
+$3x+y=5\implies 3x+y-5=0$
+
+---
+
+Je dána přímka p:$x=1+t\newline y=1-2t$
+
+převeďte na obecnou rovnici
+
+
+
+$x=1+t/\cdot 2$
+
+$y=1-2t$
+
+
+
+$2x=2+2t$
+
+$y=1-2t$
+
+
+
+$2x+y=-3=0$
+
+----
+
+Vypočítej odchylku přímek p,q
+
+p: $3x+y-1=0$
+
+q: $x-3y+7=0$
+
+
+
+$\cos{\alpha}=\frac{|\vec{n_p}\cdot\vec{n_q}|}{|\vec{n_p}|\cdot|\vec{n_q|}}=\frac{|3-1+1*(-3)}{\sqrt{3^+1^2}\sqrt{1^2+(-3)^2}}==0$
+
+$\alpha=90\degree$
+
+---
+
+Urči vzdálenost bodu A[1;-1] od přímky p: $3x-4y+1=0$
+
+$v(A;p)=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}=\frac{|3\cdot 1-4\cdot (-1)+1|}{\sqrt{3^2+(-4)^2}}=\frac{8}{5}$
+
