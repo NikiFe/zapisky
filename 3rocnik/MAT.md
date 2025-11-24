@@ -1387,3 +1387,67 @@ Urči vzdálenost bodu A[1;-1] od přímky p: $3x-4y+1=0$
 
 $v(A;p)=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}=\frac{|3\cdot 1-4\cdot (-1)+1|}{\sqrt{3^2+(-4)^2}}=\frac{8}{5}$
 
+# 24. 11.
+
+## Analytická geometrie kvadratických útvarů (kuželoseček)
+
+### Kružnice
+
+- je to množina všech bodů, které mají stejnou vzdálenost r od středu S
+
+$I\cdot k(S=O;r)$ S je počátek 
+
+$r^2=x^2+y^2$ - rovnice kružnice se středem S v počátku
+
+---
+
+Napište rovnici $k(S;r=7cm)$
+
+dosadíme: $x^2+y^2=49$
+
+---
+
+Napište rovnici kružnice $k(S;r)$ a bod $A\in k$ pro $A[-1;3]$
+
+dosadíme souřadnice bodu A do rovnice kružnice
+
+$(-1)^2 + 3^2 = r^2$
+
+$10=r^2$
+
+dosadíme do rovnice
+
+$x^2+y^2=10$
+
+---
+
+$S[m,n]$
+
+podle pythagorovy věty dostáváme rovnici
+
+$r^2=(x-m)^2+(y-n)^2$
+
+rovnice kružnice se středem $S[m,n]$ a poloměrem $r$
+
+---
+
+Napište rovnici kružnice se středem $S[1;-2]$ a $r=5$
+
+$k(S;r=5)$
+
+$25=(x-1)^2+(y+2)^2$
+
+---
+
+Napište rovnici kružnice se středem $S[-1;1]$ a bod $A[3;2]\in k$
+
+dosadíme
+
+$(3+1)^2+(2-1)^2=r^2$
+
+$16+1=r^2$
+
+$17=r^2$
+
+$(x+1)^2+(y-1)^2=17$
+
