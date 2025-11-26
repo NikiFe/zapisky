@@ -1397,7 +1397,7 @@ $v(A;p)=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}=\frac{|3\cdot 1-4\cdot (-1)+1|}{\sq
 
 $I\cdot k(S=O;r)$ S je počátek 
 
-$r^2=x^2+y^2$ - rovnice kružnice se středem S v počátku
+$r^2=x^2+y^2\implies$rovnice kružnice se středem S v počátku
 
 ---
 
@@ -1451,3 +1451,128 @@ $17=r^2$
 
 $(x+1)^2+(y-1)^2=17$
 
+# 26.11.
+
+Napište středový tvar rovnice kružnice je-li dáno $S[1;-2]$ a $r=5$
+
+$25=(x-1)^2+(y+2)^2$
+
+---
+
+Napište středový tvar rovnice kružnice je-li dáno $S[2;3];A\in k$
+
+$A[3;-1]$
+
+$r^2=(3-2)^2+(-1-3)^2$
+
+
+
+$r^2=1+16=17$
+
+$(x-2)^2+(y-3)^2=17$
+
+## Obecná rovnice kružnice
+
+Vycházíme ze středového tvaru rovnice kružnice
+
+tj. $(x-m)^2+(y-n)^2=r^2$ umocníme závorky
+
+$x^2-2mx+m^2+y^2-2ny+n^2=r^2$
+
+$x^2+y^2-2mx-2ny+m^2+n^2-r^2=0$
+
+$\boxed{x^2+y^2+ax+by+c=0}$ pro $a=\boxed{-2m};\, b=\boxed{-2n};\, c=\boxed{m^2+n^2-r^2}$
+
+---
+
+Převeďte na obecnou rovnici kružnice 
+
+a) $(x-1)^2+(y+2)^2=9$
+
+b) $(x+2)^2+(y-1)^2=25$
+
+
+
+a)
+
+Umocníme závorky
+
+$x^2-2x+1+y^2+4y+4=9$
+
+seřadíme
+
+$x^2+y^2-2x+4y-4=0$
+
+
+
+b)
+
+$x^2+4x+4+y^2-2y+1=25$
+
+$x^2+y^2+4x-2y-20=0$
+
+---
+
+Převeďte obecnou rovnici na středový tvar a určete S; r
+
+a) $x^2+y^2-2x+4y-4=0$
+
+b) $x^2+y^2+8x-10y-75=0$
+
+
+
+a)
+
+seřadíme
+
+$x^2-2x+y^2+4y-4=0$
+
+doplníme na trojčlen
+
+$x^2-2x+1-1+y^2+4y+4-4-4=0$
+
+$(x-1)^2+(y+2)^2=9$
+
+$S[1;-2]\, r=3$
+
+
+
+b)
+
+$x^2+8x+y^2-10y-75=0$
+
+$x^2+8x+16-16+y^2-10y+25-25-75=0$
+
+$(x+4)^2+(y-5)^2=116$
+
+$S[-4;5]\, r=\sqrt{116}$
+
+---
+
+Rozhodněte zda se jedná o rovnici kružnice
+
+a) $x^2+y^2-2x+4y+7=0$
+
+b) $x^2+y^2-4x+8y-16=0$
+
+
+
+a)
+
+$x^2-2x+1-1+y^2+4y+4-4+7=0$
+
+$(x-1)^2+(y+2)^2=-2$
+
+nejedná se o kružnici
+
+
+
+b)
+
+$x^2-4x+4-4+y^2+8y+16-16-16=0$
+
+$(x-2)^2+(y+4)^2=36$
+
+$S[2;-4]\, r=6$
+
+jedná se o kružnici
