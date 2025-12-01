@@ -451,3 +451,136 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
     - jakou má funkci
   - nemusí mít výrazný závěr
   - zakončit větou kde jde poznat že to končí
+
+# 28. 11.
+
+## Experimentální próza
+
+### Metoda proudu vědomí
+
+- způsob psaní většinou prózy
+- autor zachycuje myšlenkový tok postavy
+  - všechny myšlenky bez filtru
+  - prakticky naprosto cokoliv, naprosto všechno včetně poškrábání někde
+  - zachycuje jak myšlenky přeskakují z jedné na druhou
+  - pokoušejí se dostat pomocí této metody do podvědomí
+  - poukázat široký záběr
+- používali ji např.:
+  - francouzský spisovatel Marcel Proust (1871-1922)
+    - zemřeli mu oba rodiče v ranném životě
+      - donutilo ho to se zamyslet nad životem a jak to chodí
+    - dílo:
+      - Hledání ztraceného času (1913-27)
+        - sedmidílní románový cyklus napsaný metodou proudu vědomí
+        - popisuje příběh bohaté rodiny na přelomu 19. a 20. stol.
+        - rodina je velmi rozvětvená, mnoho členů, tudíž příběhu
+        - vypravěč v ich formě vypráví příběhy co mu různí příbuzní vyprávěli
+          - vidíme nesrovnalosti, celkově je to mozaika, která nechce zapadnout dohromady
+        - hledáme pravdu, komu věřit, komu ne
+        - chronologie příběhu je velmi potlačena
+        - myšlenka: nikdy se nedohrabeme k pravdě minulosti
+        - jde o samotný proces hledání odpovědí jak věci byly v minulosti
+          - subjektivizace umění
+  - James Joyce (1882-1941)
+    - jeden z 15 dětí nebohaté rodiny v Dublinu
+    - mluvil 19 jazyky, mnoho nadání
+    - veliký talent: hudební nadání
+      - živil se jako opěrní pěvec
+    - také se živil jak učitel jazyků
+    - psal literární kritiky
+    - kontroverzní osoba
+      - pocházel z konzervativní katolické rodiny
+      - neměl rád katolickou církev - velké výhrady
+    - odešel z Irska aby mohl svobodně psát o čem chce a jak chce
+    - celý život nějak cestoval
+    - celý život psal o Dublinu, nazývaje ho "špinavoučký Dublin"
+      - ambivalentní vztah
+    - další celoživotní téma je nemožnost vzájemné komunikace mezi dalšími lidmi
+      - v obklopení tisíci lidí jsme neschopni se s nimi bavit, či s nimi jakkoliv mluvit
+    - povídka Dubliňané (1914)
+      - rázovité postavičky z Dublinu
+      - obyčejní lidé, každodenní figurky
+    - vrcholné dílo: román Odysseus (1922)
+      - vyšel v Paříži, jelikož v Irsku by dlouho nemohl
+      - základní kámen experimentální prózy, pokud by někdo chtěl příklad exp. pr. tak TOHLE JE ONO
+      - rozsáhlý román, kilo a půl papíru, nedá se to skoro přečíst
+      - popisuje jeden jediný den jistého Leopolda Blooma
+      - Leopold Bloom
+        - Irský novinář židovského původu
+        - pere se s ním židovství s Irskou náturou
+        - zároveň jeho povolání ho určuje aby byl vzdělaný a uvažoval o literatuře
+        - bloudí po ulicích Dublinu aby získal nějaký zajímavý příběh o kterém by mohl psát
+          - začíná v 8 hodin ráno 16. 6. 1904 kdy se vydává do Dublinu
+          - končímu zhruba dalšího rána
+        - sledujeme myšlenky jeho manželky jménem Molly, čímž to končí
+        - za ten dne prochází Dublin a nenachází nic
+        - dojde do podniku pochybné kvality kde se setká se Štěpánem Dedalem
+          - dají se do řeči
+          - Štěpán se vydává do města hledat svého ztraceného otce
+          - protože ve městě nikoho nezná tak Leopold mu nabídne ubytování
+          - po důkladném opití v hospodě se vydávají do domu Leopolda, ale nakonec si to Štěpán rozmyslí
+        - ráno přichází domů silně opilý Leopold Bloom, kde dílo končí myšlenkami jeho manželky "Co já jsem si to vzala k budižkničemu"
+      - prakticky Leopold jest Odysseus, Molly jest Penelopé a Štěpán jest Telemachos
+        - parafráze na tento příběh
+      - BANALIZACE MÝTU
+      - Leopolda neshazuje, nýbrž Leopolda dává vysoko jako Odyssea
+      - to co Odysseus prožil za 20 Leopold promyslí za 24 hodin
+      - používá metodu proudu vědomí u všech postav
+      - kniha má 15 kapitol, každá z nich ÚPLNĚ JINÝM STYLEM
+        - např. jedna je celá napsaná jako monolog, jiná ve stylu vypravování, jiná dialektika, jiná odborné pojednání o anglické literatuře, či katechismus
+      - v každé kapitole je přiřazena jedna barva, jeden orgán lidského těla, jeden obor lidské činnosti a odlišný styl, jedna kapitola je jedna dlouhá věta, skoro všechny jsou v proudu vědomí a chybí tam interpunkce
+      - používá kontrast (mýtus x banální skutečnost)
+      - naturalistické prvky
+        - bez cenzure zprostředkovává záchodové scénky, živočišné popisy Molly a jak si chce s kým co prožít a další věci, necenzurované
+
+- Virginia Woolfová (1882-1941)
+  - experimentátorka
+  - britská autorka
+  - nóbl hogofogo rodina
+  - žila v Londýně a na venkově
+  - autorka trpěla duševní chorobou, nejspíše schizofrenií či depresí
+  - v jednom depresivním záchvatu spáchala sebevraždu, nacpala si kapsy kamením a skočila do řeky, kde se utopila
+  - film životopisný Hodiny
+    - o životě i díle Virginie Woolfové
+  - díla:
+    - Paní Dallowayová (1925)
+      - líčí jeden jediný den v životě paní Dallowayové
+        - žena ve středním věku, z finančně zabezpečeného prostředí
+        - má manžela, děti, atd., ale to ji nenaplňuje
+        - přichází krize středního věku, všechno další co ji čeká jsou projevy stárnutí, apod.
+        - nedokáže se vyrovnat s tím že bude postupně stárnout a chátrat, chápe že mládí uteklo a neví co dál
+    - K majáku (1927)
+      - rodinné mikrodrama
+      - jedna rodinka, venkovský dům u pobřeží
+      - mají syna kterému je 6-8 let, otravuje rodiče že chce k majáku
+      - matka je pro, tatínkovi se NECHCE, takže vymýšlí další důvody proč nejít
+      - celkem se projevují vztahy, STŘIH
+      - za 10 let chlapec má za sebou pubertu, štvou ho rodiče
+      - tatínek by najednou rád šel k majáku
+      - tatínek navrhne výlet k majáku
+      - nyní syn vymýšlí důvody proč tam nejít
+      - psáno metodou proudu vědomí
+      - jak se projevuje jedna situace otočená na to kdo chce, kdo nechce
+  - divadelní hra Kdo se bojí Virginie Woolfové
+    - absurdní drama, nevystupuje tam, jen se zmiňuje
+
+### Pražská německy psaná literatura
+
+- skoro všichni tito autoři mají židovský původ
+- limitovalo je to v mnoha věcech
+- jsou židé, většina nepraktikuje židovství
+- píšou německy, ale v československu
+- bydlí v čechách, ale nejsou češi
+- např. Franz Kafka, Franz Werfel, Rainer Maria Rilke, Gustav Meyring, Max Brod
+
+- Franz Kafka (1883-1924)
+  - narodil se na starém městě
+  - židovského původu
+  - otec velkoobchodník galanterií Hermann Kafka
+  - 2 bratři (zemřeli v dětském věku), 3 sestry: Elli, Valli a Ottlu (zemřely v koncentračních táborech)
+  - jeho otec chtěl aby byl jeho jediným dědicem, převzal obchod a nebo alespoň byl právník, či podobné
+  - se svým otcem nevycházel dobře
+    - velmi si nerozuměli, Franz trpěl
+    - dělal co mohl aby otci vyšel vstříc, ale prostě to nešlo
+    - potlačoval svou přirozenost, že ho to táhlo k literatuře
+    - napsal mu i dopis, ale nikdy mu ho nedal a našlo se to v pozůstalosti

@@ -1576,3 +1576,235 @@ $(x-2)^2+(y+4)^2=36$
 $S[2;-4]\, r=6$
 
 jedná se o kružnici
+
+# 28.11.
+
+## Vzájemná poloha přímky a kružnice
+
+a) sečna
+
+přímka se dotýká kružnice ve dvou bodech
+
+$p\cap k={P_{1,2}}$
+
+---
+
+b) tečna
+
+přímka se dotýká kružnice v jednom bodu
+
+$t\cap k={T}$
+
+---
+
+c) vnější přímka kružnice
+
+nemá společný bod
+
+### Určení vzájemné polohy
+
+Vezmu rovnici kružnice, vezmu buďto rovnici přímky nebo parametrické vyjádření přímky a dám to dohromady. Vznikne soustava rovnic, vyřešíme dosazovací metodou, sčítací nelze. Metoda vede na kvadratickou rovnici o jedné neznámé. Vypočítám si diskriminant, zjistím kolik řešení rovnice má. Pokud získám záporný diskriminant nemá řešení, tudíž přímka nemá společný bod. Pokud diskriminant je roven nule, tak máme společný bod jeden. Pokud je diskriminant kladný, tak přímka je sečnou.
+
+#### Obecný princip
+
+Rovnice kružnice, spolu s analytickým vyjádřením přímky, tvoří soustavu rovnic. Soustava z pravidla vede na kvadratickou rovnici. Diskriminant D. Pokud D>0 sečna. Pokud D=0 tečna. Pokud D<0 vnější přímka.
+
+---
+
+př.
+
+Přímka $x+3y+10=0$
+
+Kružnice $k: x^2+y^2=10$
+
+$(k([0,0],r=\sqrt{10}))$
+
+Určete společnou polohu a případné společné body.
+
+
+
+Soustava:
+
+$x+3y+10=0$
+
+$x^2+y^2=10$
+
+
+
+$\boxed{x=-3y-10}$
+
+$(-3y-10)^2+y^2=10\implies (3y+10)^2+y^3=10\implies 9y^2+60y+100+y^2-10=0$
+
+$\implies 10y^2 +60y+90=0/\div 10$
+
+$\implies y^2+6y+9=0$
+
+$D=36-4\cdot9=0\implies\text{Přímka je tečna}$
+
+
+
+$y=-3$
+
+$x=-3*(-3)-10$
+
+$x=9-10$
+
+$x=-1$
+
+
+
+Tudíž společný bod má souřadnice 
+
+$T=[-1;-3]$
+
+# 1.12.
+
+## Vzájemná poloha přímky a kružnice
+
+Zjistěte vzájemnou polohu přímky a kružnice:
+
+a) p: 4x-3y-20=0
+
+k: $x^2+y^2=25$
+
+$(\frac{3y+20}{4})^2+y^2=25$
+
+$\frac{9y^2+120y+400}{16}+y^2=25$
+
+$9y^2+120y+400+16y^2=400$
+
+$25y^2+120y=0$
+
+$5y(5y+24)=0$
+
+$5y=0$
+
+$y=0$
+
+
+
+$5y=-24$
+
+$y=\frac{-24}{5}$
+
+nebo přes D $\implies D=120^2-4*25*0=120^2>0$
+
+D je kladné, sečna.
+
+---
+
+b) $(x-2)^2+(y-3)^2=1$
+
+$p: x=4+2t$
+
+$y=1+t$
+
+
+
+$(4+2t-2)^2+(1+t-3)^2=1$
+
+$(2+2t)^2+(t-2)^2=1$
+
+$4+8t+4t^2+t^2-4t+4=1$
+
+$5t^2+4t+7=0$
+
+$D=16-4*5*7=-124<0$
+
+D<0 vnější přímka
+
+---
+
+Určete císlo c tak, aby přímka byla tečna ke kružnici 
+
+k: $x^2+y^2=4$
+
+p: $x+2y+c=0\implies x=-2y-c$
+
+dosadíme
+
+$(-2y-c)^2+y^2=4$
+
+$4y^2+4cy+c^2+y^2-4=0$
+
+$5y^2+4cy+c^2-4=0$
+
+$D=0\equiv$ p je tečna
+
+$D=b^2-4ac=16c^2-4*5(c^2-4)=0$
+
+$16c^2-20c^2+80=0$
+
+$-4c^2=-80$
+
+$c^2=20$
+
+$c=\pm\sqrt{20}=\pm 2\sqrt{5}$
+
+
+
+b)
+
+$x^2+y^2=25$
+
+p: $3x+4y+c=0$
+
+
+
+$x=\frac{-4y-3}{3}$
+
+$(\frac{-4y-c}{3})^2+y^2=25\,/*9$
+
+$16y^2+8cy+c^2+9y^2=225$
+
+$25y^2+8cy+c^2-225=0$
+
+$D=64c^2-4*25*(c^2-225)=0$
+
+$64c^2-100c^2+22500=0$
+
+$22500=36c^2$
+
+$625=c^2$
+
+$25\approx c$
+
+---
+
+## Rovnice tečny ke kružnici v bodě T
+
+Nechť S[0,0]
+
+k: $x^2+y^2=r^2$
+
+pak tečna má rovnici v bodě $T[x_0,y_0]$
+
+$x\cdot x_0 + y \cdot y_0 = r^2$
+
+
+
+Nechť S[m,n]
+
+k: $(x-m)^2+(y-n)^2=r^2$
+
+pak tečna má rovnici v bodě $T[x_0,y_0]$
+
+$(x-m)(x_0-m)+(y-n)(y_0-n)=r^2$
+
+---
+
+Napište rovnici tečny ke kružnici $x^2+y^2=10$ v bodě T[1;3]
+
+dosadíme za $x_0,y_0$
+
+$x\cdot 1 + y\cdot 3 = 10\implies\boxed{x+3y-10=0}$
+
+---
+
+$(x-2)^2+(y+1)^2=25$ v bodě T[6;2]
+
+$(x-2)(6-2)+(y+1)(2+1)=25$
+
+$4x-8+3y+3-25=0$
+
+$\boxed{4x+3y-30=0}$

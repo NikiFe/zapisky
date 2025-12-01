@@ -511,3 +511,35 @@ sein:
 2 Verben -> Sätze
 
 Ich bin im Restaurant angekommen und habe Germknödel gegessen. Ich bin um acht Uhr durch die Fussgängerzone spazieren gegangen. Mein Freund hat sein Kraftfahrzeug, das mir gefallen hat, verloren.
+
+# Der 28. November
+
+# Řešení cvičení 1B (Lösung Übung 1B)
+
+## Časové předložky se 3. pádem (Temporale Präpositionen mit Dativ)
+
+| Předložka       | Německá fráze (Doplněno z 1A)                                | Český překlad                                      |
+| :-------------- | :----------------------------------------------------------- | :------------------------------------------------- |
+| **ab**          | ab September beginnen                                        | začít od září                                      |
+| **an**          | **am Abend zur Party gehen** *(nebo: am Wochenende müde sein)* | jít večer na párty *(nebo: být o víkendu unavený)* |
+| **bis zu**      | bis zum Montag in München sein                               | být do pondělí v Mnichově                          |
+| **in**          | 3 Uhr in der Nacht sein                                      | být 3 hodiny v noci                                |
+| **mit**         | mit 6 Jahren etwas wollen                                    | chtít něco v 6 letech                              |
+| **nach**        | nach den Ferien das Studium beginnen                         | začít studium po prázdninách                       |
+| **seit**        | **seit einem Monat in Kanada sein** *(nebo: seit zwei Wochen jobben)* | být měsíc v Kanadě *(nebo: pracovat už dva týdny)* |
+| **von ... bis** | von 9 bis 19 Uhr geöffnet sein                               | mít otevřeno od 9 do 19 hodin                      |
+| **vor**         | vor einem Monat nach Kanada geflogen sein                    | letět před měsícem do Kanady                       |
+
+---
+
+## Časové předložky se 4. pádem (Temporale Präpositionen mit Akkusativ)
+
+| Předložka | Německá fráze (Doplněno z 1A)                                | Český překlad                                                |
+| :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| **bis**   | **bis Ende August frei haben** *(nebo: bis 12 Uhr im Bett liegen)* | mít volno do konce srpna *(nebo: ležet v posteli do 12 hodin)* |
+| **für**   | für zwei Tage in München sein                                | být na dva dny v Mnichově                                    |
+| **gegen** | gegen Mitternacht kommen                                     | přijít kolem půlnoci                                         |
+| **um**    | um 8 Uhr beginnen                                            | začít v 8 hodin                                              |
+| **über**  | über das Wochenende jobben                                   | pracovat přes víkend                                         |
+
+G Prä

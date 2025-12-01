@@ -292,3 +292,55 @@ Jednatelé musí jednat s péčí řádného hospodáře – tedy zodpovědně, 
 
 - Pro ovlivňování výše nákladů je důležité také vědět, že některé náklady existují stále a jiné vznikají až při výrobě nebo poskytování služeb
 - Fixní náklady - (neměnné) - vyskytují se stále a jejich celková výše se při zvyšování (nebo) snižování produkce nemění. Vznikají již pouhou existencí firmy, tedy i když se nám nepodařilo vyrobit nebo prodat ani jeden kus.
+
+# 26.11.
+
+## Lukáš Filip - Jak založit živnost
+
+- vybrat si název a obor podnikání
+- být plnoletí
+- být bezúhonní
+
+1. vyplnit jednotný registrační formulář
+   - lze vyplnit osobně na živnostenském úřadě či online
+2. zaplatit správní poplatek
+   - správní poplatek je 1000 Kč
+   - při elektronickém podání je proces rychlejší
+   - po uhrazení poplatku úřad zahájí řízení
+3. převzít si živnostenské oprávnění
+4. registrace k daním a pojištění
+   - finančák - daň z příjmů či DPH
+   - česká správa sociálního zabezpečení - sociální pojištění
+   - zdravotní pojišťovna - zdravotní pojištění
+
+## Zisk
+
+- výsledek hospodaření je rozdíl výnosů a nákladů podniku
+- pokud je rozdíl kladný jde o zisk
+- pokud je rozdíl záporný jde o ztrátu
+
+
+
+- zisk (přebytek výnosů nad náklady) je pro úspěšný podnik nezbytný
+- zisk je cílem podnikání, není to však cíl jediný (zajištění platební schopnosti, maximalizace obratu, dobré jméno podniku a značky atd.)
+
+### Funkce zisku
+
+- zisk je vlastní interní finanční zdroj podniku, kritériem výnosnosti vloženého kapitálu a plní následující funkce:
+  - kriteriální funkce - vellikost zisku rozhoduje o všech základních otázkách ekonomiky podniku
+  - rozvojová funkce - zisk je hlavní interním zdrojem pro akumulace kapitálu
+  - rozdělovací funkce - rozdělování důchodů mezi vlastníky, investory, stát
+  - motivační funkce - je motivem veškerého podnikání
+
+### Tvorba zisku
+
+- prostřednictvím tržeb promítá uspokojování poptávky na trhu výrobků, zboží a služeb
+- promítá také využití várobních faktorů
+- trvale je možné zajistit převis výnosů nad náklady pouze prodejem produktů, které jsou konkurenceschopné - uspokojující komplex požadavků a očekávání zákazníků včetně ceny, servisu atd.
+- zisk je možné zvyšovat snižováním nákladů a zvyšováním výnosů
+- výši zisku ovlivňují především:
+  - spokojenost zákazníků
+  - proniknutí na nové trhy
+  - změna struktury sortimentu prodávaných výrobků
+  - snížení fixních nebo variabilních nákladů
+  - zrychlení obratu oběžného majetku
