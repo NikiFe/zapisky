@@ -572,7 +572,6 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
 - píšou německy, ale v československu
 - bydlí v čechách, ale nejsou češi
 - např. Franz Kafka, Franz Werfel, Rainer Maria Rilke, Gustav Meyring, Max Brod
-
 - Franz Kafka (1883-1924)
   - narodil se na starém městě
   - židovského původu
@@ -584,3 +583,94 @@ založený na kráse neklidu, dynamiky, techniky, revoltě
     - dělal co mohl aby otci vyšel vstříc, ale prostě to nešlo
     - potlačoval svou přirozenost, že ho to táhlo k literatuře
     - napsal mu i dopis, ale nikdy mu ho nedal a našlo se to v pozůstalosti
+  - klíčové přátelství s Maxem Brodem
+  - od 1917 trpěl tuberkulózou
+  - zemřel 1924
+  - vztah k ženám:
+    - několik zasnouben, nikdy se neoženil
+    - měl strach že by ho manželství odvádělo od literatury
+    - postupně zasnouben s velkým množství žen
+    - zajímavý vztah s Milenou Jesenskou, spisovatelkou, vztah spíše intelektuální
+  - styl Kafkova života:
+    - naprosto podřízen psaní
+    - zaměstnání = existenční nutnost
+    - po nocích psal
+    - odmítl manželství, které by ho odvádělo od psaní (+ obava ze ztráty inspirace)
+  - židovství
+    - přesvědčený sionista
+    - učil se hebrejsky
+    - uvažoval o vystěhování do Palestiny
+  - literární závěť
+    - v závěti žádal, aby byla zničena veškerá jeho neuveřejněná díla, dopisy a deníky
+    - Dora Diamantová poctivě všechno zničila, ale jeho přítel Max Brod závěť nerespektoval a zbytek jeho díla vydal
+  - dílo
+    - Proces
+    - Nezvěstný
+    - Zámek
+    - povídky Proměna, V kárném táboře, Popis jednoho zápasu...
+  - Kafkův styl
+    - fantaskní svět
+    - absurdita
+    - tragické groteskno
+    - plno věcí které nedávají smysl
+    - osudy postav často tragické
+    - pesimistický duch
+    - pesimismus
+    - odcizení postav od kolektivu
+    - monstrum byrokracie
+    - motiv viny a trestu
+    - nerespektuje chronologii
+    - postavy beze jmen
+  - Kafkovi hrdinové
+    - většinou nemají jména (K., Josef K.)
+    - autobiografické rysy
+    - manipulovaní moderní společností, byrokratickým monstrem
+    - nechají se vmanévrovat do pozice trpěného subjektu
+    - natolik zbaveni přirozených reakcí (pud sebezáchovy, selský rozum), že začnou uvažovat, zda by nebylo lepší podílet se na vlastní likvidaci
+  - povídka Proměna
+    - psáno 1912, vydáno 1915
+    - povídka
+    - epika
+    - chronologická kompozice, 3 části
+    - er forma
+    - postavy
+      - Řehoř Samsa
+        - hlavní postava
+        - jedna z výjimek kde má jméno
+      - Sestra Markétka
+      - Matka a otec
+      - Posluhovačka
+    - místo a čas neuvedeno, pravděpodobně v tehdejší současnosti
+    - městský byt
+    - minimum přímé řeči
+    - hlavně úvahy hlavní postavy a časté (i matoucí) komentáře vypravěče
+    - děj
+      - hlavní hrdina je obchodní cestující
+      - jednoho rána se probudí a všimne si že je proměněn v brouka
+      - namísto normální reakce paniky tak první problém co vidí je že nestihne vlak do práce
+      - ihned stres že přijde o příjem a nebude moct živit rodinu
+      - nepřirozená reakce
+      - na jeho pokoj začnou klepat spolubydlící, snaží se zjistit proč nejde do práce
+      - v rodině nastane šok když zjistí o proměně
+      - řeší se co s ním
+      - mezitím se dostaví zaměstnanec dané firmy aby zjistil proč nepřišel
+        - toho pošlou do pryč
+      - nějak se ho snaží zaopatřit, zkouší se co bude jíst a čím se může živit
+      - snaží se ho nějak zabydlet
+      - sám Řehoř neví jak jeho broučí tělo funguje
+      - snaží se vystěhovat nábytek z jeho pokoje aby mu udělali více místa
+      - nepochopí a začne bojovat
+      - otec po něm začne házet jablko, z čehož se jedno zasekne pod krunýř
+      - rodina potřebuje peníze takže neví co dělat a jak se uživit
+      - sestra i otec začínají chodit opět do práce
+      - dopadne to tak že při jedné z akcí kde Řehoř je krmen, zjistí nájemníci co tam bydlí a nechtějí tam bydlet
+      - postupně se zjišťuje že Řehoř je pro rodinu jen přítěží, celkově na obtíž
+      - pomalu se daná tříčlenná rodina dostává na myšlenku, že by se Řehoře nějak zbavili
+      - vyvrcholení tím že Řehoř nějak onemocní
+      - snaží se nedělat potíže, neupozorňuje na sebe aby je neobtěžoval, jelikož si uvědomuje o co jde
+      - když mu rána od zaseklého jablka začne hnisat a nikomu nic neřekne
+      - poté co to vidí posluhovačka tak konstatuje "Ono to chcíplo.", čímž jeho život končí, je vyhozen do odpadu a je jeho konec
+    - název Proměna
+      - proměna v brouka
+      - proměna atmosféry rodiny
+      - proměna postoje rodiny k Řehořovi
